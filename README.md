@@ -6,11 +6,11 @@ Idee eine Handlungssituation für das LF5.Entwickelt werden soll ein Kassensyste
 
 Wir die GoodFood GmbH sind spezialisiert auf regionale Erzeugnisse, die in unseren zwei Filialen den Kunden zum Kauf angeboten werden.
 
-### Istsituation
+### Ist-Situation
 
 Bisher nutzen wir einfache Registrierkassen. Am Ende des Tages müssen daher die Umsätze händisch in einen Excel Tabelle überführt werden, um die Umsätze dann am Ende des Monats erfassen zu können.
 
-### Sollsituation
+### Soll-Situation
 
 Es soll ein Kassensystem entwickelt werden, welches die Umsätze in eine Datenbank schreibt. Verkäufer, die sich zunächst über eine PIN identifizieren, erfassen die verkaufte Ware über ein Scanner-System inkl. vorhandener Waage. Wir bieten sowohl Stückware an, also auch Ware deren Preis in €/kg ausgezeichnet wird.
 
