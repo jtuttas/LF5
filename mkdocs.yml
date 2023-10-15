@@ -18,12 +18,8 @@ extra_javascript:
 
 nav:
     - Home: index.md
-    - LS10c.1: LS1.md
-    - LS10c.2: LS2.md
-    - LS10c.3: LS3.md
-    - LS10c.4: LS4.md
-    - LS10c.5: LS5.md
-    - LS10c.6: LS6.md
-    - LS10c.7: LS7.md
-    - LS10c.8: LS8.md
-    - LS10c.9: LS9.md
+    - LS5.1: LS1.md
+    - LS5.2: LS2.md
+    - LS5.3: LS3.md
+    - LS5.4: LS4.md
+    - LS5.5: LS5.md

@@ -1,6 +1,6 @@
 # FIAE - Lernfeld 5
 
-## LS 5.1: Programmiersprachen
+## LS 5.1: Die Programmiersprache JAVA
 
 | Lernfeld | Bildungsgang | Ausbildungsjahr |
 | :--- | :--- | :---: |
@@ -28,7 +28,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Programmiersprache | 16 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Die Programmiersprache JAVA | 16 Unterrichtsstunden |
 
 ### Handlungssituation
 
