@@ -17,3 +17,4 @@ Es soll ein Kassensystem entwickelt werden, welches die Umsätze in eine Datenba
 Kommt es bei der Abbuchung der einem Fehler soll nur der Filialleiter in der Lage sein, diese Buchung rückgängig zu machen. Es ist dabei gewährleistet, dass stets ein Filialleiter in der Filiale ist.
 
 Der Filialleiter soll zudem in der Lage sein, neue Produkte einfach über eine Datei in das System einlesen zu können.
+
