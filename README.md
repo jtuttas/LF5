@@ -8,11 +8,11 @@ Wir die GoodFood GmbH sind spezialisiert auf regionale Erzeugnisse, die in unser
 
 ### Ist-Situation
 
-Bisher nutzen wir einfache Registrierkassen. Am Ende des Tages müssen daher die Umsätze händisch in einen Excel Tabelle überführt werden, um die Umsätze dann am Ende des Monats erfassen zu können.
+Bisher nutzen wir einfache Registrierkassen. Am Ende des Tages müssen daher die Umsätze händisch in einen Excel Tabelle überführt werden, um die Umsätze dann am Ende des Monats erfassen und steuerrechtlich abrechnen zu können.
 
 ### Soll-Situation
 
-Es soll ein Kassensystem entwickelt werden, welches die Umsätze in eine Datenbank schreibt. Verkäufer, die sich zunächst über eine PIN identifizieren, erfassen die verkaufte Ware über ein Scanner-System inkl. vorhandener Waage. Wir bieten sowohl Stückware an, also auch Ware deren Preis in €/kg ausgezeichnet wird.
+Es soll ein Kassensystem entwickelt werden, welches die Umsätze in eine Datenbank schreibt. Verkäufer, die sich zunächst über eine PIN identifizieren, erfassen die verkaufte Ware über ein Scanner-System inkl. vorhandener Waage. Wir bieten sowohl Stückware an, also auch Lose-Ware an, deren Preis in €/kg ausgezeichnet wird.
 
 Kommt es bei der Abbuchung der einem Fehler soll nur der Filialleiter in der Lage sein, diese Buchung rückgängig zu machen. Es ist dabei gewährleistet, dass stets ein Filialleiter in der Filiale ist.
 

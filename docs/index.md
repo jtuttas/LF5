@@ -38,14 +38,14 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 > DBMS, ER Diagramm, Relations-Schema , CRUD (SELECT, INSERT, UPDATE, DELETE)
 
-### LS5: Dokumentation von Software mittels UML (6 Std.) - LF11
+### LS5: Dokumentation von Software mittels UML [6 Std.] - LF11
 
-> Use-Case, KLassendiagramm, Akivitätsdiagramm, Zustandsdiagramm, Sequenzdiagramm
+> Use-Case, KLassendiagramm, Aktivitätsdiagramm, Zustandsdiagramm, Sequenzdiagramm
 
-### LS6: Testen von Software (6 Std.) - LF12
+### LS6: Testen von Software [6 Std.] - LF12
 
 > Blackbox / Whitebox-Test, Unit Test
 
-### LS7: Benutzeroberflächen (8 Std.) - LF10
+### LS7: Benutzeroberflächen [8 Std.] - LF10
 
 > GUI Element, Mock Up
