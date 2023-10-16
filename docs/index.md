@@ -24,7 +24,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ### LS1: Programmiersprachen (JAVA) [18 Std.]
 
-> Compiler- vs. Interpreter-Sprachen, Lasten- u. Pflichtenheft, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip
+> Compiler- vs. Interpreter-Sprachen, Lasten- u. Pflichtenheft, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip.
 
 ### LS2: Kontrollstrukturen [16 Std.]
 
