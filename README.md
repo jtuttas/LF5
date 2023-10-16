@@ -18,3 +18,7 @@ Kommt es bei der Abbuchung der einem Fehler soll nur der Filialleiter in der Lag
 
 Der Filialleiter soll zudem in der Lage sein, neue Produkte einfach über eine Datei in das System einlesen zu können.
 
+## Die Lernsituationen
+
+Die Lernsituationen zu diesem Kurs können [hier](https://jtuttas.github.io/LF5/site/) geladen werden.
+
