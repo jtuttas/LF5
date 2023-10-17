@@ -51,8 +51,8 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ### Arbeitsmaterialien / Links
 
-- Moodle-Kurs: [LF10c: Werkzeuge des maschinellen Lernens einsetzen](https://moodle.mm-bbs.de/moodle/course/view.php?id=2812)
-- [GitHub Repository](https://github.com/jtuttas/datenanalyse)
+- Moodle-Kurs: [LF5: Software zur Verwaltung von Daten anpassen](https://moodle.mm-bbs.de/moodle/course/view.php?id=3258)
+- [GitHub Repository](https://github.com/jtuttas/lf5)
 
 ### Schulische Entscheidungen
 
