@@ -22,30 +22,34 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ## Lernsituationen als PDF
 
-### LS1: Programmiersprachen (JAVA) [18 Std.]
+### LS1: Lasten- und Pflichtenheft [2 Std.]
 
-> Compiler- vs. Interpreter-Sprachen, Lasten- u. Pflichtenheft, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip,  Funktionen / Methoden.
+> Lasten- u. Pflichtenheft, funktionale und nicht funktionale Anforderungen
 
-### LS2: Kontrollstrukturen [16 Std.]
+### LS2: Programmiersprachen (JAVA) [16 Std.]
+
+> Compiler- vs. Interpreter-Sprachen, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip,  Funktionen / Methoden.
+
+### LS3: Kontrollstrukturen [16 Std.]
 
 > Bedingungen / Schleifen, Nassi Sneidermann Diagramm
 
-### LS3: Daten und Datenstrukturen [10 Std.]
+### LS4: Daten und Datenstrukturen [10 Std.]
 
 > Array und Listen, Iterationsschleife, CSV und JSON
 
-### LS4: Datenbanken [16 Std.] - LF8
+### LS5: Datenbanken [16 Std.] - LF8
 
 > DBMS, ER Diagramm, Relations-Schema , CRUD (SELECT, INSERT, UPDATE, DELETE)
 
-### LS5: Dokumentation von Software mittels UML [6 Std.] - LF11
+### LS6: Dokumentation von Software mittels UML [6 Std.] - LF11
 
 > Use-Case, KLassendiagramm, Aktivitätsdiagramm, Zustandsdiagramm, Sequenzdiagramm
 
-### LS6: Testen von Software [6 Std.] - LF12
+### LS7: Testen von Software [6 Std.] - LF12
 
 > Blackbox / Whitebox-Test, Unit Test
 
-### LS7: Benutzeroberflächen [8 Std.] - LF10
+### LS8: Benutzeroberflächen [8 Std.] - LF10
 
 > GUI Element, Mock Up

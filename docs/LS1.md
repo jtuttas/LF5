@@ -1,6 +1,6 @@
 # FIAE - Lernfeld 5
 
-## LS 5.1: Programmiersprachen
+## LS 5.1: Lasten- und Pflichtenheft
 
 | Lernfeld | Bildungsgang | Ausbildungsjahr |
 | :--- | :--- | :---: |
@@ -28,14 +28,15 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Programmiersprache | 16 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Lasten- und Pflichtenheft | 2 Unterrichtsstunden |
 
 ### Handlungssituation
 
-> 
+> Als neuer Mitarbeiter in der ChangeIT GmbH (einem lokalen Softwarehaus) erhalten Sie den Auftrag für einen neuen Kunden (die GoodFood GmbH) bei der Entwicklung eines Kassensystems mitzuarbeiten. 
 
 ### Handlungsergebnis
 
+Entwurf eines Pflichtenheft auf der Grundlage des zur Verfügung gestellten Lastenheftes.
 
 <div style="page-break-after: always;"></div>
 
@@ -43,11 +44,11 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
-| Informieren bzw. Analysieren |  |  |
-| Planen / Entscheiden |  |  |  |
-| Durchführen |  |  |  |
-| Kontrollieren / Bewerten |  |  |  |
-| Reflektieren |  |  |  |
+| Informieren bzw. Analysieren | Textverständnis | Die Schülerinnen und Schüler lesen das zur Verfügung gestellte Lastenheft | Einzelarbeit
+| Planen / Entscheiden | Identifikation von funktionalen und nicht funktionalen Anforderungen | Die Schülerinnen und Schüler sammeln funktionale und nicht funktionale Anforderungen aus dem Lastenheft <br> Die Schülerinnen und Schüler informieren sich über inhaltliche Aspekte eines Pflichtenheftes | Einzelarbeit <br> Plenum  | 
+| Durchführen | Entwickeln eines Pflichtenheftes | Die Schülerinnen und Schüler entwerfen auf den vorhandenen Informationen eine Pflichtenheft für die konkrete Umsetzung des Projektes | Einzelarbeit |
+| Kontrollieren / Bewerten | Bewertungskriterien für ein Pflichtenheft | Die Schülerinnen und Schüler bewerten die Pflichtenhefte ihre Mitschüler auf der Grundlage eines gegebenen Bewertungsrasters | Peer Assessment |
+| Reflektieren |  | Blitzlicht zum Unterricht | Plenum |
 
 ### Arbeitsmaterialien / Links
 
@@ -56,10 +57,12 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ### Schulische Entscheidungen
 
-
 <div style="page-break-after: always;"></div>
 
 ### Leistungsnachweise
 
+- Peer Assessment des entwickelten Lastenheftes
 
 ### Mögliche Verknüpfungen zu anderen Lernfeldern / Fächern
+
+- Deutsch / Kommunikation

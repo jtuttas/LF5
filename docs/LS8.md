@@ -1,6 +1,6 @@
 # FIAE - Lernfeld 5
 
-## LS 5.2: Programmiersprachen
+## LS 5.1: Die Programmiersprache JAVA
 
 | Lernfeld | Bildungsgang | Ausbildungsjahr |
 | :--- | :--- | :---: |
@@ -28,15 +28,14 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.2: Programmiersprache | 16 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Die Programmiersprache JAVA | 16 Unterrichtsstunden |
 
 ### Handlungssituation
 
-> Die Implementierung der neuen Software soll in JAVA erfolgen. Als neuer Mitarbeiter werden Sie damit beauftragt ihren PC für die Java Entwicklung einzurichten und eine exemplarische Methode für das Projekt zu implementieren.
+> 
 
 ### Handlungsergebnis
 
-Implementierte Methode in Java.
 
 <div style="page-break-after: always;"></div>
 
@@ -44,11 +43,11 @@ Implementierte Methode in Java.
 
 | | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
-| Informieren bzw. Analysieren | Laufzeitumgebung installieren </br> IDE und Versionskontrollen nutzen. </br> Eigenschaften und Merkmale der verwendeten Programmiersprache anwenden.  | Die Schülerinnen und Schüler installieren eine geeignete Laufzeitumgebung und IDE, sie entwickeln ein erstes lauffähiges Programm und nutzen dabei eine Versionskontrolle </br> Sie informieren sich über Datentypen, Operatoren und Mechanismen zur Ein- und Ausgabe von Daten | Einzelarbeit </br> Gruppenarbeit </br> Plenum
-| Planen / Entscheiden | Auswahl geeigneter Datentypen und Operatoren | Für die Aufgabe wählen die Schülerinnen und Schüler geeignete Datentypen und Operatoren | Einzelarbeit |
-| Durchführen | Methode implementieren | Die Schülerinnen und Schüler implementieren die geforderte Methode in einer Programmiersprache | Einzelarbeit |
-| Kontrollieren / Bewerten | Testen von Software  | Die Schülerinnen und Schüler entwerfen Testkriterien für die entwickelte Methode und überprüfen die Software  | Einzelarbeit </br> Plenum |
-| Reflektieren |  | Die Schülerinnen und Schüler reflektieren Ihr Wissen mit Hilfe eines kurzen Test | Einzelarbeit |
+| Informieren bzw. Analysieren |  |  |
+| Planen / Entscheiden |  |  |  |
+| Durchführen |  |  |  |
+| Kontrollieren / Bewerten |  |  |  |
+| Reflektieren |  |  |  |
 
 ### Arbeitsmaterialien / Links
 
@@ -57,15 +56,10 @@ Implementierte Methode in Java.
 
 ### Schulische Entscheidungen
 
-- Als Programmiersprache wird JAVA verwendet
-- Als Entwicklungsumgebung wird VS Code verwendet
 
 <div style="page-break-after: always;"></div>
 
 ### Leistungsnachweise
 
-- Kontinuierliche Leistungsermittlung über Kapitaltests
 
 ### Mögliche Verknüpfungen zu anderen Lernfeldern / Fächern
-
-- LF4 (Datenschutz und Datensicherheit)

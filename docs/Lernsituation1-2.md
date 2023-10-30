@@ -6,19 +6,31 @@
  
  **Als Auszubildender wirken Sie bei der Umsetzung des Projektes mit.**
 
-## Lasten- und Pflichtenheft
+## Funktionale und nicht Funktionale Anforderungen an eine Software
 
 Der Auftraggeber stellt Ihnen für den Auftrag ein Lastenheft zur Verfügung, welches beschreibt welche _funktionalen_ und _nicht funktionalen_ Anforderungen die Software zu erfüllen hat.
 
->Die GoodFood GmbH, ein aufstrebendes Unternehmen im Lebensmittelbereich, plant die Einführung eines modernen Kassensystems, um den Geschäftsalltag effizienter und benutzerfreundlicher zu gestalten. Bei der Konzeption dieses Systems stehen diverse Anforderungen im Vordergrund.
->
->Inmitten des geschäftigen Alltags der Filiale sollen Verkäufer die Möglichkeit haben, sich mittels einer persönlichen PIN am Kassensystem anzumelden. Diese Authentifizierung sorgt für eine klare Zuordnung der Verkaufsvorgänge und erhöht die Sicherheit des Systems. Es sollte zudem möglich sein, sowohl Stückwaren mit festen Preisen als auch gewichtsbasierte Waren, wie Obst und Gemüse, effizient zu erfassen. Dabei muss der Preis basierend auf dem €/kg-Wert berechnet werden.
->
->Die Benutzeroberfläche des Kassensystems sollte intuitiv und verständlich gestaltet sein. Dies ermöglicht es den Mitarbeitern, das System ohne umfangreiche Schulungen zu nutzen. Trotz der hohen Benutzerfreundlichkeit darf die Sicherheit nicht vernachlässigt werden. Neben der sicheren Authentifizierung der Mitarbeiter müssen auch sämtliche Transaktionen und Kundendaten sicher und vor externen Angriffen geschützt werden. Zudem ist es von Bedeutung, dass das System in Echtzeit reagiert und eine konstant hohe Leistung bietet, um Verzögerungen oder Systemausfälle zu vermeiden.
->
->Ein weiterer Aspekt dieses Systems ist die Stornierung von Verkaufsvorgängen. Da Fehler unvermeidlich sind, sollte es möglich sein, Verkäufe rückgängig zu machen. Allerdings sollte dies ausschließlich dem Filialleiter vorbehalten sein, um Missbrauch zu verhindern und die Integrität des Systems zu wahren.
->
->Abschließend ist zu betonen, dass die Möglichkeit zur Generierung von Umsatzstatistiken nicht nur einen Mehrwert bietet, sondern auch ein Werkzeug für die Geschäftsleitung darstellt, um den Erfolg der Filiale kontinuierlich zu überwachen und gegebenenfalls Anpassungen vorzunehmen.
+---
+
+**Lastenheft: Modernes Kassensystem für die GoodFood GmbH**
+
+**Istsituation:**
+
+Die GoodFood GmbH betreibt derzeit zwei Filialen, in denen lokale landwirtschaftliche Erzeugnisse wie Obst und Gemüse verkauft werden. Beide Filialen sind aktuell mit einer analogen Registrierkasse ausgestattet. Diese Kasse dient primär der Verwaltung der täglichen Einnahmen. Jeden Tag nach Geschäftsschluss überträgt der Filialleiter die Einnahmen manuell in eine Excel-Tabelle. Dieser Prozess ist zeitaufwändig und birgt das Risiko von Fehlern oder Inkonsistenzen in den erfassten Daten. Die gesammelten Daten in der Excel-Tabelle werden am Ende des Monats verwendet, um eine Umsatzstatistik für die jeweilige Filiale zu erstellen. Diese manuelle Handhabung und die Abhängigkeit von analogen Mitteln begrenzen die Effizienz und Flexibilität im Geschäftsbetrieb. Es besteht ein deutliches Potenzial für Automatisierung und Digitalisierung, um den Arbeitsaufwand zu reduzieren und die Genauigkeit und Schnelligkeit der Datenverarbeitung zu erhöhen.
+
+**Anforderungen und Neugestaltung:**
+
+Die GoodFood GmbH plant die Einführung eines modernen Kassensystems, um den Geschäftsalltag effizienter und benutzerfreundlicher zu gestalten. Bei der Konzeption dieses Systems stehen diverse Anforderungen im Vordergrund.
+
+Inmitten des geschäftigen Alltags der Filiale sollen Verkäufer die Möglichkeit haben, sich mittels einer persönlichen PIN am Kassensystem anzumelden. Diese Authentifizierung sorgt für eine klare Zuordnung der Verkaufsvorgänge und erhöht die Sicherheit des Systems. Es sollte zudem möglich sein, sowohl Stückwaren mit festen Preisen als auch gewichtsbasierte Waren, wie Obst und Gemüse, effizient zu erfassen. Dabei muss der Preis basierend auf dem €/kg-Wert berechnet werden.
+
+Ein wichtiger Zusatzaspekt des Kassensystems ist der Import von neuen Produkten. Neben der kontinuierlichen Anpassung der Produktpalette sollte das Kassensystem die Möglichkeit bieten, neue Produkte in das System zu importieren. Nur der Filialleiter ist berechtigt, diesen Produktimport durchzuführen. Das System muss Daten aus Excel-Dateien direkt importieren können und den Importprozess benutzerfreundlich gestalten.
+
+Die Benutzeroberfläche des Kassensystems sollte intuitiv und verständlich sein. Die Sicherheit darf nicht vernachlässigt werden. Neben der sicheren Authentifizierung der Mitarbeiter müssen alle Transaktionen und Kundendaten sicher und vor externen Angriffen geschützt werden. Das System sollte in Echtzeit reagieren und eine konstant hohe Leistung bieten.
+
+Ein weiterer Aspekt ist die Stornierung von Verkaufsvorgängen. Verkäufe sollten rückgängig gemacht werden können, aber nur vom Filialleiter, um Missbrauch zu verhindern.
+
+Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken zu generieren, um den Erfolg der Filiale zu überwachen und gegebenenfalls Anpassungen vorzunehmen.
 
 ### Aufgabe 1
 
@@ -31,13 +43,25 @@ Ermitteln Sie die funktionalen und nicht funktionalen Anforderungen an die zu en
 | **Funktional**   | - Verkäuferanmeldung mittels persönlicher PIN                               |
 |                  | - Erfassung von Stückwaren und gewichtsbasierten Waren (Preisberechnung in €/kg)|
 |                  | - Stornierung von Verkaufsvorgängen ausschließlich durch den Filialleiter  |
+|                  | - Import von neuen Produkten durch den Filialleiter  |
 | **Nichtfunktional** | - Benutzerfreundlichkeit (intuitive Bedienung)                            |
 |                  | - Sicherheit (Datenschutz, Authentifizierung, Schutz vor externen Angriffen)|
 |                  | - Performance (Echtzeit-Reaktion, hohe Leistungsfähigkeit)                  |
 
+## Das Pflichtenheft
+
 ### Aufgabe 2
 
 Informieren Sie sich über den Inhalt eines Pflichtenheftes und Schreiben Sie in der Rolle des _Auftragnehmers_ ein Pflichtenheft für den Auftrag.
+
+> Bewerten Sie gegenseitig die Qualität des erstellten Pflichtenheftes. Möglich Bewertungskriterien sind:
+>
+> - Vollständigkeit: Sind alle Anforderungen aus dem Lastenheft aufgenommen und Vorschläge zur Umsetzung enthalten.
+> - Ressourcenplanung: Wird genannt welche zeitlichen und personellen Ressourcen benötigt werden.
+> - Technische Details: Werden technische Details für die Umsetzung genannt? Wird eine Programmiersprache und eine Datenbank ausgewählt? Wird ggf. auf eine Architektur wie Client / Server eingegangen?
+> - Validierung und Testkriterien: Wir erwähnt wie die Qualität der zu entwickelnden Software nachgewiesen werden soll?
+
+# Lernsituation 2
 
 ## Die Programmiersprache JAVA
 
