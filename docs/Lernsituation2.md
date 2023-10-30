@@ -6,13 +6,13 @@
 
 ## Die Programmiersprache JAVA
 
-### Aufgabe 3
+### Aufgabe 1
 
 Die Implementierung der Software soll in einer aktuellen Programmiersprache erfolgen. Sammeln Sie Namen von Programmiersprachen von denen Sie schon einmal gehört haben.
 
 > Gruppieren Sie die Sprache hinsichtlich der Ausführung der Sprache und teilen Sie die Sprachen in **Compiler-Sprachen** und **Interpreter-Sprachen** ein! 
 
-### Aufgabe 4
+### Aufgabe 2
 
 Da in der Change IT GmbH bereits vielfältige Erfahrungen mit der Programmiersprache JAVA vorliegen, entscheidet sich die Geschäftsleitung der ChangeIT GmbH dafür auch diese Software in Java zu implementieren. Installieren Sie daher ein aktuelles Java Software Development Kit (SDK) auf ihrem Rechner. 
 
@@ -45,13 +45,13 @@ Da in der Change IT GmbH bereits vielfältige Erfahrungen mit der Programmierspr
 
 Die Software soll gemeinsam in Entwicklerteam der ChangeIT GmbH von mehreren Entwicklern implementiert werden. Zur Koordinierung des Entwicklungsprozesses soll eine Versionskontrolle genutzt werden.
 
-### Aufgabe 5
+### Aufgabe 3
 
 Sammeln Sie im Klassenverband Aspekte die eine Versionsverwaltungs-Software zu erfüllen hat. 
 
 In vergangenen Projekte wurden bereits die Versionssoftware **git** eingesetzt. Auch das neue Projekt soll mittels dieser Versionsverwaltungs-Software umgesetzt werden. Installieren Sie sich daher zunächst [git](https://git-scm.com/downloads) auf ihrem PC.
 
-### Aufgabe 6
+### Aufgabe 4
 
 Die Versionsverwaltung **git** ist eine Kontogenanwendung. Informieren Sie sich über die wichtigsten Kommandos des Programms **git**.
 
@@ -70,7 +70,7 @@ Führen Sie den folgenden Arbeitsprozess durch. Notieren Sie sich dabei die verw
 
 Die Entwicklungen im Team der ChangeIT GmbH erfolgen zumeist mit dem Editor VS Code. Installieren Sie sich den Editor [VS Code](https://code.visualstudio.com/docs/languages/java) inkl. der notwendigen Erweiterungen zum Starten und Debuggen eines JAVA Programms.
 
-### Aufgabe 7
+### Aufgabe 5
 
 Öffnen Sie das zuvor erstellte Verzeichnis mit dem Editor VS Code.
 
@@ -92,7 +92,7 @@ System.out.println("Hallo Welt");
 
 Die Ausgabe "*Hallo Welt*" auf dem Standrad Ausgabegerät (zumeist der Bildschirm). Informieren Sie sich wie Sie mittels JAVA von der Tastatur Daten einlesen können.
 
-### Aufgabe 8
+### Übung 1
 
 Erstellen Sie ein Programm welches den Anwender nach seinem Namen fragt und anschließend nach seiner Anrede und anschließend die Ausgabe erzeugt "Hallo {Anrede} {Name}".
 
@@ -106,7 +106,7 @@ Java zählt zu den **starktypisierten** und **objektorientierten** Programmiersp
 
 > Im Jahr 2022 sorgte ein Fehler bei MS Exchange dafür, dass keine Emails mehr zugestellt werden konnten. Lesen Sie sich den folgenden [Artikel](images/Exchange_Bug.pdf) durch und diskutieren im Klassenverband, wie es zu diesem Fehler kommen konnte.
 
-### Aufgabe 9
+### Übung 2
 
 - Definieren Sie zwei Variablen vom Type String in Java mit dem Namen umfang und dem Wert "3.14" und dem Namen alter vom Datentype String mit dem Wert "25".
 - Wandeln Sie die Variablen in den Datentyp Integer bzw. in Double um (Nutzen Sie hierzu die entsprechenden Wrapper Klassen).
@@ -121,7 +121,7 @@ Einige Programmabschnitte im Kassensystem für die GoodFood GmbH erfolgen nach d
 - Vergleichsoperatoren
 - logische Operatoren
 
-### Aufgabe 10
+### Übung 3
 
 Entwickeln Sie ein Programm, welchen den Benutzer nach einen Länge in m fragt und dann dem Benutzer anzeigt wie groß ein Quadrat in $cm^2$ und einen Würfel in $cm^3$ mit der gegebenen Länge wäre.
 
@@ -133,7 +133,7 @@ Ein Würfel mit der Kantenlänge von 0.15m hätte ein Volumen von 3375 cm^3.
 
 ```
 
-### Lösung Aufgabe 10
+### Lösung Übung 3
 
 ```java
 public class QuadratWuerfel {
@@ -149,7 +149,7 @@ public class QuadratWuerfel {
 }
 ```
 
-### Aufgabe 11
+### Übung 4
 
 Entwickeln Sie ein Programm, welchen den Benutzer nach einer Anzahl von Minuten fragt und dass diese Anzahl ausgibt in der Form dd:hh:mm !
 
@@ -159,7 +159,7 @@ Anzahl von Minuten: 4000
 4000 Minuten entsprechen 2 Tage, 18 Stunden und 40 Minuten!
 ```
 
-### Lösung Aufgabe 11
+### Lösung Übung 4
 
 ```java
 import java.util.Scanner;
@@ -186,7 +186,7 @@ public class Minuten {
 
 Oft werden Teile eines Programmes wiederverwertet und die Logik in einer Funktion bzw. Methode ausgelagert. Informieren Sie sich darüber, wie in Java Logik in Methoden ausgelagert werden kann. Erarbeiten Sie dabei den Unterschied zwischen *call by value* und *call by reference*.
 
-### Aufgabe 12
+### Aufgabe 6
 
 Zum Abrechnen von Bulkware (Ware deren Preis in €/kg angegeben wird) soll eine Methode _calcPrice_ entwickelt werden. Diese enthält den Preis in €/kg und das ermittelte Gewicht in kg und liefert als Ergebnis den Preis in €.
 
