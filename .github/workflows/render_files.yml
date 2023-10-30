@@ -7,7 +7,6 @@ jobs:
   render_umlet:
     runs-on: ubuntu-latest
     name: Render umlet files
-    needs: [render_drawio]
     steps:
     - name: Checkout
       uses: actions/checkout@v2
