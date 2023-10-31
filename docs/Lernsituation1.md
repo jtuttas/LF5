@@ -14,6 +14,9 @@ Der Auftraggeber stellt Ihnen für den Auftrag ein Lastenheft zur Verfügung, we
 
 ---
 
+<!--lastenheft-->
+
+
 **Lastenheft: Modernes Kassensystem für die GoodFood GmbH**
 
 **Istsituation:**
@@ -33,6 +36,9 @@ Die Benutzeroberfläche des Kassensystems sollte intuitiv und verständlich sein
 Ein weiterer Aspekt ist die Stornierung von Verkaufsvorgängen. Verkäufe sollten rückgängig gemacht werden können, aber nur vom Filialleiter, um Missbrauch zu verhindern.
 
 Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken zu generieren, um den Erfolg der Filiale zu überwachen und gegebenenfalls Anpassungen vorzunehmen.
+
+<!--lastenheft-->
+
 
 ### Aufgabe 1
 
