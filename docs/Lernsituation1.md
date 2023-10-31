@@ -8,6 +8,8 @@
 
 ## Funktionale und nicht Funktionale Anforderungen an eine Software
 
+<!--ls1aufgabe1-->
+
 Der Auftraggeber stellt Ihnen für den Auftrag ein Lastenheft zur Verfügung, welches beschreibt welche _funktionalen_ und _nicht funktionalen_ Anforderungen die Software zu erfüllen hat.
 
 ---
@@ -36,6 +38,9 @@ Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken
 
 Ermitteln Sie die funktionalen und nicht funktionalen Anforderungen an die zu entwickelnde Software und stelle Sie diese in Form einer Tabelle dar.
 
+<!--ls1aufgabe1-->
+<!--ls1lsg1-->
+
 ### Lösung 1
 
 | Typ              | Anforderung                                                                |
@@ -48,11 +53,16 @@ Ermitteln Sie die funktionalen und nicht funktionalen Anforderungen an die zu en
 |                  | - Sicherheit (Datenschutz, Authentifizierung, Schutz vor externen Angriffen)|
 |                  | - Performance (Echtzeit-Reaktion, hohe Leistungsfähigkeit)                  |
 
+<!--ls1lsg1-->
+<!--ls1aufgabe2-->
+
 ## Das Pflichtenheft
 
 ### Aufgabe 2
 
 Informieren Sie sich über den Inhalt eines Pflichtenheftes und Schreiben Sie in der Rolle des _Auftragnehmers_ ein Pflichtenheft für den Auftrag.
+
+<!--ls1aufgabe2-->
 
 > Bewerten Sie gegenseitig die Qualität des erstellten Pflichtenheftes. Möglich Bewertungskriterien sind:
 >
@@ -60,6 +70,25 @@ Informieren Sie sich über den Inhalt eines Pflichtenheftes und Schreiben Sie in
 > - Ressourcenplanung: Wird genannt welche zeitlichen und personellen Ressourcen benötigt werden.
 > - Technische Details: Werden technische Details für die Umsetzung genannt? Wird eine Programmiersprache und eine Datenbank ausgewählt? Wird ggf. auf eine Architektur wie Client / Server eingegangen?
 > - Validierung und Testkriterien: Wir erwähnt wie die Qualität der zu entwickelnden Software nachgewiesen werden soll?
+
+<!--ls1aufgabe3-->
+### Aufgabe 3
+
+Leider ist die sprachliche Beschreibung der funktionalen Anforderungen aus dem Pflichten- und Lastenheft nicht eindeutig und widerspruchsfrei genug. Geeigneter erscheint hier die Dokumentation in Form eines UML **Use Case Diagramms**. Dieses Diagramm, stell in einer einfachen grafischen Notation dar, **was** (der Use Case) ein **Akteur** mit dem System macht.
+
+1. Informieren Sie sich über die Notation des UML Use Case Diagramms ([Link Tipp](https://www.sparxsystems.de/ressourcen/literatur/leseprobe-zu-projektabwicklung-mit-uml-und-enterprise-architect/anwendungsfalldiagramm-use-case-diagram))
+2. Zeichnen Sie ein UML Use Case Diagramm für die funktionalen Anforderungen des Kassensystems.
+
+<!--ls1aufgabe3-->
+
+> Bewerten Sie gegenseitig die Qualität des erstellten Use Cae Diagramms. Möglich Bewertungskriterien sind:
+>
+> - Vollständigkeit: Sind alle Akteure und alle Use-Cases abgebildet?
+> - Korrektheit: Zeigen *include* Anweisungen auf den zu inkludierenden Anwendungsfall, zeigen *extends* Anweisungen auf den zu erweiternden Anwendungsfall, zeigen Generalisierung auf den generalisierten Anwendungsfall
+
+### Musterlösung Aufgabe 3
+
+![Musterlösung_Use_Case](images/usercase.png)
 
 ## Fragen zum Verständnis
 
@@ -88,3 +117,20 @@ Welches der folgenden Beispiele beschreibt am ehesten eine nicht funktionale Anf
 - [ ] C) Die Software muss in der Lage sein, PDF-Dokumente zu generieren.
 - [ ] D) Das System soll Benachrichtigungen an den Benutzer senden können.
 
+---
+
+Welche Aussage beschreibt die „include“-Beziehung in einem UML Use Case Diagramm am besten?
+
+- [ ] A) Sie repräsentiert eine optionale Beziehung, bei der ein Use Case unter bestimmten Bedingungen einen anderen Use Case aufruft.
+- [ ] B) Sie zeigt, dass ein Use Case immer einen anderen Use Case aufruft, um eine bestimmte Funktionalität sicherzustellen.
+- [ ] C) Sie drückt aus, dass ein Akteur in einem spezifischen Use Case verallgemeinert oder spezialisiert werden kann.
+- [ ] D) Sie stellt eine Beziehung dar, bei der zwei Use Cases gleichzeitig aktiviert werden müssen.
+
+---
+
+Wie wird die „Generalisierung“-Beziehung zwischen Akteuren in einem UML Use Case Diagramm dargestellt?
+
+- [ ] A) Durch eine durchgehende Linie mit einer offenen Pfeilspitze, die auf den allgemeineren Akteur zeigt.
+- [ ] B) Durch eine gestrichelte Linie mit einer geschlossenen Pfeilspitze, die auf den spezielleren Use Case zeigt.
+- [ ] C) Durch eine doppelte Linie ohne Pfeilspitze.
+- [ ] D) Durch eine gestrichelte Linie mit einer offenen Pfeilspitze, die auf den einschließenden Use Case zeigt.

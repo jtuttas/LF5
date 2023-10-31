@@ -28,7 +28,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Lasten- und Pflichtenheft | 2 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Lasten- und Pflichtenheft | 6 Unterrichtsstunden |
 
 ### Handlungssituation
 
@@ -45,10 +45,10 @@ Entwurf eines Pflichtenheft auf der Grundlage des zur Verfügung gestellten Last
 | | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
 | Informieren bzw. Analysieren | Textverständnis | Die Schülerinnen und Schüler lesen das zur Verfügung gestellte Lastenheft | Einzelarbeit
-| Planen / Entscheiden | Identifikation von funktionalen und nicht funktionalen Anforderungen | Die Schülerinnen und Schüler sammeln funktionale und nicht funktionale Anforderungen aus dem Lastenheft <br> Die Schülerinnen und Schüler informieren sich über inhaltliche Aspekte eines Pflichtenheftes | Einzelarbeit <br> Plenum  | 
-| Durchführen | Entwickeln eines Pflichtenheftes | Die Schülerinnen und Schüler entwerfen auf den vorhandenen Informationen eine Pflichtenheft für die konkrete Umsetzung des Projektes | Einzelarbeit |
-| Kontrollieren / Bewerten | Bewertungskriterien für ein Pflichtenheft | Die Schülerinnen und Schüler bewerten die Pflichtenhefte ihre Mitschüler auf der Grundlage eines gegebenen Bewertungsrasters | Peer Assessment |
-| Reflektieren |  | Blitzlicht zum Unterricht | Plenum |
+| Planen / Entscheiden | Identifikation von funktionalen und nicht funktionalen Anforderungen. <br> UML Notation Use-Case Diagramm  | Die Schülerinnen und Schüler sammeln funktionale und nicht funktionale Anforderungen aus dem Lastenheft <br> Die Schülerinnen und Schüler informieren sich über inhaltliche Aspekte eines Pflichtenheftes <br> Die Schülerinnen und Schüler informieren sich über die  Notation eines UML Use-Case Diagramms  | Einzelarbeit <br> Plenum  | 
+| Durchführen | Entwickeln eines Pflichtenheftes <br> zeichnen eines Use-Case Diagramms | Die Schülerinnen und Schüler entwerfen auf den vorhandenen Informationen eine Pflichtenheft für die konkrete Umsetzung des Projektes | Einzelarbeit |
+| Kontrollieren / Bewerten | Bewertungskriterien für ein Pflichtenheft mit Use-Case Diagramm | Die Schülerinnen und Schüler bewerten die Pflichtenhefte ihre Mitschüler auf der Grundlage eines gegebenen Bewertungsrasters | Peer Assessment |
+| Reflektieren |  | Fragen zur Lernsituation | Plenum |
 
 ### Arbeitsmaterialien / Links
 

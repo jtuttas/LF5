@@ -22,10 +22,9 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ## Lernsituationen als PDF
 
+### [LS1: Lasten- und Pflichtenheft [6 Std.]](https://github.com/jtuttas/lf5/raw/master/pdfs/LS1.md.pdf)
 
-### [LS1: Lasten- und Pflichtenheft [2 Std.]](https://github.com/jtuttas/lf5/raw/master/pdfs/LS1.md.pdf)
-
-> Lasten- u. Pflichtenheft, funktionale und nicht funktionale Anforderungen
+> Lasten- u. Pflichtenheft, funktionale und nicht funktionale Anforderungen, Use Case Diagramm
 
 ### [LS2: Programmiersprachen (JAVA) [16 Std.]](https://github.com/jtuttas/lf5/raw/master/pdfs/LS2.md.pdf)
 
@@ -37,20 +36,16 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ### [LS4: Daten und Datenstrukturen [10 Std.]](https://github.com/jtuttas/lf5/raw/master/pdfs/LS4.md.pdf)
 
-> Klassen, Array und Listen, Iterationsschleife, CSV und JSON
+> Klassen, Klassendiagramm, Array und Listen, Iterationsschleife, CSV und JSON
 
 ### [LS5: Datenbanken [16 Std.] - LF8](https://github.com/jtuttas/lf5/raw/master/pdfs/LS5.md.pdf)
 
 > DBMS, ER Diagramm, Relations-Schema , CRUD (SELECT, INSERT, UPDATE, DELETE)
 
-### [LS6: Dokumentation von Software mittels UML [6 Std.] - LF11](https://github.com/jtuttas/lf5/raw/master/pdfs/LS6.md.pdf)
-
-> Use-Case, KLassendiagramm, Aktivitätsdiagramm, Zustandsdiagramm, Sequenzdiagramm
-
-### [LS7: Testen von Software [6 Std.] - LF12](https://github.com/jtuttas/lf5/raw/master/pdfs/LS7.md.pdf)
+### [LS6: Testen von Software [6 Std.] - LF12](https://github.com/jtuttas/lf5/raw/master/pdfs/LS7.md.pdf)
 
 > Blackbox / Whitebox-Test, Unit Test
 
-### [LS8: Benutzeroberflächen [8 Std.] - LF10](https://github.com/jtuttas/lf5/raw/master/pdfs/LS8.md.pdf)
+### [LS7: Benutzeroberflächen [8 Std.] - LF10](https://github.com/jtuttas/lf5/raw/master/pdfs/LS8.md.pdf)
 
 > GUI Element, Mock Up
