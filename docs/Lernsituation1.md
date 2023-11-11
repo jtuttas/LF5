@@ -60,17 +60,28 @@ Ermitteln Sie die funktionalen und nicht funktionalen Anforderungen an die zu en
 |                  | - Performance (Echtzeit-Reaktion, hohe Leistungsfähigkeit)                  |
 
 <!--ls1lsg1-->
-<!--ls1aufgabe2-->
+<!--ls1aufgabe2a-->
 
 ## Das Pflichtenheft
 
 ### Aufgabe 2
 
-Informieren Sie sich über den Inhalt eines Pflichtenheftes und Schreiben Sie in der Rolle des _Auftragnehmers_ ein Pflichtenheft für den Auftrag.
+1. Sammeln Sie im Klassenverband inhaltliche Aspekte die ein Pflichtenheft aufweisen sollte und nennen Sie konkrete Beispiele. Erste inhaltliche Aspekte könnten z.B. sein:
 
-<!--ls1aufgabe2-->
+- Ressourcenplanung
+- Tests
+- Vollständigkeit
+- etc.
 
-> Bewerten Sie gegenseitig die Qualität des erstellten Pflichtenheftes. Möglich Bewertungskriterien sind:
+<!--ls1aufgabe2a-->
+<!--ls1aufgabe2b-->
+
+2. Erstellen Sie mit Hilfe eines KI Sprachmodells ein Pflichtenheft für die Realisierung des Kassensystems.
+3. Bewerten Sie das durch das Sprachmodell entstandenen Pflichtenheft entsprechend der zuvor aufgestellten Kriterien.
+
+<!--ls1aufgabe2b-->
+
+> Möglich Bewertungskriterien sind:
 >
 > - Vollständigkeit: Sind alle Anforderungen aus dem Lastenheft aufgenommen und Vorschläge zur Umsetzung enthalten.
 > - Ressourcenplanung: Wird genannt welche zeitlichen und personellen Ressourcen benötigt werden.
