@@ -45,9 +45,9 @@ Entwurf eines Pflichtenheft auf der Grundlage des zur Verfügung gestellten Last
 | | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
 | Informieren bzw. Analysieren | Textverständnis | Die Schülerinnen und Schüler lesen das zur Verfügung gestellte Lastenheft | Einzelarbeit
-| Planen / Entscheiden | Identifikation von funktionalen und nicht funktionalen Anforderungen. <br> UML Notation Use-Case Diagramm  | Die Schülerinnen und Schüler sammeln funktionale und nicht funktionale Anforderungen aus dem Lastenheft <br> Die Schülerinnen und Schüler informieren sich über inhaltliche Aspekte eines Pflichtenheftes <br> Die Schülerinnen und Schüler informieren sich über die  Notation eines UML Use-Case Diagramms  | Einzelarbeit <br> Plenum  | 
-| Durchführen | Entwickeln eines Pflichtenheftes <br> zeichnen eines Use-Case Diagramms | Die Schülerinnen und Schüler entwerfen auf den vorhandenen Informationen eine Pflichtenheft für die konkrete Umsetzung des Projektes | Einzelarbeit |
-| Kontrollieren / Bewerten | Bewertungskriterien für ein Pflichtenheft mit Use-Case Diagramm | Die Schülerinnen und Schüler bewerten die Pflichtenhefte ihre Mitschüler auf der Grundlage eines gegebenen Bewertungsrasters | Peer Assessment |
+| Planen / Entscheiden | Identifikation von funktionalen und nicht funktionalen Anforderungen. </br> UML Notation Use-Case Diagramm  | Die Schülerinnen und Schüler sammeln funktionale und nicht funktionale Anforderungen aus dem Lastenheft </br> Die Schülerinnen und Schüler informieren sich über inhaltliche Aspekte eines Pflichtenheftes </br> Die Schülerinnen und Schüler informieren sich über die  Notation eines UML Use-Case Diagramms  | Einzelarbeit </br> Plenum  | 
+| Durchführen | Entwickeln eines Pflichtenheftes </br> zeichnen eines Use-Case Diagramms | Die Schülerinnen und Schüler entwerfen mit Hilfe eines KI Textgenerators ein Pflichtenheft und zeichnen ein UML Use Case Diagramm | Einzelarbeit |
+| Kontrollieren / Bewerten | Bewertungskriterien für ein Pflichtenheft mit Use-Case Diagramm | Die Schülerinnen und Schüler bewerten das entstandene  Pflichtenheft </br> Die Schülerinnen und Schülern bewerten das Use Case Diagramm ihre Mitschüler auf der Grundlage eines gegebenen Bewertungsrasters / Musterlösung | Einzelarbeit </br> Peer Assessment |
 | Reflektieren |  | Fragen zur Lernsituation | Plenum |
 
 ### Arbeitsmaterialien / Links

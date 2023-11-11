@@ -8,11 +8,17 @@
 
 ### Aufgabe 1
 
+<!--ls2aufgabe1-->
+
 Die Implementierung der Software soll in einer aktuellen Programmiersprache erfolgen. Sammeln Sie Namen von Programmiersprachen von denen Sie schon einmal gehört haben.
 
 > Gruppieren Sie die Sprache hinsichtlich der Ausführung der Sprache und teilen Sie die Sprachen in **Compiler-Sprachen** und **Interpreter-Sprachen** ein! 
 
+<!--ls2aufgabe1-->
+
 ### Aufgabe 2
+
+<!--ls2aufgabe2-->
 
 Da in der Change IT GmbH bereits vielfältige Erfahrungen mit der Programmiersprache JAVA vorliegen, entscheidet sich die Geschäftsleitung der ChangeIT GmbH dafür auch diese Software in Java zu implementieren. Installieren Sie daher ein aktuelles Java Software Development Kit (SDK) auf ihrem Rechner. 
 
@@ -41,6 +47,9 @@ Da in der Change IT GmbH bereits vielfältige Erfahrungen mit der Programmierspr
 
 ![HelloWorld](images/hellow.gif)
 
+<!--ls2aufgabe2-->
+<!--ls2aufgabe3-->
+
 ## Arbeiten mit einer Versionskontrolle
 
 Die Software soll gemeinsam in Entwicklerteam der ChangeIT GmbH von mehreren Entwicklern implementiert werden. Zur Koordinierung des Entwicklungsprozesses soll eine Versionskontrolle genutzt werden.
@@ -50,6 +59,9 @@ Die Software soll gemeinsam in Entwicklerteam der ChangeIT GmbH von mehreren Ent
 Sammeln Sie im Klassenverband Aspekte die eine Versionsverwaltungs-Software zu erfüllen hat. 
 
 In vergangenen Projekte wurden bereits die Versionssoftware **git** eingesetzt. Auch das neue Projekt soll mittels dieser Versionsverwaltungs-Software umgesetzt werden. Installieren Sie sich daher zunächst [git](https://git-scm.com/downloads) auf ihrem PC.
+
+<!--ls2aufgabe3-->
+<!--ls2aufgabe4-->
 
 ### Aufgabe 4
 
@@ -65,6 +77,9 @@ Führen Sie den folgenden Arbeitsprozess durch. Notieren Sie sich dabei die verw
 6. Fügen Sie die Änderungen dem Repository hinzu.
 7. Wechseln Sie in den master Branch des Repositories und fügen Sie den "dev" Branch mit dem "master" Branch zusammen.
 8. Lassen Sie sich alle Commit Nachrichten anzeigen.
+
+<!--ls2aufgabe4-->
+<!--ls2aufgabe5-->
 
 ## Arbeiten mit einer Entwicklungsumgebung
 
@@ -82,6 +97,9 @@ Ermitteln Sie, wie ihnen der Editor bei den folgenden Arbeitsprozesses hilft.
 - Committen Sie die Änderungen am Programm
 - Führen Sie den "dev" Branch mit dem "master" Branch zusammen.
 
+<!--ls2aufgabe5-->
+<!--ls2aufgabe6-->
+
 ## Ein- und Ausgaben
 
 Eingaben im Kassensystem für die GoodFood GmbH erfolgen zum Teil über die Tastatur (Eingabe des PINs für den Kassierer). Die Ausgaben erfolgen auf dem Bildschirm des Kassensystems.  Wie Ausgaben in JAVA zu realisieren sind, zeigt bereits unser anfänglich entwickeltes Beispielprogramm. So erzeugt:
@@ -92,9 +110,16 @@ System.out.println("Hallo Welt");
 
 Die Ausgabe "*Hallo Welt*" auf dem Standrad Ausgabegerät (zumeist der Bildschirm). Informieren Sie sich wie Sie mittels JAVA von der Tastatur Daten einlesen können.
 
+<!--ls2aufgabe6-->
+<!--ls2uebung1-->
+
 ### Übung 1
 
 Erstellen Sie ein Programm welches den Anwender nach seinem Namen fragt und anschließend nach seiner Anrede und anschließend die Ausgabe erzeugt "Hallo {Anrede} {Name}".
+
+<!--ls2uebung1-->
+
+<!--ls2info1-->
 
 ## Datentypen und Typumwandlung
 
@@ -106,12 +131,18 @@ Java zählt zu den **starktypisierten** und **objektorientierten** Programmiersp
 
 > Im Jahr 2022 sorgte ein Fehler bei MS Exchange dafür, dass keine Emails mehr zugestellt werden konnten. Lesen Sie sich den folgenden [Artikel](images/Exchange_Bug.pdf) durch und diskutieren im Klassenverband, wie es zu diesem Fehler kommen konnte.
 
+<!--ls2info1-->
+<!--ls2uebung2-->
+
 ### Übung 2
 
 - Definieren Sie zwei Variablen vom Type String in Java mit dem Namen umfang und dem Wert "3.14" und dem Namen alter vom Datentype String mit dem Wert "25".
 - Wandeln Sie die Variablen in den Datentyp Integer bzw. in Double um (Nutzen Sie hierzu die entsprechenden Wrapper Klassen).
 - Multiplizieren Sie die Variable umfang mit 2.0 und addieren Sie zur Variablen alter 3 hinzu.
 - Weisen Sie anschließen die neu berechneten Werte den Variablen umfang und alter hinzu (dazu müssen die Datentypen Integer und Double wieder in den Datentyp String gewandelt werden).
+
+<!--ls2uebung2-->
+<!--ls2info2-->
 
 ## Operatoren
 
@@ -120,6 +151,10 @@ Einige Programmabschnitte im Kassensystem für die GoodFood GmbH erfolgen nach d
 - arithmetische Operatoren
 - Vergleichsoperatoren
 - logische Operatoren
+
+<!--ls2info2-->
+<!--ls2uebung3-->
+
 
 ### Übung 3
 
@@ -132,6 +167,10 @@ Ein Quadrat mit der Kantenlänge von 0.15m hätte eine Fläche von 225 cm^2.
 Ein Würfel mit der Kantenlänge von 0.15m hätte ein Volumen von 3375 cm^3.
 
 ```
+
+<!--ls2uebung3-->
+<!--ls2lsguebung3-->
+
 
 ### Lösung Übung 3
 
@@ -148,6 +187,8 @@ public class QuadratWuerfel {
     }
 }
 ```
+<!--ls2lsguebung3-->
+<!--ls2uebung4-->
 
 ### Übung 4
 
@@ -158,6 +199,9 @@ Anzahl von Minuten: 4000
 
 4000 Minuten entsprechen 2 Tage, 18 Stunden und 40 Minuten!
 ```
+
+<!--ls2uebung4-->
+<!--ls2lsguebung4-->
 
 ### Lösung Übung 4
 
@@ -182,9 +226,15 @@ public class Minuten {
 }
 ```
 
+<!--ls2lsguebung4-->
+<!--ls2info3-->
+
 ## Funktionen und Methoden
 
 Oft werden Teile eines Programmes wiederverwertet und die Logik in einer Funktion bzw. Methode ausgelagert. Informieren Sie sich darüber, wie in Java Logik in Methoden ausgelagert werden kann. Erarbeiten Sie dabei den Unterschied zwischen *call by value* und *call by reference*.
+
+<!--ls2info3-->
+<!--ls2aufg6-->
 
 ### Aufgabe 6
 
@@ -205,6 +255,8 @@ Rufen Sie innerhalb der *main*-Methode ihre Funktion mit folgenden Werten aus un
 | 0.5         | 1.25  | 0.625               |                     |
 
 > Mit Hilfe der obigen Tabelle haben Sie die Korrektheit ihrer entwickelten Methode nachgewiesen. Diskutieren Sie im Klassenverband, wie dieses **Test** heißen könnte.
+
+<!--ls2aufg6-->
 
 ## Fragen zum Verständnis
 

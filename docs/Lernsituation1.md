@@ -68,10 +68,10 @@ Ermitteln Sie die funktionalen und nicht funktionalen Anforderungen an die zu en
 
 1. Sammeln Sie im Klassenverband inhaltliche Aspekte die ein Pflichtenheft aufweisen sollte und nennen Sie konkrete Beispiele. Erste inhaltliche Aspekte könnten z.B. sein:
 
-- Ressourcenplanung
-- Tests
-- Vollständigkeit
-- etc.
+> - Ressourcenplanung
+> - Tests
+> - Implementierung
+> - etc.
 
 <!--ls1aufgabe2a-->
 <!--ls1aufgabe2b-->
@@ -101,7 +101,7 @@ Leider ist die sprachliche Beschreibung der funktionalen Anforderungen aus dem P
 > Bewerten Sie gegenseitig die Qualität des erstellten Use Cae Diagramms. Möglich Bewertungskriterien sind:
 >
 > - Vollständigkeit: Sind alle Akteure und alle Use-Cases abgebildet?
-> - Korrektheit: Zeigen *include* Anweisungen auf den zu inkludierenden Anwendungsfall, zeigen *extends* Anweisungen auf den zu erweiternden Anwendungsfall, zeigen Generalisierung auf den generalisierten Anwendungsfall
+> - Korrektheit: Ist eine Systemgrenze eingezeichnet? Zeigen *include* Anweisungen auf den zu inkludierenden Anwendungsfall? Zeigen *extends* Anweisungen auf den zu erweiternden Anwendungsfall? zeigen Generalisierung auf den generalisierten Anwendungsfall?
 
 ### Musterlösung Aufgabe 3
 
