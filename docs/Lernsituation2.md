@@ -1,6 +1,6 @@
 # Lernsituation 2
 
- **Die Implementierung des Kassensystems soll in der Programmiersprache JAVA unter verwendung einer Versionskontrolle erfolgen.**
+ **Die Implementierung des Kassensystems soll in der Programmiersprache JAVA unter Verwendung einer Versionskontrolle erfolgen.**
  
  **Als Auszubildender werden Sie damit beauftragt ihr Notebook für die Entwicklungsarbeit vorzubereiten und exemplarisch eine Methode zu entwickeln.**
 
@@ -48,9 +48,10 @@ Da in der Change IT GmbH bereits vielfältige Erfahrungen mit der Programmierspr
 ![HelloWorld](images/hellow.gif)
 
 <!--ls2aufgabe2-->
-<!--ls2aufgabe3-->
 
 ## Arbeiten mit einer Versionskontrolle
+
+<!--ls2aufgabe3-->
 
 Die Software soll gemeinsam in Entwicklerteam der ChangeIT GmbH von mehreren Entwicklern implementiert werden. Zur Koordinierung des Entwicklungsprozesses soll eine Versionskontrolle genutzt werden.
 
@@ -146,7 +147,7 @@ Java zählt zu den **starktypisierten** und **objektorientierten** Programmiersp
 
 ## Operatoren
 
-Einige Programmabschnitte im Kassensystem für die GoodFood GmbH erfolgen nach dem sogenannten **EVA** Prinzip. Dieses steht für **E**ingabe, **V**erabeitung und **A**ausgabe. Wie Ein- und Ausgaben zu realisieren sind haben wir bereits im vorherigen Kapitel erörtert. In diesem Kapitel geht es nun um die Verarbeitung von Daten mittels Operatoren. Informieren Sie sich über folgende Operatoren in Java:
+Einige Programmabschnitte im Kassensystem für die GoodFood GmbH erfolgen nach dem sogenannten **EVA** Prinzip. Dieses steht für **E**ingabe, **V**erabeitung und **A**usgabe. Wie Ein- und Ausgaben zu realisieren sind haben wir bereits im vorherigen Kapitel erörtert. In diesem Kapitel geht es nun um die Verarbeitung von Daten mittels Operatoren. Informieren Sie sich über folgende Operatoren in Java:
 
 - arithmetische Operatoren
 - Vergleichsoperatoren
@@ -154,7 +155,6 @@ Einige Programmabschnitte im Kassensystem für die GoodFood GmbH erfolgen nach d
 
 <!--ls2info2-->
 <!--ls2uebung3-->
-
 
 ### Übung 3
 
@@ -244,6 +244,11 @@ Zum Abrechnen von Bulkware (Ware deren Preis in €/kg angegeben wird) soll eine
 + calcPrice(eur_per_kg:double,kg:double):double
 ```
 
+<!--ls2aufg6-->
+<!--ls2aufg7-->
+
+### Aufgabe 7
+
 Rufen Sie innerhalb der *main*-Methode ihre Funktion mit folgenden Werten aus und überprüfen Sie das Ergebnis.
 
 | Preis je kg | Menge | erwartetes Ergebnis | erhaltenes Ergebnis |
@@ -254,9 +259,11 @@ Rufen Sie innerhalb der *main*-Methode ihre Funktion mit folgenden Werten aus un
 | 0.8         | 5     | 4                   |                     |
 | 0.5         | 1.25  | 0.625               |                     |
 
+</br>
 > Mit Hilfe der obigen Tabelle haben Sie die Korrektheit ihrer entwickelten Methode nachgewiesen. Diskutieren Sie im Klassenverband, wie dieses **Test** heißen könnte.
 
-<!--ls2aufg6-->
+<!--ls2aufg7-->
+
 
 ## Fragen zum Verständnis
 
