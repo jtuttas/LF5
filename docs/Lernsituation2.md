@@ -57,16 +57,16 @@ Die Software soll gemeinsam in Entwicklerteam der ChangeIT GmbH von mehreren Ent
 
 ### Aufgabe 3
 
-Sammeln Sie im Klassenverband Aspekte die eine Versionsverwaltungs-Software zu erfüllen hat. 
+Sammeln Sie im Klassenverband zunächst Aspekte die eine Versionsverwaltungs-Software zu erfüllen hat.
 
-In vergangenen Projekte wurden bereits die Versionssoftware **git** eingesetzt. Auch das neue Projekt soll mittels dieser Versionsverwaltungs-Software umgesetzt werden. Installieren Sie sich daher zunächst [git](https://git-scm.com/downloads) auf ihrem PC.
+> In vergangenen Projekte wurden bereits die Versionssoftware **git** eingesetzt. Auch das neue Projekt soll mittels dieser Versionsverwaltungs-Software umgesetzt werden. Installieren Sie sich daher zunächst [git](https://git-scm.com/downloads) auf ihrem PC.
 
 <!--ls2aufgabe3-->
 <!--ls2aufgabe4-->
 
 ### Aufgabe 4
 
-Die Versionsverwaltung **git** ist eine Kontogenanwendung. Informieren Sie sich über die wichtigsten Kommandos des Programms **git**.
+Die Versionsverwaltung **git** ist eine Konsolen-Anwendung. Informieren Sie sich über die wichtigsten Kommandos des Programms **git**. Sie dazu auch [Git Cheat Sheet](images/github-git-cheat-sheet.pdf)
 
 Führen Sie den folgenden Arbeitsprozess durch. Notieren Sie sich dabei die verwendeten **git-Befehle**.
 
@@ -182,7 +182,8 @@ public class QuadratWuerfel {
         float l = Float.parseFloat(scanner.nextLine());
         float a = l*l*100*100;
         float v = l*l*l*100*100*100;
-        System.out.println("Ein Würfel hätte eine Fläche von "+a+"m^2 und ein Würfel das Volumen von "+v+"m^3");
+        System.out.println("Ein Quadrat hätte eine Fläche von "+a+"m^2");
+        System.out.println("Ein Würfel das Volumen von "+v+"m^3");
         
     }
 }
@@ -260,6 +261,7 @@ Rufen Sie innerhalb der *main*-Methode ihre Funktion mit folgenden Werten aus un
 | 0.5         | 1.25  | 0.625               |                     |
 
 </br>
+
 > Mit Hilfe der obigen Tabelle haben Sie die Korrektheit ihrer entwickelten Methode nachgewiesen. Diskutieren Sie im Klassenverband, wie dieses **Test** heißen könnte.
 
 <!--ls2aufg7-->
@@ -270,9 +272,9 @@ Rufen Sie innerhalb der *main*-Methode ihre Funktion mit folgenden Werten aus un
 Welche der folgenden Aussagen über den Java-Compiler und die Java Virtual Machine (JVM) ist korrekt?
 
 - [ ] A) Der Java-Compiler erzeugt direkt ausführbaren Maschinencode.
-- [ ] B) Die JVM ist nur dafür verantwortlich, Java-Bytecode zu interpretieren, sie kann ihn nicht kompilieren.
+- [ ] B) Die JVM ist dafür verantwortlich Java-Bytecode zu interpretieren und ihn zu kompilieren.
 - [ ] C) Der Java-Compiler erzeugt Bytecode, der plattformunabhängig ist und von der JVM interpretiert wird.
-- [ ] D) Bytecode ist lediglich eine komprimierte Form von Java-Quellcode.
+- [ ] D) Bytecode ist ein für den Menschen lesbares Format.
 
 ---
 
