@@ -30,7 +30,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 > Compiler- vs. Interpreter-Sprachen, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip,  Funktionen / Methoden.
 
-### [LS3: Kontrollstrukturen [16 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS3.md.pdf)
+### [LS3: Kontrollstrukturen [8 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS3.md.pdf)
 
 > Bedingungen / Schleifen, Nassi Sneidermann Diagramm
 
