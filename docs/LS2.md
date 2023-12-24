@@ -28,7 +28,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.2: Programmiersprachen | 16 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.2: Programmiersprachen | 18 Unterrichtsstunden |
 
 ### Handlungssituation
 
@@ -47,7 +47,7 @@ Implementierte Methode in Java.
 | Informieren bzw. Analysieren | Laufzeitumgebung installieren </br> IDE und Versionskontrollen nutzen. </br> Eigenschaften und Merkmale der verwendeten Programmiersprache anwenden.  | Die Schülerinnen und Schüler installieren eine geeignete Laufzeitumgebung und IDE, sie entwickeln ein erstes lauffähiges Programm und nutzen dabei eine Versionskontrolle </br> Sie informieren sich über Datentypen, Operatoren und Mechanismen zur Ein- und Ausgabe von Daten | Einzelarbeit </br> Gruppenarbeit </br> Plenum
 | Planen / Entscheiden | Auswahl geeigneter Datentypen und Operatoren | Für die Aufgabe wählen die Schülerinnen und Schüler geeignete Datentypen und Operatoren | Einzelarbeit |
 | Durchführen | Methode implementieren | Die Schülerinnen und Schüler implementieren die geforderte Methode in einer Programmiersprache | Einzelarbeit |
-| Kontrollieren / Bewerten | Testen von Software  | Die Schülerinnen und Schüler entwerfen Testkriterien für die entwickelte Methode und überprüfen die Software  | Einzelarbeit </br> Plenum |
+| Kontrollieren / Bewerten | Testen von Software  | Die Schülerinnen und Schüler entwerfen Testkriterien für die entwickelte Methode und überprüfen die Software mittels einen Komponenten-Tests  | Einzelarbeit </br> Plenum |
 | Reflektieren |  | Die Schülerinnen und Schüler reflektieren Ihr Wissen mit Hilfe eines kurzen Test | Einzelarbeit |
 
 ### Arbeitsmaterialien / Links

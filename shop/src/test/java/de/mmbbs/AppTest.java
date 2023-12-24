@@ -12,7 +12,8 @@ class AppTest {
      * Rigorous Test.
      */
     @Test
-    void testApp() {
-        assertEquals(1, 1);
+    void testAdd() {
+        assertEquals(7,App.add(5, 2)," 5+2 sollte 7 ergeben!");
+        assertEquals(10,App.add(12, -2)," 12-2 sollte 10 ergeben!");
     }
 }

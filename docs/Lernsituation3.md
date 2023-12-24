@@ -13,10 +13,10 @@
 > Informieren Sie sich ferner darüber wie diese Kontrollstruktur in Form eines Nassi-Shneiderman-Diagramms (Struktogramm) dargestellt werden.
 
 <!--ls3info1-->
-<!--ls3aufgabe1-->
 
 ### Aufgabe 1
 
+<!--ls3aufgabe1-->
 Entwickeln Sie einen Algorithmus, der der Benutzer nach einen Betrag fragt und anschließend, ob auf diesen Betrag der ermäßigte Steuersatz von 7% angewandt werden soll. Anschließend gibt der Algorithmus den Bruttobetrag aus.
 
 Stellen Sie das Programm zunächst in Form eines Struktogramms dar.
@@ -65,7 +65,7 @@ public class BruttoNetto {
 
 <!--ls3uebung1-->
 
-Ein Würfelspiel besitzt folgende Regeln: 
+**Ein Würfelspiel besitzt folgende Regeln:**
 
 - Wirft der Spieler eine 1, eine 3 oder eine 5 so erhält er die jeweilige Augenzahl als Punkte gutgeschrieben
 - Bei einer 2 oder einer 4 erhält er die doppelte Augenzahl als Punkte gutgeschrieben
@@ -138,36 +138,34 @@ Neben der Darstellung von Kontrollstrukturen im Struktogramm existieren noch wei
 
 <!--ls3info2-->
 
-<!--ls3uebung2a-->
-
-
 ### Übung 2a
 
+<!--ls3uebung2a-->
 Entwickeln Sie einen Algorithmus in Form eines Struktogramms der überprüft ob eine eingegeben Zahl eine [Primzahl](http://de.wikipedia.org/wiki/Primzahl) ist.
 
 <!--ls3uebung2a-->
-<!--ls3lsguebung2a-->
 
 
 ### Lösung Übung 2a
 
+<!--ls3lsguebung2a-->
 ![Primtester](images/Primtester.png)
 
 > Diskutieren Sie ggf. im Klassenverband, wie dieser Algorithmus zu optimieren ist!
 
 <!--ls3lsguebung2a-->
-<!--ls3uebung2b-->
 
 ### Übung 2b
 
+<!--ls3uebung2b-->
 Implementieren Sie den Algorithmus in Java und überprüfen Sie mit diesem Programm historische Primzahlen aus diesem Wikipedia Artikel <https://de.wikipedia.org/wiki/Primzahl>.
 
 <!--ls3uebung2b-->
-<!--ls3lsguebung2b-->
 
 
 ### Lösung Übung 2b
 
+<!--ls3lsguebung2b-->
 ```java
 public class PrimzahlenPruefung {
     public static void main(String[] args) {
@@ -226,11 +224,11 @@ Ausgabe: "Sie sind "+(alter-1)+" Jahre Alt"
 ![Primzahlengeburtstag Struktogramm](images/Primzahlengeburtstag_stru.png)
 
 <!--ls3lsguebung3-->
-<!--ls3aufgabe2-->
 
 
 ### Aufgabe 2
 
+<!--ls3aufgabe2-->
 Für das Kassensystem soll nun ein Algorithmus entwickelt werden, der die Beträge aufsummiert. Ein folgende Auszug enthält das Interview mit der Kassiererin im Markt.
 
 > Wenn der Kunde seine Ware bezahlen will kommt er zur Kasse und legt die Ware auf das Band. Die Preise habe ich soweit im Kopf - ist ja nur ein kleiner Dorfladen. Wenn er also Äpfel kauft, dann weiß ich dass die 1,99€ pro kg kosten und wiege die und trage das in meine Kasse ein. Wir haben natürlich auch Stückware, z.B. Milchflaschen, da gebe ich ein wie viele Flaschen ein Kunde kauft und wie teuer eine Flasche ist.
@@ -242,11 +240,11 @@ Für das Kassensystem soll nun ein Algorithmus entwickelt werden, der die Beträ
 Entwerfen Sie zunächst einen geeigneten Algorithmus in Form eines Struktogramms und implementieren Sie diesen anschließend in JAVA.
 
 <!--ls3aufgabe2-->
-<!--ls3lsgaufgabe2-->
 
 
 ### Lösung Aufgabe 2
 
+<!--ls3lsgaufgabe2-->
 ![Summenbildung](images/Summebildung.png)
 
 ```java
@@ -304,10 +302,10 @@ public class Summebildung
 ```
 
 <!--ls3lsgaufgabe2-->
-<!--ls3reflexion-->
 
 ## Reflexion
 
+<!--ls3reflexion-->
 > Diskutieren Sie im Klassenverband wie der Geschäftsprozess weiter zu optimieren werden könnte.
 
 <!--ls3reflexion-->

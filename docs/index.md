@@ -22,30 +22,26 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ## Lernsituationen als PDF
 
-### [LS1: Lasten- und Pflichtenheft [6 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS1.md.pdf)
+### [LS1: Anforderungen an Software [6 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS1.md.pdf)
 
 > Lasten- u. Pflichtenheft, funktionale und nicht funktionale Anforderungen, Use Case Diagramm
 
-### [LS2: Programmiersprachen (JAVA) [16 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS2.md.pdf)
+### [LS2: Programmiersprachen (JAVA) [20 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS2.md.pdf)
 
-> Compiler- vs. Interpreter-Sprachen, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip,  Funktionen / Methoden.
+> Compiler- vs. Interpreter-Sprachen, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip,  Funktionen / Methoden, Komponenten Tests.
 
-### [LS3: Kontrollstrukturen [8 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS3.md.pdf)
+### [LS3: Kontrollstrukturen [14 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS3.md.pdf)
 
-> Bedingungen / Schleifen, Nassi Sneidermann Diagramm
+> Bedingungen / Schleifen, Nassi Sneidermann Diagramm, Blackbox & Whitebox Tests
 
-### [LS4: Daten und Datenstrukturen [10 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS4.md.pdf)
+### [LS4: Daten und Datenstrukturen [16 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS4.md.pdf)
 
 > Klassen, Klassendiagramm, Array und Listen, Iterationsschleife, CSV und JSON
 
-### [LS5: Datenbanken [16 Std.] - LF8](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS5.md.pdf)
+### [LS5: Datenbanken [18 Std.] - LF8](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS5.md.pdf)
 
-> DBMS, ER Diagramm, Relations-Schema , CRUD (SELECT, INSERT, UPDATE, DELETE)
+> DBMS, ER Diagramm, Relations-Schema , Abfragen von Datenbanken mittels SQL
 
-### [LS6: Testen von Software [6 Std.] - LF12](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS6.md.pdf)
-
-> Blackbox / Whitebox-Test, Unit Test
-
-### [LS7: Benutzeroberflächen [8 Std.] - LF10](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS7.md.pdf)
+### [LS6: Benutzeroberflächen [8 Std.] - LF10](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS7.md.pdf)
 
 > GUI Element, Mock Up
