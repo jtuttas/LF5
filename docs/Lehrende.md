@@ -2,7 +2,7 @@
 
 Willkommen als Lehrender zu meinem LF5 Moodle Kurs. Nahezu alle Inhalte dieses Kurses werden aus einem [github Repository](https://github.com/jtuttas/LF5) nachgeladen. Daher kann es sein, dass sich einige Inhalte im laufer der Zeit ändern oder angepasst werden.
 
-In diesem Repository finden Sie ebenso die [Beschreibung der Lernsituationen](https://jtuttas.github.io/LF5/site/>) als MK Docs gerenderte HTML Seiten.
+In diesem Repository finden Sie ebenso die [Beschreibung der Lernsituationen](https://jtuttas.github.io/LF5/site/) als MK Docs gerenderte HTML Seiten.
 
 Strukturelle Änderungen am Kurs sind nur im Moodle-System möglich. Sollte es größere Änderungen an dem Kurs geben so werden Sie an dieser Stelle im Chanelog (siehe unten) aufgeführt.
 
