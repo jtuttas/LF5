@@ -192,7 +192,7 @@ public class PrimzahlenPruefung {
 
 ## Übung 3
 
-Einwickeln Sie einen Algorithmus in Form von *Pseudocode*, der dem Junge sagt wie alt er ist.
+Einwickeln Sie einen Algorithmus in Form von **Pseudocode**, der dem Junge sagt wie alt er ist. Stellen Sie diesen Algorithmus ihren Mitschülern vor.
 
 ![Primzahlengeburtstag](images/PrimzahlenGeburtstag_Comic.jpg)
 
@@ -225,6 +225,36 @@ Ausgabe: "Sie sind "+(alter-1)+" Jahre Alt"
 
 <!--ls3lsguebung3-->
 
+### Übung 4
+
+<!--ls3uebung4-->
+Entwerfen Sie eine Algorithmus in Form von **Pseudocode** der das Restwertverfahren zur Wandlung einer Dezimalzahl in ein anderen Stellenwertsystem implementiert. Einzugeben ist dabei die *Dezimalzahl* und die *Basis* des Zielsystems.
+
+Unten dargestellt ist ist die Wandlung der Dezimalzahl 183 in das Dualzahlensystem (Basis 2).
+
+![Restwerverfahren](images/rest.PNG)
+
+Stellen Sie ihren Algorithmus ihren Mitschülern vor.
+
+<!--ls3uebung4-->
+
+### Lösung Übung 4
+
+<!--ls3lsguebung4-->
+
+```txt
+ausgabe = ""
+eingabe zahl
+eingabe basis
+wiederhole solange zahl>0 
+ rest = zahl modulo basis
+ ausgabe=rest+ausgabe
+ zahl=(zahl-rest)/basis
+wiedehole_ende
+ausgabe "die gewandelte Zahl lautet"+ausgabe
+```
+
+<!--ls3lsguebung4-->
 
 ### Aufgabe 2
 
@@ -302,6 +332,36 @@ public class Summebildung
 ```
 
 <!--ls3lsgaufgabe2-->
+
+### Aufgabe 3
+
+<!--ls3aufgabe4-->
+Folgender Einkauf wird von einem Kunden durchgeführt:
+
+- 3 kg Kartoffeln a 1.20€/kg (*) 
+- Zwei Milchflaschen a 1.50€/Flasche (*)
+- Ein Glas Wiesenhonig a 5.99€/Glas
+- 5 Äpfel a 1.50€/kg (*)
+- Zwei Flasche Landwein für 4.50€
+
+(*) waren unterliegen dem ermäßigten MwSt Satz von 7%
+
+a) Erstellen Sie mit Hilfe eines Tabellenkalkulationsprogramms eine Tabelle, die den Wert des Warenkorbs bestimmt.
+
+b) Überprüfen Sie mit Hilfe der erstellen Tabelle ihre die Korrektheit Ihres Algorithmus in Form eines **Blackbox Tests**, indem Sie das berechnete *erwartete Verhalten* dem *beobachteten Verhalten* ihres Programms gegenüber stellen. 
+
+<!--ls3aufgabe4-->
+
+### Aufgabe 4
+
+<!--ls3aufgabe5-->
+Führen Sie mit ihrem Algorithmus einen **Whitebox Test** durch! Gehen Sie dabei wie folgt vor:
+
+a) Markieren sie *Wege des Kontrollflusses* durch ihren Algorithmus.
+
+b) Setzen Sie einen geeigneten Breakpoint in ihrem Programm und versuchen Sie jeden Weg im Algorithmus zu erreichen. Notieren Sie sich die Eingangsvariablen die dazu nötig waren und die Anweisungen die in diesem Zweig ausgeführt werden!
+
+<!--ls3aufgabe5-->
 
 ## Reflexion
 

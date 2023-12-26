@@ -49,7 +49,7 @@ Entwurf des Algorithmus in Form eines Nassi-Shneiderman-Diagramm (Struktogramm) 
 | Informieren bzw. Analysieren | Funktion von Kontrollstrukturen und der Darstellung als Struktogramm   | Die Schülerinnen und Schüler informieren sich über Bedingungen und Schleifen, stellen diese als Struktogramm dar  | Einzelarbeit / Plenum </br></br> Zur Darstellung von Struktogrammen wird das Programm **Structoriser** bzw. der Webdienst **Structog** verwendet.
 | Planen / Entscheiden | Einsatz von Kontrollstrukturen im Programmfluss | Anhand der Handlungssituation planen die Schüler den Einsatz von Kontrollstrukturen |  Einzelarbeit |
 | Durchführen | Implementierung des Algorithmus in Java | Die Schülerinnen und Schüler implementieren den entworfenen Algorithmus in Java | Einzelarbeit |
-| Kontrollieren / Bewerten | Überprüfen der Funktion mittels *Blackbox* Test | Die Schülerinnen und Schüler überprüfen die korrekte Funktion ihres implementierten Algorithmus | Einzelarbeit |
+| Kontrollieren / Bewerten | Überprüfen der Funktion mittels *Blackbox* und *Whitebox* Test | Die Schülerinnen und Schüler überprüfen die korrekte Funktion ihres implementierten Algorithmus | Einzelarbeit |
 | Reflektieren | Entwickeln von weiteren Optimierungen | Die Schülerinnen und Schüler diskutieren weitere Optimierungen des Algorithmus | Plenum  |
 
 ### Arbeitsmaterialien / Links
