@@ -336,7 +336,7 @@ public class Summebildung
 ### Aufgabe 3
 
 <!--ls3aufgabe3-->
-Folgender Einkauf wird von einem Kunden durchgeführt:
+**Folgender Einkauf wird von einem Kunden durchgeführt:**
 
 - 3 kg Kartoffeln a 1.20€/kg (*) 
 - Zwei Milchflaschen a 1.50€/Flasche (*)

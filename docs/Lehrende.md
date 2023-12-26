@@ -2,33 +2,33 @@
 
 Willkommen als Lehrender zu meinem LF5 Moodle Kurs. Nahezu alle Inhalte dieses Kurses werden aus einem [github Repository](https://github.com/jtuttas/LF5) nachgeladen. Daher kann es sein, dass sich einige Inhalte im laufer der Zeit ändern oder angepasst werden.
 
-In diesem Repository finden Sie ebenso die [Beschreibung der Lernsituatioen]<https://jtuttas.github.io/LF5/site/>).
+In diesem Repository finden Sie ebenso die [Beschreibung der Lernsituationen](https://jtuttas.github.io/LF5/site/>) als MK Docs gerenderte HTML Seiten.
 
 Strukturelle Änderungen am Kurs sind nur im Moodle-System möglich. Sollte es größere Änderungen an dem Kurs geben so werden Sie an dieser Stelle im Chanelog (siehe unten) aufgeführt.
 
-Dieser Kurs umfasst das **LF5 (80 Std)** der Ausbildung zum Fachinformatiker, setzt aber eher ein Schwerpunkt auf den Fachinformatiker Anwendungsentwicklung. Dabei wird das Spiralcurrikulum berücksichtigt, d.h. viele Inhalte müssen später in den entsprechenden Lernfeldern vertieft werden.
-
 ## Kompetenzformulierung gemäß Rahmenlehrplan
 
-"**Die Schülerinnen und Schüler verfügen über die Kompetenz, Informationen mittels
-Daten abzubilden, diese Daten zu verwalten und dazu Software anzupassen**".
-
-Die Schülerinnen und Schüler informieren sich innerhalb eines Projektes über die Abbildung
+>**Die Schülerinnen und Schüler verfügen über die Kompetenz, Informationen mittels
+Daten abzubilden, diese Daten zu verwalten und dazu Software anzupassen**.
+>
+>Die Schülerinnen und Schüler informieren sich innerhalb eines Projektes über die Abbildung
 von Informationen mittels Daten. Dabei **analysieren** sie Daten hinsichtlich Herkunft, Art,
 Verfügbarkeit, Datenschutz, Datensicherheit und Speicheranforderung und berücksichtigen
 Datenformate und Speicherlösungen.
-
-Sie **planen** die Anpassung einer Anwendung zur Verwaltung der Datenbestände und entwickeln Testfälle. Dabei **entscheiden** sie sich für ein Vorgehen.
-
-Die Schülerinnen und Schüler **implementieren** die Anpassung der Anwendung, auch im
+>
+>Sie **planen** die Anpassung einer Anwendung zur Verwaltung der Datenbestände und entwickeln Testfälle. Dabei **entscheiden** sie sich für ein Vorgehen.
+>
+>Die Schülerinnen und Schüler **implementieren** die Anpassung der Anwendung, auch im
 Team und erstellen eine Softwaredokumentation.
-
-Sie testen die Funktion der Anwendung und **beurteilen** deren Eignung zur Bewältigung der
+>
+>Sie testen die Funktion der Anwendung und **beurteilen** deren Eignung zur Bewältigung der
 gestellten Anforderungen.
-
-Sie **evaluieren** den Prozess der Softwareentwicklung.
+>
+> Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ## Lernsituationen als PDF
+
+Dieser Kurs umfasst das **LF5 (80 Std)** der Ausbildung zum Fachinformatiker, setzt aber eher ein Schwerpunkt auf den Fachinformatiker Anwendungsentwicklung. Dabei wird das Spiralcurrikulum berücksichtigt, d.h. viele Inhalte müssen später in den entsprechenden Lernfeldern vertieft werden. Folgende Lernsituationen sind enthalten:
 
 ### [LS1: Anforderungen an Software [6 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS1.md.pdf)
 
