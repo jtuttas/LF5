@@ -335,7 +335,7 @@ public class Summebildung
 
 ### Aufgabe 3
 
-<!--ls3aufgabe4-->
+<!--ls3aufgabe3-->
 Folgender Einkauf wird von einem Kunden durchgeführt:
 
 - 3 kg Kartoffeln a 1.20€/kg (*) 
@@ -350,18 +350,18 @@ a) Erstellen Sie mit Hilfe eines Tabellenkalkulationsprogramms eine Tabelle, die
 
 b) Überprüfen Sie mit Hilfe der erstellen Tabelle ihre die Korrektheit Ihres Algorithmus in Form eines **Blackbox Tests**, indem Sie das berechnete *erwartete Verhalten* dem *beobachteten Verhalten* ihres Programms gegenüber stellen. 
 
-<!--ls3aufgabe4-->
+<!--ls3aufgabe3-->
 
 ### Aufgabe 4
 
-<!--ls3aufgabe5-->
+<!--ls3aufgabe4-->
 Führen Sie mit ihrem Algorithmus einen **Whitebox Test** durch! Gehen Sie dabei wie folgt vor:
 
 a) Markieren sie *Wege des Kontrollflusses* durch ihren Algorithmus.
 
 b) Setzen Sie einen geeigneten Breakpoint in ihrem Programm und versuchen Sie jeden Weg im Algorithmus zu erreichen. Notieren Sie sich die Eingangsvariablen die dazu nötig waren und die Anweisungen die in diesem Zweig ausgeführt werden!
 
-<!--ls3aufgabe5-->
+<!--ls3aufgabe4-->
 
 ## Reflexion
 
