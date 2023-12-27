@@ -2,7 +2,7 @@
 --
 + tag: byte
 + monat: byte
-+ year: short
++ jahr: short
 --
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>220</y><w>150</w><h>100</h></coordinates><panel_attributes>Person
 --

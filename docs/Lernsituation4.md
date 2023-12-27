@@ -10,8 +10,8 @@ Dinge in der natürlichen Welt setzten sich zumeist aus verschiedenen Datentypen
 
 ```java
 public class Person {
-    String name;
-    int age;
+    public String name;
+    public int age;
 }
 ```
 
@@ -31,10 +31,10 @@ In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz ges
 
 ```java
 public class Position {
-    String bezeichnung;
-    double preis;
-    double menge;
-    boolean reduziert;
+    public String bezeichnung;
+    public double preis;
+    public double menge;
+    public boolean reduziert;
 }
 ```
 
@@ -48,9 +48,9 @@ So besteht ein Datum, z.B. aus den primitiven Daten Tag, Monat und Jahr und kann
 
 ```java
 public class Datum {
-    byte tag;
-    byte monat;
-    short jahr;
+    public byte tag;
+    public byte monat;
+    public short jahr;
 }
 ```
 
@@ -62,10 +62,26 @@ Im Java Code würde das wie folgt aussehen
 
 ```java
 public class Person {
-    String name;
-    geb Datum;
+    public String name;
+    public Datum geb;
 }
 ```
+
+### Übung 1
+
+Auch ihre Schulklasse besteht aus vielen Daten, die in einer Beziehung zueinander stehen (die Schüler der Klasse mal vernachlässigt). So besitzt ihr Schulklasse:
+
+- eine Bezeichnung
+- einen Klassenlehrer
+- ein Einschulungsdatum
+- einen Ausbildungsberuf
+- und ggf. noch mehr
+
+Erstellen Sie einer Klassendiagramm der Schulklasse, wobei möglichst viele "Dinge" in einzelnen Klassen zusammengefasst werden.
+
+### Lösung Übung 1
+
+![Klassendiagramm Schulklasse](images/Schulklasse.png)
 
 ### Aufgabe 2
 
@@ -78,4 +94,58 @@ Stellen Sie im Anschluss daran ihre Lösung der Klasse vor und diskutieren Sie i
 ![Daten eines Bons](images/bon2.png)
 
 ## Beziehungen zwischen Klassen ("ist so etwas wie Beziehung")
+
+Dinge in der objektorientierten Welt haben jedoch nicht nur eine "ist Teil von" Beziehung, sondern ähneln einander im Sinne von einer "ist so etwas wie" Beziehung. So hat eine Flasche eine Füllmenge. Eine Cola Flasche ist dabei so etwas wie eine Flasche enthält aber ein Coffein haltiges Getränk. Auch eine Weinflasche ist eine Flasche enthält aber ein alkoholisches Getränk mit einem alkoholgehalt. Im Klassendiagramm wird dieser Zusammenhang wie folgt dargestellt.
+
+![Klassendiagramm Flaschen](images/Flaschen.png)
+
+Dabei bezeichnet man die allgemeine Klasse als **Elternklasse** und die konkreteren (spezialisierteren) Klassen als **Kindklasse**. Bei dieser Art von Beziehung gehen alle Attribute der Elternklasse auf die Kindklasse über, daher wird dieses auch als **Vererbung** bezeichnet. D.h. auch die Weinflasche besitzt ein *Volumen* hat aber zusätzlich das Attribut *Alkoholgehalt*.
+
+Im Java code wird die "ist so was wie" Beziehung durch das Schlüsselwort **extends** beschrieben. So kann man den obigen Zusammenhang in Java wie folgt ausdrücken.
+
+```java
+publci classs WeinFlasche extends Flasche {
+    public double alkoholgehalt;
+}
+```
+
+### Übung 2
+
+>Jede Person besitzt einen Namen und ein Geschlecht. Erwachsene sind Personen, die über einen Familienstand verfügen. Ein Lehrer ist ein Erwachsener, der ein Kürzel hat. Auch ein Student ist ein Erwachsener, der über eine Matrikelnummer verfügt. Ein Kind ist eine Person und hat ein Lieblingsspiel. Ein Schulkind geht darüber hinaus noch zu einer Schule. Ein Koordinator einer Schule ist ein Lehrer der einen Abteilung leitet. Der Schulleiter einer Schule ist Lehrer, leitet aber eine ganze Schule. Ein Austauschstudent ist ein Student, der eine Gastuniversität hat.
+
+Stellen Sie diesen Zusammenhang im Klassendiagramm dar.
+
+### Lösung Übung 2
+
+![Vererbungshierarchie](images/Vererbung.png)
+
+### Aufgabe 3
+
+Auch in dem Kassensystem für die GoodFood GmbH treten Dinge in eine "ist so etwas wie" Beziehung auf. So gibt es in dem Ladengeschäft Produkte und LoseProdukte. Jedes Produkt hat dabei einen Namen, einen Preis und einen Mehrwertsteuersatz. Bei einem losen Produkt (wie Kartoffeln, Äpfel etc.) muss jedoch noch das Gewicht mit berücksichtigt werden.
+
+Stellen Sie diesen Zusammenhang in Form eines Klassendiagramms dar und implementieren Sie die Klasse Produkt und LosesProdukt in Java.
+
+### Lösung Aufgabe 3
+
+![Klassendiagramm Produkt](images/Produkt.png)
+
+```java
+
+public class Produkt {
+    public String bezeichnung;
+    public double preis;
+    public double mwst;
+}
+
+public class LosesProdukt extends Produkt{
+    public double gewicht;
+}
+
+```
+
+## Objekte erzeugen und Attribute zuweisen
+
+## Felder von Daten
+
+## Speicherung von Objekten
 
