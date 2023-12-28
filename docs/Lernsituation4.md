@@ -104,7 +104,7 @@ Dabei bezeichnet man die allgemeine Klasse als **Elternklasse** und die konkrete
 Im Java code wird die "ist so was wie" Beziehung durch das Schlüsselwort **extends** beschrieben. So kann man den obigen Zusammenhang in Java wie folgt ausdrücken.
 
 ```java
-publci classs WeinFlasche extends Flasche {
+publci class WeinFlasche extends Flasche {
     public double alkoholgehalt;
 }
 ```
@@ -145,7 +145,218 @@ public class LosesProdukt extends Produkt{
 
 ## Objekte erzeugen und Attribute zuweisen
 
+Bisher haben wir lediglich Baupläne (Klassen) für Dinge erzeugt, aber noch keine Dinge (Objekte). Um aus Klassen Objekte zu erzeugen müssen konkrete Instanzen erzeugt werden. In Java geschieht dieses über der **new** Anweisung. Die Objekte werden dabei in Variablen gespeichert, deren Typ der Name der Klasse ist. 
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Person p1=new Person();
+        Person p2=new Person();
+    }
+}
+```
+
+![Klassendiagramm Person ](images/Person2.png)
+
+In dem oben gezeigten Java Code werden zwei Objekte **p1** und **p2** vom Typ Person erzeugt. Um auf die Einzelnen Attribute eines Objektes zugreifen zu können werden diese über **{Objektname}.{Eigenschaft}** angesprochen in unserem Fall können wird z.B. der Person **p1** den Namen "Max Mustermann" und das Geburtsdatum 1.5.1995 wie folgt zuweisen.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Person p1=new Person();
+        Person p2=new Person();
+        p1.name="Max Mustermann";
+        p1.geb.tag=1;
+        p1.geb.monat=5;
+        p1.geb.jahr=1995;
+    }
+}
+```
+
+### Aufgabe 4
+
+Im Laden der GoodFood GmbH an der Hauptstraße 32, 30167 Hannover wird durch den Verkäufe "Max Mustermann" am 17.3.2024 ein Einkauf getätigt. Erzeugen Sie das entsprechende *Bon* Objekt.
+
+![Klassendiagramm Bon](images/bon2.png)
+
+> **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5> im Ordner shop/src/main/java/de/obj bereits enthalten!
+
+```java
+public class Bon {
+    public Ort filiale = new Ort();
+    public Datum am = new Datum();
+    public Person verkäufer = new Person();
+    public ArrayList<Artikel> position =new ArrayList<>();
+}
+
+public class Ort {
+    public String strasse;
+    public short hausnummer;
+    public String plz;
+    public String ort;
+}
+
+public class Person {
+    public String name;
+}
+
+public class Datum {
+    public byte tag;
+    public byte monat;
+    public short jahr;
+}
+```
+
+### Lösung Aufgabe 4
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Bon b = new Bon();
+        b.filiale.strasse="Hauptstrasse";
+        b.filiale.hausnummer=32;
+        b.filiale.plz="30167";
+        b.filiale.ort="Hannover";
+        b.verkäufer.name="Max Mustermann";
+        b.am.tag=17;
+        b.am.monat=3;
+        b.am.jahr=2024;
+    }
+}
+```
+
 ## Felder von Daten
+
+Daten in Form von Objekten werden treten oft als Felder auf, so z.B. die einzelnen Schüler der Klasse, die Noten auf einem Zeugnis etc.. Diese Daten werden in einem Feldobjekt (**Array**) bzw. dynamischer in einer **ArrayList** gespeichert. 
+
+Informieren Sie sich wie in Java Arrays und ArrayLists deklariert werden und wie Sie auf die einzelnen Daten eines Feldes zugreifen können.
+
+Im Klassendiagramm sind die Felder einzelne Attribute, die Beziehung zwischen den enthaltenen Elemente weist nun jedoch eine Nummerierung (**Kardinalität**) auf.
+
+![Klassendiagramm Zeugnis](images/Zeugnis.png)
+
+```java
+public class Zeugnis {
+    public Person person;
+    public Beruf beruf;
+    public ArrayList<Note> = new ArrayList();
+}
+```
+
+### Übung 3
+
+In der Übung 2 haben wir das Klassendiagramm für eine Schulklasse entworfen.
+
+![Klassendiagramm Schulklasse](images/Schulklasse.png)
+
+Erweitern Sie das Klassendiagramm um eine ArrayList mit dem Namen *Schüler*, jeder Schüler sollte dabei einen Namen und ein Geschlecht besitzen.
+
+### Lösung Übung 3
+
+![Klassendiagramm Schulklasse mit Schülern](images/Schulklasse2.png)
+
+### Aufgabe 5
+
+Auf dem zuvor entworfenen Klassendiagramm für den Kassenbon sollen nun auch die Waren in Form Positionen erfasst werden.
+
+![Klassendiagramm Bon](images/bon2.png)
+
+Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesamtpreis (netto) sowie dem Gesamtpreis (brutto). Erweitern Sie das Klassendiagramm in geeigneter Weise.
+
+### Lösung Aufgabe 5
+
+![Klassendiagramm Bon mit Positionen](images/bon3.png)
+
+### Aufgabe 6
+
+Dem in Aufgabe 4 erzeugten Bon sollen nun folgende Artikel hinzugefügt werden.
+
+- 3 kg Kartoffeln a 1.20€/kg (*)
+- Ein Glas Wiesenhonig a 5.99€/Glas
+
+(*) Waren unterliegen dem ermäßigten MwSt Satz von 7%
+
+Fügen Sie diese Objekte dem Warenkorb hinzu.
+
+> **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5> im Ordner shop/src/main/java/de/obj bereits enthalten!
+
+### Lösung Aufgabe 6
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Bon b = new Bon();
+        b.filiale.strasse="Hauptstrasse";
+        b.filiale.hausnummer=32;
+        b.filiale.plz="30167";
+        b.filiale.ort="Hannover";
+        b.verkäufer.name="Max Mustermann";
+        b.am.tag=17;
+        b.am.monat=3;
+        b.am.jahr=2024;
+
+        // Aufgabe 6
+        Produkt p1 = new Produkt();
+        p1.bezeichnung="Kartoffeln";
+        p1.mwst=0.07f;
+        p1.preis=1.20;
+        Artikel a1 = new Artikel();
+        a1.produkt=p1;
+        a1.menge=3;
+        b.position.add(a1);
+
+        Produkt p2 = new Produkt();
+        p2.bezeichnung="Wiesenhonig";
+        p2.mwst=0.19f;
+        p2.preis=5.99;
+        Artikel a2 = new Artikel();
+        a2.produkt=p2;
+        a2.menge=1;
+        b.position.add(a2);
+
+    }
+}
+```
+
+## Iterationsschleife "for each"
+
+Oftmals ist es notwendig alle Elemente eines Feldes wir ein Array oder eine ArrayList auszulesen, um diese Elemente ggf. zu bearbeiten. Geschehen kann dieses natürlich wie folgt mit einer Zählschleife.
+
+```java
+public static void main(String[] args) {
+    String[] namen = {"Thomas","Frank","Simone","Oliver"};
+
+    for (int i=0;i<namen.length;i++) {
+        System.out.println(namen[i]);
+    }
+}
+```
+
+Einfacher zu realisieren ist dieses jedoch mitteln einer **for-each** Schleife.
+
+```java
+public static void main(String[] args) {
+    String[] namen = {"Thomas","Frank","Simone","Oliver"};
+
+    for (String name : namen) {
+        System.out.println(name);            
+    }
+}
+```
+
+Dabei nimmt die Variable *name* alle Werte in dem Array an. Es entfällt die Indexvariable **i**, die Abfrage der Größe des Arrays, die Indizierung der Elemente.
+
+### Aufgabe 7
+
+Erweitern Sie ihr Programm aus der vorherigen Aufgabe und geben Sie alle Positionen auf dem erzeugten Bon auf der Konsole aus !
+
+### Lösung Aufgabe 7
+
+```java
+for (Artikel a : b.position) {
+    System.out.println(a);
+}
+```
 
 ## Speicherung von Objekten
 

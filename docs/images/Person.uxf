@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>110</y><w>130</w><h>80</h></coordinates><panel_attributes>Person
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>130</y><w>130</w><h>80</h></coordinates><panel_attributes>Person
 --
 + name:String
 + age: int

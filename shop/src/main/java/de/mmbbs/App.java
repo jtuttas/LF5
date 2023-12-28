@@ -12,7 +12,11 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String[] namen = {"Thomas","Frank","Simone","Oliver"};
+
+        for (String name : namen) {
+            System.out.println(name);            
+        }
     }
 
     public static int add(int a, int b) {
