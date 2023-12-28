@@ -360,3 +360,128 @@ for (Artikel a : b.position) {
 
 ## Speicherung von Objekten
 
+Die Daten eines Bons sollen im Dateisystem des PCs zur weiteren Verarbeitung gespeichert werden. Dabei soll das Dateiformat sowohl maschinenlesbar als auch vom Menschen lesbar sein. Geeignet für diese Anforderung sind unterschiedliche Formate wie **csv**,**xml** und **json**. 
+
+Betrachten wir dazu eine einfache Datenstruktur in Form eines Arrays, die Personen einer Gruppe speichert.
+
+![Klassendiagramm Gruppe](images/Gruppe.png)
+
+Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören:
+
+- Max Mustermann (m)
+- Simone Musterfrau (w)
+
+Die **CSV** Darstellung dieser Gruppe würde wie folgt aussehen:
+
+```csv
+"bezeichnung";"name";"geschlecht"
+"Sportverein";"Max Mustermann";"m"
+"Sportverein";"Simone Musterfrau";"w"
+```
+
+Die Darstellung als **XML** würde wie folgt aussehen:
+
+```xml
+<Gruppe>
+    <Bezeichnung>Sportverein</Bezeichnung>
+    <Person>
+        <name>Max Mustermann</name>
+        <geschlecht>m</geschlecht>
+    </Person>
+    <Person>
+        <name>Simone Musterfrau</name>
+        <geschlecht>w</geschlecht>
+    </Person>
+</Gruppe>
+```
+
+Als **JSON** würde die Darstellung wie folgt aussehen:
+
+```json
+{
+  "Gruppe": {
+    "Bezeichnung": "Sportverein",
+    "Person": [
+      {
+        "name": "Max Mustermann",
+        "geschlecht": "m"
+      },
+      {
+        "name": "Simone Musterfrau",
+        "geschlecht": "w"
+      }
+    ]
+  }
+}
+```
+
+### Aufgabe 8
+
+Unser Bon soll in einer geeigneten Datei gespeichert werden. Entscheiden Sie sich für eine Form der Darstellung:
+
+- als CSV Datei
+- als XML Datei
+- als JSON Datei
+
+und erstellen Sie die entsprechende Datei:
+
+![Klassendiagramm Warenkorb](images/Bon3.png)
+
+Dabei soll von folgenden Daten ausgegangen werden. 
+
+> Im Laden der GoodFood GmbH an der Hauptstraße 32, 30167 Hannover wird durch den Verkäufe "Max Mustermann" am 17.3.2024 ein Einkauf getätigt. Gekauft wird:
+>
+>- 3 kg Kartoffeln a 1.20€/kg (*)
+>- Ein Glas Wiesenhonig a 5.99€/Glas
+
+## Fragen zum Verständnis
+
+
+### Was ist der Hauptzweck der Klassendiagramme in der objektorientierten Programmierung?
+
+- [ ] A) Um die Benutzeroberfläche einer Anwendung zu entwerfen.
+- [ ] B) Um den Ablauf von Programmen darzustellen.
+- [x] C) Um die Struktur von Klassen und ihre Beziehungen zueinander zu visualisieren.
+- [ ] D) Um die Netzwerkarchitektur eines Systems zu illustrieren.
+
+### Was bedeutet "Vererbung" in der objektorientierten Programmierung?
+
+- [ ] A) Das Übertragen von Daten von einer Datenbank auf eine andere.
+- [ ] B) Das Kopieren von Methoden innerhalb einer Klasse.
+- [x] C) Das Weitergeben von Eigenschaften und Methoden einer Klasse (Elternklasse) an eine andere Klasse (Kindklasse).
+- [ ] D) Die Speicherung von Daten in einer Datei.
+
+### Was kennzeichnet eine "for-each" Schleife im Vergleich zu einer herkömmlichen "for" Schleife?
+
+- [ ] A) Sie kann nur für numerische Arrays verwendet werden.
+- [x] B) Sie vereinfacht das Durchlaufen von Sammlungen, indem sie direkt auf die Elemente zugreift, ohne einen Index zu verwenden.
+- [ ] C) Sie ist langsamer und weniger effizient als eine normale "for" Schleife.
+- [ ] D) Sie kann nur auf Listen und nicht auf Arrays angewendet werden.
+
+### Wofür wird das Schlüsselwort `extends` in Java verwendet?
+
+- [ ] A) Um eine neue Klasse zu erstellen.
+- [ ] B) Um eine Methode in einer Klasse zu definieren.
+- [x] C) Um eine Klasse zu kennzeichnen, die von einer anderen Klasse erbt.
+- [ ] D) Um eine Schnittstelle zu implementieren.
+
+### In einem Klassendiagramm, was stellt eine Assoziation zwischen zwei Klassen dar?
+
+- [ ] A) Eine Vererbungsbeziehung.
+- [ ] B) Eine Abhängigkeit zwischen Methoden.
+- [x] C) Eine Beziehung, in der eine Klasse ein Attribut oder ein Verhalten der anderen Klasse verwendet.
+- [ ] D) Eine parallele Ausführung von Klassen.
+
+### Was ist der Unterschied zwischen einem Array und einer ArrayList in Java?
+
+- [ ] A) Ein Array kann nur primitive Datentypen speichern, während eine ArrayList Objekte speichern kann.
+- [x] B) Ein Array hat eine feste Größe, während eine ArrayList dynamisch wachsen oder schrumpfen kann.
+- [ ] C) Ein Array ist schneller als eine ArrayList.
+- [ ] D) Eine ArrayList kann nur numerische Werte speichern.
+
+### Was kennzeichnet das CSV-Format im Vergleich zu JSON und XML?
+
+- [ ] A) Es unterstützt die Verschachtelung von Daten.
+- [ ] B) Es wird hauptsächlich für den Austausch von Daten zwischen verschiedenen Programmen verwendet.
+- [x] C) Es ist besonders geeignet für tabellarische Daten ohne komplexe Hierarchien.
+- [ ] D) Es verwendet Tags zur Darstellung von Datenstrukturen.

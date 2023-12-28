@@ -28,7 +28,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.2: Programmiersprachen | 18 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.2: Programmiersprachen | 20 Unterrichtsstunden |
 
 ### Handlungssituation
 
@@ -64,7 +64,7 @@ Implementierte Methode in Java.
 
 ### Leistungsnachweise
 
-- Kontinuierliche Leistungsermittlung über Kapitaltests
+- Kontinuierliche Leistungsermittlung über Kapiteltests
 
 ### Mögliche Verknüpfungen zu anderen Lernfeldern / Fächern
 
