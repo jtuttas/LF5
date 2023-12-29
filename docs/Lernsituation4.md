@@ -17,7 +17,7 @@ public class Person {
 
 Zur Darstellung dieser Daten dient das Klassendiagramm als grafische Notation.
 
-![Klassendiagramm Person](images/Person.png){ width=300px }
+![Klassendiagramm Person](images/Person.png){ width=200px }
 
 Zu beachten ist hier, dass die Notation für die Eigenschaften (**Attribute**) lautet:
 
@@ -29,7 +29,7 @@ In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz (re
 
 ### Lösung Aufgabe 1
 
-![Klassendiagramm Position](images/Position.png){ width=300px }
+![Klassendiagramm Position](images/Position.png){ width=200px }
 
 ```java
 public class Position {
@@ -46,7 +46,7 @@ Dinge in der realen Welt bestehen nicht nur aus einer Ansammlung von primitiven 
 
 So besteht ein Datum, z.B. aus den primitiven Daten Tag, Monat und Jahr und kann als Klassendiagramm wie folgt dargestellt werden.
 
-![Klassendiagramm Datum](images/Datum.png){ width=300px }
+![Klassendiagramm Datum](images/Datum.png){ width=200px }
 
 ```java
 public class Datum {
@@ -58,7 +58,7 @@ public class Datum {
 
 Die zuvor beschriebene Person mit einem Namen und einem Geschlecht, besitzt natürlich auch ein Geburtsdatum. Im Klassendiagramm kann dieser Sachverhalt wie folgt dargestellt werden.
 
-![Klassendiagramm Person & Datum](images/Person2.png){ width=600px }
+![Klassendiagramm Person & Datum](images/Person2.png){ width=400px }
 
 Im Java Code würde das wie folgt aussehen
 
@@ -100,7 +100,7 @@ Stellen Sie im Anschluss daran ihre Lösung der Klasse vor und diskutieren Sie i
 
 Dinge in der objektorientierten Welt haben jedoch nicht nur eine "ist Teil von" Beziehung, sondern ähneln einander im Sinne von einer "ist so etwas wie" Beziehung. So hat eine Flasche eine Füllmenge. Eine Cola Flasche ist dabei so etwas wie eine Flasche enthält aber ein coffeinhaltiges Getränk. Auch eine Weinflasche ist eine Flasche enthält aber ein alkoholisches Getränk mit einem alkoholgehalt. Im Klassendiagramm wird dieser Zusammenhang wie folgt dargestellt.
 
-![Klassendiagramm Flaschen](images/Flaschen.png){ width=600px }
+![Klassendiagramm Flaschen](images/Flaschen.png){ width=400px }
 
 Dabei bezeichnet man die allgemeine Klasse als **Elternklasse** und die konkreteren (spezialisierteren) Klassen als **Kindklasse**. Bei dieser Art von Beziehung gehen alle Attribute der Elternklasse auf die Kindklasse über, daher wird dieses auch als **Vererbung** bezeichnet. D.h. auch die Weinflasche besitzt ein *Volumen* hat aber zusätzlich das Attribut *Alkoholgehalt*.
 
@@ -130,7 +130,7 @@ Stellen Sie diesen Zusammenhang in Form eines Klassendiagramms dar und implement
 
 ### Lösung Aufgabe 3
 
-![Klassendiagramm Produkt](images/Produkt.png){ width=300px }
+![Klassendiagramm Produkt](images/Produkt.png){ width=200px }
 
 ```java
 
@@ -159,7 +159,7 @@ public class Main {
 }
 ```
 
-![Klassendiagramm Person ](images/Person2.png){ width=600px }
+![Klassendiagramm Person ](images/Person2.png){ width=400px }
 
 In dem oben gezeigten Java Code werden zwei Objekte **p1** und **p2** vom Typ Person erzeugt. Um auf die Einzelnen Attribute eines Objektes zugreifen zu können werden diese über **{Objektname}.{Eigenschaft}** angesprochen in unserem Fall können wird z.B. der Person **p1** den Namen "Max Mustermann" und das Geburtsdatum 1.5.1995 wie folgt zuweisen.
 
@@ -236,7 +236,7 @@ Informieren Sie sich wie in Java Arrays und ArrayLists deklariert werden und wie
 
 Im Klassendiagramm sind die Felder einzelne Attribute, die Beziehung zwischen den enthaltenen Elemente weist nun jedoch eine Nummerierung (**Kardinalität**) auf.
 
-![Klassendiagramm Zeugnis](images/Zeugnis.png){ width=300px }
+![Klassendiagramm Zeugnis](images/Zeugnis.png){ width=400px }
 
 ```java
 public class Zeugnis {
@@ -367,7 +367,7 @@ Die Daten eines Bons sollen im Dateisystem des PCs zur weiteren Verarbeitung ges
 
 Betrachten wir dazu eine einfache Datenstruktur in Form eines Arrays, die Personen einer Gruppe speichert.
 
-![Klassendiagramm Gruppe](images/Gruppe.png){ width=600px }
+![Klassendiagramm Gruppe](images/Gruppe.png){ width=400px }
 
 Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören:
 
@@ -434,7 +434,7 @@ und stellen Sie die Schulklasse in Form der gewählten Datei dar.
 
 Der Bon des Kassensystem soll in Form einer **JSON** Datei gespeichert werden.
 
-![Klassendiagramm Warenkorb](images/Bon3.png){ width=600px }
+![Klassendiagramm Warenkorb](images/Bon3.png){ width=400px }
 
 Dabei soll von folgenden Daten ausgegangen werden. 
 
