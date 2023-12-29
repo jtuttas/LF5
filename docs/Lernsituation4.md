@@ -6,28 +6,30 @@
 
 ## Daten und Klassen
 
-Dinge in der natürlichen Welt setzten sich zumeist aus verschiedenen Datentypen zusammen. So besitzt jede Person einen Namen (*String*) und ein Alter (*byte*). In objektorientierten Programmen werden diese Daten in Form einer Klasse zusammengefasst. 
+Dinge in der natürlichen Welt setzten sich zumeist aus verschiedenen primitiven Datentypen zusammen. So besitzt jede Person einen Namen (*String*) und ein Geschlecht 'm','w','d'  (*char*). In objektorientierten Programmen werden diese Daten in Form einer Klasse zusammengefasst. 
 
 ```java
 public class Person {
     public String name;
-    public int age;
+    public char geschlecht;
 }
 ```
 
 Zur Darstellung dieser Daten dient das Klassendiagramm als grafische Notation.
 
-![Klassendiagramm Person](images/Person.png)
+![Klassendiagramm Person](images/Person.png){ width=300px }
 
-Zu beachten ist hier, dass die Notation für die Eigenschaften (**Attribute**) lautet **Name des Attributs:Datentyp**.
+Zu beachten ist hier, dass die Notation für die Eigenschaften (**Attribute**) lautet:
+
+**Name des Attributs:Datentyp**.
 
 ### Aufgabe 1
 
-In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz (reduziert oder nicht reduzier) gespeichert. Erstellen Sie für das Kassensystem ein geeignetes Klassendiagramm für eine **Postition** (auf dem Bon) und implementieren Sie diese Datenstruktur in JAVA.
+In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz (reduziert oder nicht reduziert) gespeichert. Erstellen Sie für das Kassensystem ein geeignetes Klassendiagramm für eine **Postition** (auf dem Bon) und implementieren Sie diese Datenstruktur in JAVA.
 
 ### Lösung Aufgabe 1
 
-![Klassendiagramm Position](images/Position.png){ width=80px }
+![Klassendiagramm Position](images/Position.png){ width=300px }
 
 ```java
 public class Position {
@@ -44,7 +46,7 @@ Dinge in der realen Welt bestehen nicht nur aus einer Ansammlung von primitiven 
 
 So besteht ein Datum, z.B. aus den primitiven Daten Tag, Monat und Jahr und kann als Klassendiagramm wie folgt dargestellt werden.
 
-![Klassendiagramm Datum](images/Datum.png)
+![Klassendiagramm Datum](images/Datum.png){ width=300px }
 
 ```java
 public class Datum {
@@ -54,15 +56,16 @@ public class Datum {
 }
 ```
 
-Die zuvor beschriebene Person mit einem Namen und einem Alter, besitzt natürlich auch ein Geburtsdatum (aus dem man dann das Alter bestimmen, wodurch das alter redundant wird und weggelassen werden kann). Im Klassendiagramm kann dieser Sachverhalt wie folgt dargestellt werden.
+Die zuvor beschriebene Person mit einem Namen und einem Geschlecht, besitzt natürlich auch ein Geburtsdatum. Im Klassendiagramm kann dieser Sachverhalt wie folgt dargestellt werden.
 
-![Klassendiagramm Person & Datum](images/Person2.png)
+![Klassendiagramm Person & Datum](images/Person2.png){ width=600px }
 
 Im Java Code würde das wie folgt aussehen
 
 ```java
 public class Person {
     public String name;
+    public char geschlecht;
     public Datum geb;
 }
 ```
@@ -95,16 +98,16 @@ Stellen Sie im Anschluss daran ihre Lösung der Klasse vor und diskutieren Sie i
 
 ## Beziehungen zwischen Klassen ("ist so etwas wie Beziehung")
 
-Dinge in der objektorientierten Welt haben jedoch nicht nur eine "ist Teil von" Beziehung, sondern ähneln einander im Sinne von einer "ist so etwas wie" Beziehung. So hat eine Flasche eine Füllmenge. Eine Cola Flasche ist dabei so etwas wie eine Flasche enthält aber ein Coffein haltiges Getränk. Auch eine Weinflasche ist eine Flasche enthält aber ein alkoholisches Getränk mit einem alkoholgehalt. Im Klassendiagramm wird dieser Zusammenhang wie folgt dargestellt.
+Dinge in der objektorientierten Welt haben jedoch nicht nur eine "ist Teil von" Beziehung, sondern ähneln einander im Sinne von einer "ist so etwas wie" Beziehung. So hat eine Flasche eine Füllmenge. Eine Cola Flasche ist dabei so etwas wie eine Flasche enthält aber ein coffeinhaltiges Getränk. Auch eine Weinflasche ist eine Flasche enthält aber ein alkoholisches Getränk mit einem alkoholgehalt. Im Klassendiagramm wird dieser Zusammenhang wie folgt dargestellt.
 
-![Klassendiagramm Flaschen](images/Flaschen.png)
+![Klassendiagramm Flaschen](images/Flaschen.png){ width=600px }
 
 Dabei bezeichnet man die allgemeine Klasse als **Elternklasse** und die konkreteren (spezialisierteren) Klassen als **Kindklasse**. Bei dieser Art von Beziehung gehen alle Attribute der Elternklasse auf die Kindklasse über, daher wird dieses auch als **Vererbung** bezeichnet. D.h. auch die Weinflasche besitzt ein *Volumen* hat aber zusätzlich das Attribut *Alkoholgehalt*.
 
 Im Java code wird die "ist so was wie" Beziehung durch das Schlüsselwort **extends** beschrieben. So kann man den obigen Zusammenhang in Java wie folgt ausdrücken.
 
 ```java
-publci class WeinFlasche extends Flasche {
+public class WeinFlasche extends Flasche {
     public double alkoholgehalt;
 }
 ```
@@ -127,7 +130,7 @@ Stellen Sie diesen Zusammenhang in Form eines Klassendiagramms dar und implement
 
 ### Lösung Aufgabe 3
 
-![Klassendiagramm Produkt](images/Produkt.png)
+![Klassendiagramm Produkt](images/Produkt.png){ width=300px }
 
 ```java
 
@@ -156,7 +159,7 @@ public class Main {
 }
 ```
 
-![Klassendiagramm Person ](images/Person2.png)
+![Klassendiagramm Person ](images/Person2.png){ width=600px }
 
 In dem oben gezeigten Java Code werden zwei Objekte **p1** und **p2** vom Typ Person erzeugt. Um auf die Einzelnen Attribute eines Objektes zugreifen zu können werden diese über **{Objektname}.{Eigenschaft}** angesprochen in unserem Fall können wird z.B. der Person **p1** den Namen "Max Mustermann" und das Geburtsdatum 1.5.1995 wie folgt zuweisen.
 
@@ -233,7 +236,7 @@ Informieren Sie sich wie in Java Arrays und ArrayLists deklariert werden und wie
 
 Im Klassendiagramm sind die Felder einzelne Attribute, die Beziehung zwischen den enthaltenen Elemente weist nun jedoch eine Nummerierung (**Kardinalität**) auf.
 
-![Klassendiagramm Zeugnis](images/Zeugnis.png)
+![Klassendiagramm Zeugnis](images/Zeugnis.png){ width=300px }
 
 ```java
 public class Zeugnis {
@@ -265,7 +268,7 @@ Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesa
 
 ### Lösung Aufgabe 5
 
-![Klassendiagramm Bon mit Positionen](images/bon3.png)
+![Klassendiagramm](images/Bon3.png)
 
 ### Aufgabe 6
 
@@ -364,7 +367,7 @@ Die Daten eines Bons sollen im Dateisystem des PCs zur weiteren Verarbeitung ges
 
 Betrachten wir dazu eine einfache Datenstruktur in Form eines Arrays, die Personen einer Gruppe speichert.
 
-![Klassendiagramm Gruppe](images/Gruppe.png)
+![Klassendiagramm Gruppe](images/Gruppe.png){ width=600px }
 
 Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören:
 
@@ -415,17 +418,23 @@ Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören
 }
 ```
 
-### Aufgabe 8
+### Übung 4
 
-Unser Bon soll in einer geeigneten Datei gespeichert werden. Entscheiden Sie sich für eine Form der Darstellung:
+Eine Schulklasse hat eine *Bezeichnung*, einen *Klassenlehrer* (mit Namen, einem Kürzel und dem Merkmal freundlich / nicht freundlich) und besteht aus wenigstens drei *Schülern* mit Namen und Geschlecht.
+
+Wählen Sie eine Form der Darstellung: 
 
 - als CSV Datei
 - als XML Datei
 - als JSON Datei
 
-und erstellen Sie die entsprechende Datei:
+und stellen Sie die Schulklasse in Form der gewählten Datei dar.
 
-![Klassendiagramm Warenkorb](images/Bon3.png)
+### Aufgabe 8
+
+Der Bon des Kassensystem soll in Form einer **JSON** Datei gespeichert werden.
+
+![Klassendiagramm Warenkorb](images/Bon3.png){ width=600px }
 
 Dabei soll von folgenden Daten ausgegangen werden. 
 
@@ -434,8 +443,9 @@ Dabei soll von folgenden Daten ausgegangen werden.
 >- 3 kg Kartoffeln a 1.20€/kg (*)
 >- Ein Glas Wiesenhonig a 5.99€/Glas
 
-## Fragen zum Verständnis
+Erstellen Sie die entsprechende JSON Darstellung des Bons.
 
+## Fragen zum Verständnis
 
 ### Was ist der Hauptzweck der Klassendiagramme in der objektorientierten Programmierung?
 
