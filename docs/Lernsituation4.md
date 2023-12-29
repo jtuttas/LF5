@@ -19,15 +19,15 @@ Zur Darstellung dieser Daten dient das Klassendiagramm als grafische Notation.
 
 ![Klassendiagramm Person](images/Person.png)
 
-Zu beachten ist hier, dass die Notation lautet **Name des Attributs:Datentyp**.
+Zu beachten ist hier, dass die Notation für die Eigenschaften (**Attribute**) lautet **Name des Attributs:Datentyp**.
 
 ### Aufgabe 1
 
-In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz gespeichert. Erstellen Sie für das Kassensystem ein geeignetes Klassendiagramm für eine **Postition** (auf dem Bon) und implementieren Sie diese Datenstruktur in JAVA.
+In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz (reduziert oder nicht reduzier) gespeichert. Erstellen Sie für das Kassensystem ein geeignetes Klassendiagramm für eine **Postition** (auf dem Bon) und implementieren Sie diese Datenstruktur in JAVA.
 
 ### Lösung Aufgabe 1
 
-![Klassendiagramm Position](images/Position.png)
+![Klassendiagramm Position](images/Position.png){ width=80px }
 
 ```java
 public class Position {
@@ -371,7 +371,7 @@ Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören
 - Max Mustermann (m)
 - Simone Musterfrau (w)
 
-Die **CSV** Darstellung dieser Gruppe würde wie folgt aussehen:
+#### Die **CSV** Darstellung dieser Gruppe würde wie folgt aussehen
 
 ```csv
 "bezeichnung";"name";"geschlecht"
@@ -379,7 +379,7 @@ Die **CSV** Darstellung dieser Gruppe würde wie folgt aussehen:
 "Sportverein";"Simone Musterfrau";"w"
 ```
 
-Die Darstellung als **XML** würde wie folgt aussehen:
+#### Die Darstellung als **XML** würde wie folgt aussehen
 
 ```xml
 <Gruppe>
@@ -395,7 +395,7 @@ Die Darstellung als **XML** würde wie folgt aussehen:
 </Gruppe>
 ```
 
-Als **JSON** würde die Darstellung wie folgt aussehen:
+#### Als **JSON** würde die Darstellung wie folgt aussehen
 
 ```json
 {

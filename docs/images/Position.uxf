@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>130</x><y>150</y><w>160</w><h>140</h></coordinates><panel_attributes>Position
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>130</x><y>150</y><w>160</w><h>100</h></coordinates><panel_attributes>Position
 --
 + bezeichnung: String
 + preis:double
