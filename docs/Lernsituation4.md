@@ -22,7 +22,7 @@ Zur Darstellung dieser Daten dient das Klassendiagramm als grafische Notation.
 
 Zu beachten ist hier, dass die Notation für die Eigenschaften (**Attribute**) lautet:
 
-**Name des Attributs:Datentyp**.
+> **Name des Attributs:Datentyp**.
 
 ### Aufgabe 1
 
@@ -91,7 +91,7 @@ Erstellen Sie einer Klassendiagramm der Schulklasse, wobei möglichst viele "Din
 <!--ls4lsguebung1-->
 ### Lösung Übung 1
 
-![Klassendiagramm Schulklasse](images/Schulklasse.png)
+![Klassendiagramm Schulklasse](images/Schulklasse.png){ width=500px }
 
 <!--ls4lsguebung1-->
 ### Aufgabe 2
@@ -105,7 +105,7 @@ Stellen Sie im Anschluss daran ihre Lösung der Klasse vor und diskutieren Sie i
 ### Lösung Aufgabe 2
 <!--ls4lsgaufgabe2-->
 
-![Daten eines Bons](images/bon2.png)
+![Daten eines Bons](images/bon2.png){ width=500px }
 <!--ls4lsgaufgabe2-->
 <!--ls4uebung2-->
 
@@ -135,7 +135,7 @@ Stellen Sie diesen Zusammenhang im Klassendiagramm dar.
 ### Lösung Übung 2
 <!--ls4lsguebung2-->
 
-![Vererbungshierarchie](images/Vererbung.png)
+![Vererbungshierarchie](images/Vererbung.png){ width=500px }
 
 <!--ls4lsguebung2-->
 ### Aufgabe 3
@@ -202,7 +202,7 @@ public class Main {
 
 Im Laden der GoodFood GmbH an der Hauptstraße 32, 30167 Hannover wird durch den Verkäufe "Max Mustermann" am 17.3.2024 ein Einkauf getätigt. Erzeugen Sie das entsprechende *Bon* Objekt.
 
-![Klassendiagramm Bon](images/bon2.png)
+![Klassendiagramm Bon](images/bon2.png){ width=500px }
 
 > **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5> im Ordner shop/src/main/java/de/obj bereits enthalten!
 
@@ -262,7 +262,7 @@ Informieren Sie sich wie in Java Arrays und ArrayLists deklariert werden und wie
 
 Im Klassendiagramm sind die Felder einzelne Attribute, die Beziehung zwischen den enthaltenen Elemente weist nun jedoch eine Nummerierung (**Kardinalität**) auf.
 
-![Klassendiagramm Zeugnis](images/Zeugnis.png){ width=400px }
+![Klassendiagramm Zeugnis](images/Zeugnis.png){ width=500px }
 
 ```java
 public class Zeugnis {
@@ -276,7 +276,7 @@ public class Zeugnis {
 
 In der Übung 2 haben wir das Klassendiagramm für eine Schulklasse entworfen.
 
-![Klassendiagramm Schulklasse](images/Schulklasse.png)
+![Klassendiagramm Schulklasse](images/Schulklasse.png){ width=500px }
 
 Erweitern Sie das Klassendiagramm um eine ArrayList mit dem Namen *Schüler*, jeder Schüler sollte dabei einen Namen und ein Geschlecht besitzen.
 
@@ -284,7 +284,7 @@ Erweitern Sie das Klassendiagramm um eine ArrayList mit dem Namen *Schüler*, je
 ### Lösung Übung 3
 <!--ls4lsguebung3-->
 
-![Klassendiagramm Schulklasse mit Schülern](images/Schulklasse2.png)
+![Klassendiagramm Schulklasse mit Schülern](images/Schulklasse2.png){ width=500px }
 
 <!--ls4lsguebung3-->
 ### Aufgabe 5
@@ -292,7 +292,7 @@ Erweitern Sie das Klassendiagramm um eine ArrayList mit dem Namen *Schüler*, je
 
 Auf dem zuvor entworfenen Klassendiagramm für den Kassenbon sollen nun auch die Waren in Form Positionen erfasst werden.
 
-![Klassendiagramm Bon](images/bon2.png)
+![Klassendiagramm Bon](images/bon2.png){ width=500px }
 
 Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesamtpreis (netto) sowie dem Gesamtpreis (brutto). Erweitern Sie das Klassendiagramm in geeigneter Weise.
 
@@ -300,7 +300,7 @@ Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesa
 ### Lösung Aufgabe 5
 <!--ls4lsgaufgabe5-->
 
-![Klassendiagramm](images/Bon3.png)
+![Klassendiagramm](images/Bon3.png){ width=500px }
 
 <!--ls4lsgaufgabe5-->
 ### Aufgabe 6
@@ -479,7 +479,7 @@ und stellen Sie die Schulklasse in Form der gewählten Datei dar.
 
 Der Bon des Kassensystem soll in Form einer **JSON** Datei gespeichert werden.
 
-![Klassendiagramm Warenkorb](images/Bon3.png){ width=400px }
+![Klassendiagramm Warenkorb](images/Bon3.png){ width=500px }
 
 Dabei soll von folgenden Daten ausgegangen werden. 
 
