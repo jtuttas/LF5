@@ -34,7 +34,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 > Bedingungen / Schleifen, Nassi Sneidermann Diagramm, Blackbox & Whitebox Tests
 
-### [LS4: Daten und Datenstrukturen [16 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS4.md.pdf)
+### [LS4: Daten und Datenstrukturen [20 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS4.md.pdf)
 
 > Klassen, Klassendiagramm, Array und Listen, Iterationsschleife, CSV und JSON
 

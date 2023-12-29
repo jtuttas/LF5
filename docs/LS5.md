@@ -1,6 +1,6 @@
 # FIAE - Lernfeld 5
 
-## LS 5.1: Die Programmiersprache JAVA
+## LS 5.5: Datenbanken
 
 | Lernfeld | Bildungsgang | Ausbildungsjahr |
 | :--- | :--- | :---: |

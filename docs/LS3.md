@@ -44,6 +44,8 @@ Entwurf des Algorithmus in Form eines Nassi-Shneiderman-Diagramm (Struktogramm) 
 
 ### Vorausgesetzte Fähigkeiten und Kenntnisse
 
+keine
+
 | | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
 | Informieren bzw. Analysieren | Funktion von Kontrollstrukturen und der Darstellung als Struktogramm   | Die Schülerinnen und Schüler informieren sich über Bedingungen und Schleifen, stellen diese als Struktogramm dar  | Einzelarbeit / Plenum </br></br> Zur Darstellung von Struktogrammen wird das Programm **Structoriser** bzw. der Webdienst **Structog** verwendet.

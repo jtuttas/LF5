@@ -1,6 +1,6 @@
 # FIAE - Lernfeld 5
 
-## LS 5.1: Die Programmiersprache JAVA
+## LS 5.4: Daten und Datenstrukturen
 
 | Lernfeld | Bildungsgang | Ausbildungsjahr |
 | :--- | :--- | :---: |
@@ -28,26 +28,30 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Die Programmiersprache JAVA | 16 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.4: Daten und Datenstrukturen | 20 Unterrichtsstunden |
 
 ### Handlungssituation
 
-> 
+> Die Einkäufe (Warenkörbe) sollen im Kassensystem erfasst und als Datei im Computer zur Weiterverarbeitung gespeichert werden.
+>
+> Als Auszubildender wirken Sie bei dem Entwurf als auch bei der Implementierung der notwendigen Datenstruktur und deren Speicherung in Form einer Datei mit und stellen diese dem Entwicklerteam vor.
 
 ### Handlungsergebnis
 
-
+Darstellung der Datenstruktur eines Einkaufs (Bon) als Klassendiagramm und in Form einer JSON Datei.
 <div style="page-break-after: always;"></div>
 
 ### Vorausgesetzte Fähigkeiten und Kenntnisse
 
-| | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
+keine
+
+| Phase | Handlungskompetenz (Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
-| Informieren bzw. Analysieren |  |  |
-| Planen / Entscheiden |  |  |  |
-| Durchführen |  |  |  |
-| Kontrollieren / Bewerten |  |  |  |
-| Reflektieren |  |  |  |
+| Informieren bzw. Analysieren | **Fachkompetenz:** Grundlagen der Objektorientierung, Klassendiagramme, Datentypen und Klassen verstehen.<br>**Personale Kompetenz:** Analysefähigkeit, Detailorientierung. | Einführung in Objektorientierung, Klassendiagramme, Datenstrukturen. | Vortrag, Diskussion, Visualisierung von Klassendiagrammen. |
+| Planen / Entscheiden | **Fachkompetenz:** Planung und Entwurf von Klassenstrukturen.<br>**Personale Kompetenz:** Kreatives Denken, Entscheidungsfindung. | Entwurf von Klassendiagrammen für das Kassensystem, Definition von Klassen und Attributen. | Gruppenarbeit, Brainstorming, Entwurf von Diagrammen. |
+| Durchführen | **Fachkompetenz:** Implementierung von Klassen in Java.<br>**Personale Kompetenz:** Technische Fähigkeiten, Problemlösung. | Java-Programmierung, Erstellung von Klassen, Vererbung, Nutzung von Arrays und ArrayLists. | Praktische Programmierübungen, Paarprogrammierung. |
+| Kontrollieren / Bewerten | **Fachkompetenz:** Testen und Validieren von Code.<br>**Personale Kompetenz:** Kritische Bewertung, Detailgenauigkeit. | Überprüfung der Funktionsfähigkeit des Codes, Fehlersuche und -behebung. | Peer-Review, Selbstüberprüfung, Diskussion der Ergebnisse. |
+| Reflektieren | **Fachkompetenz:** Reflexion über Lernprozess und erzielte Ergebnisse.<br>**Personale Kompetenz:** Selbstreflexion, Feedbackverarbeitung. | Rückblick auf die Lerneinheit, Diskussion von Herausforderungen und Erfolgen. | Gruppendiskussion, Einzelgespräche, schriftliche Reflexion. |
 
 ### Arbeitsmaterialien / Links
 
@@ -56,10 +60,13 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ### Schulische Entscheidungen
 
-
+- Als Programmiersprache wird JAVA eingesetzt.
 <div style="page-break-after: always;"></div>
 
 ### Leistungsnachweise
 
+- Kontinuierlich durch kurze Kapiteltests.
 
 ### Mögliche Verknüpfungen zu anderen Lernfeldern / Fächern
+
+- LF4 (Datenschutz und Datensicherheit)
