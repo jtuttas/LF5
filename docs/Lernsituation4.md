@@ -4,6 +4,7 @@
  
  **Als Auszubildender wirken Sie bei dem Entwurf als auch bei der Implementierung der notwendigen Datenstruktur und deren Speicherung in Form einer Datei mit und stellen diese dem Entwicklerteam vor.**
 
+<!--ls4aufgabe1-->
 ## Daten und Klassen
 
 Dinge in der natürlichen Welt setzten sich zumeist aus verschiedenen primitiven Datentypen zusammen. So besitzt jede Person einen Namen (*String*) und ein Geschlecht 'm','w','d'  (*char*). In objektorientierten Programmen werden diese Daten in Form einer Klasse zusammengefasst. 
@@ -27,7 +28,9 @@ Zu beachten ist hier, dass die Notation für die Eigenschaften (**Attribute**) l
 
 In unserem Kassensystem werden Waren, deren Preis, Mengen und der MwSt.-Satz (reduziert oder nicht reduziert) gespeichert. Erstellen Sie für das Kassensystem ein geeignetes Klassendiagramm für eine **Postition** (auf dem Bon) und implementieren Sie diese Datenstruktur in JAVA.
 
+<!--ls4aufgabe1-->
 ### Lösung Aufgabe 1
+<!--ls4lsgaufgabe1-->
 
 ![Klassendiagramm Position](images/Position.png){ width=200px }
 
@@ -39,6 +42,8 @@ public class Position {
     public boolean reduziert;
 }
 ```
+<!--ls4lsgaufgabe1-->
+<!--ls4uebung1-->
 
 ## Beziehungen zwischen Klassen ("ist Teil von Beziehung")
 
@@ -82,19 +87,27 @@ Auch ihre Schulklasse besteht aus vielen Daten, die in einer Beziehung zueinande
 
 Erstellen Sie einer Klassendiagramm der Schulklasse, wobei möglichst viele "Dinge" in einzelnen Klassen zusammengefasst werden.
 
+<!--ls4uebung1-->
+<!--ls4lsguebung1-->
 ### Lösung Übung 1
 
 ![Klassendiagramm Schulklasse](images/Schulklasse.png)
 
+<!--ls4lsguebung1-->
 ### Aufgabe 2
+<!--ls4aufgabe2-->
 
 Untersuchen Sie die Daten auf einem Einkaufzettel und stellen Sie diese Daten in Form eins Klassendiagramms dar. Fassen Sie dabei möglichst viele Daten zu Klassen (Dinge) zusammen. Vernachlässigen Sie dabei die gekauften Positionen. 
 
 Stellen Sie im Anschluss daran ihre Lösung der Klasse vor und diskutieren Sie im Klassenverband Vor- und Nachteile der einzelnen Lösungen.
 
+<!--ls4aufgabe2-->
 ### Lösung Aufgabe 2
+<!--ls4lsgaufgabe2-->
 
 ![Daten eines Bons](images/bon2.png)
+<!--ls4lsgaufgabe2-->
+<!--ls4uebung2-->
 
 ## Beziehungen zwischen Klassen ("ist so etwas wie Beziehung")
 
@@ -118,17 +131,23 @@ public class WeinFlasche extends Flasche {
 
 Stellen Sie diesen Zusammenhang im Klassendiagramm dar.
 
+<!--ls4uebung2-->
 ### Lösung Übung 2
+<!--ls4lsguebung2-->
 
 ![Vererbungshierarchie](images/Vererbung.png)
 
+<!--ls4lsguebung2-->
 ### Aufgabe 3
+<!--ls4aufgabe3-->
 
 Auch in dem Kassensystem für die GoodFood GmbH treten Dinge in eine "ist so etwas wie" Beziehung auf. So gibt es in dem Ladengeschäft Produkte und LoseProdukte. Jedes Produkt hat dabei einen Namen, einen Preis und einen Mehrwertsteuersatz. Bei einem losen Produkt (wie Kartoffeln, Äpfel etc.) muss jedoch noch das Gewicht mit berücksichtigt werden.
 
 Stellen Sie diesen Zusammenhang in Form eines Klassendiagramms dar und implementieren Sie die Klasse Produkt und LosesProdukt in Java.
+<!--ls4aufgabe3-->
 
 ### Lösung Aufgabe 3
+<!--ls4lsgaufgabe3-->
 
 ![Klassendiagramm Produkt](images/Produkt.png){ width=200px }
 
@@ -145,6 +164,9 @@ public class LosesProdukt extends Produkt{
 }
 
 ```
+<!--ls4lsgaufgabe3-->
+
+<!--ls4aufgabe4-->
 
 ## Objekte erzeugen und Attribute zuweisen
 
@@ -189,7 +211,6 @@ public class Bon {
     public Ort filiale = new Ort();
     public Datum am = new Datum();
     public Person verkäufer = new Person();
-    public ArrayList<Artikel> position =new ArrayList<>();
 }
 
 public class Ort {
@@ -209,8 +230,10 @@ public class Datum {
     public short jahr;
 }
 ```
+<!--ls4aufgabe4-->
 
 ### Lösung Aufgabe 4
+<!--ls4lsgaufgabe4-->
 
 ```java
 public class Main {
@@ -227,6 +250,9 @@ public class Main {
     }
 }
 ```
+<!--ls4lsgaufgabe4-->
+
+<!--ls4uebung3-->
 
 ## Felder von Daten
 
@@ -254,11 +280,15 @@ In der Übung 2 haben wir das Klassendiagramm für eine Schulklasse entworfen.
 
 Erweitern Sie das Klassendiagramm um eine ArrayList mit dem Namen *Schüler*, jeder Schüler sollte dabei einen Namen und ein Geschlecht besitzen.
 
+<!--ls4uebung3-->
 ### Lösung Übung 3
+<!--ls4lsguebung3-->
 
 ![Klassendiagramm Schulklasse mit Schülern](images/Schulklasse2.png)
 
+<!--ls4lsguebung3-->
 ### Aufgabe 5
+<!--ls4aufgabe5-->
 
 Auf dem zuvor entworfenen Klassendiagramm für den Kassenbon sollen nun auch die Waren in Form Positionen erfasst werden.
 
@@ -266,11 +296,15 @@ Auf dem zuvor entworfenen Klassendiagramm für den Kassenbon sollen nun auch die
 
 Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesamtpreis (netto) sowie dem Gesamtpreis (brutto). Erweitern Sie das Klassendiagramm in geeigneter Weise.
 
+<!--ls4aufgabe5-->
 ### Lösung Aufgabe 5
+<!--ls4lsgaufgabe5-->
 
 ![Klassendiagramm](images/Bon3.png)
 
+<!--ls4lsgaufgabe5-->
 ### Aufgabe 6
+<!--ls4aufgabe6-->
 
 Dem in Aufgabe 4 erzeugten Bon sollen nun folgende Artikel hinzugefügt werden.
 
@@ -283,7 +317,9 @@ Fügen Sie diese Objekte dem Warenkorb hinzu.
 
 > **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5> im Ordner shop/src/main/java/de/obj bereits enthalten!
 
+<!--ls4aufgabe6-->
 ### Lösung Aufgabe 6
+<!--ls4lsgaufgabe6-->
 
 ```java
 public class Main {
@@ -320,6 +356,9 @@ public class Main {
     }
 }
 ```
+<!--ls4lsgaufgabe6-->
+
+<!--ls4aufgabe7-->
 
 ## Iterationsschleife "for each"
 
@@ -353,7 +392,9 @@ Dabei nimmt die Variable *name* alle Werte in dem Array an. Es entfällt die Ind
 
 Erweitern Sie ihr Programm aus der vorherigen Aufgabe und geben Sie alle Positionen auf dem erzeugten Bon auf der Konsole aus !
 
+<!--ls4aufgabe7-->
 ### Lösung Aufgabe 7
+<!--ls4lsgaufgabe7-->
 
 ```java
 for (Artikel a : b.position) {
@@ -361,6 +402,8 @@ for (Artikel a : b.position) {
 }
 ```
 
+<!--ls4lsgaufgabe7-->
+<!--ls4uebung4-->
 ## Speicherung von Objekten
 
 Die Daten eines Bons sollen im Dateisystem des PCs zur weiteren Verarbeitung gespeichert werden. Dabei soll das Dateiformat sowohl maschinenlesbar als auch vom Menschen lesbar sein. Geeignet für diese Anforderung sind unterschiedliche Formate wie **csv**,**xml** und **json**. 
@@ -405,8 +448,8 @@ Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören
   "Gruppe": {
     "Bezeichnung": "Sportverein",
     "Person": [
-      {
-        "name": "Max Mustermann",
+        {
+            "name": "Max Mustermann",
         "geschlecht": "m"
       },
       {
@@ -430,7 +473,9 @@ Wählen Sie eine Form der Darstellung:
 
 und stellen Sie die Schulklasse in Form der gewählten Datei dar.
 
+<!--ls4uebung4-->
 ### Aufgabe 8
+<!--ls4aufgabe8-->
 
 Der Bon des Kassensystem soll in Form einer **JSON** Datei gespeichert werden.
 
@@ -444,6 +489,7 @@ Dabei soll von folgenden Daten ausgegangen werden.
 >- Ein Glas Wiesenhonig a 5.99€/Glas
 
 Erstellen Sie die entsprechende JSON Darstellung des Bons.
+<!--ls4aufgabe8-->
 
 ## Fragen zum Verständnis
 
