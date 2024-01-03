@@ -91,7 +91,7 @@ Erstellen Sie einer Klassendiagramm der Schulklasse, wobei möglichst viele "Din
 <!--ls4lsguebung1-->
 ### Lösung Übung 1
 
-![Klassendiagramm Schulklasse](images/Schulklasse.png){ width=500px }
+![Klassendiagramm Schulklasse](images/Schulklasse.png){ width=600px }
 
 <!--ls4lsguebung1-->
 ### Aufgabe 2
@@ -135,7 +135,7 @@ Stellen Sie diesen Zusammenhang im Klassendiagramm dar.
 ### Lösung Übung 2
 <!--ls4lsguebung2-->
 
-![Vererbungshierarchie](images/Vererbung.png){ width=500px }
+![Vererbungshierarchie](images/Vererbung.png){ width=600px }
 
 <!--ls4lsguebung2-->
 ### Aufgabe 3
@@ -268,7 +268,7 @@ Im Klassendiagramm sind die Felder einzelne Attribute, die Beziehung zwischen de
 public class Zeugnis {
     public Person person;
     public Beruf beruf;
-    public ArrayList<Note> = new ArrayList();
+    public ArrayList<Note> noten = new ArrayList();
 }
 ```
 
@@ -284,7 +284,7 @@ Erweitern Sie das Klassendiagramm um eine ArrayList mit dem Namen *Schüler*, je
 ### Lösung Übung 3
 <!--ls4lsguebung3-->
 
-![Klassendiagramm Schulklasse mit Schülern](images/Schulklasse2.png){ width=500px }
+![Klassendiagramm Schulklasse mit Schülern](images/Schulklasse2.png){ width=600px }
 
 <!--ls4lsguebung3-->
 ### Aufgabe 5
@@ -497,20 +497,20 @@ Erstellen Sie die entsprechende JSON Darstellung des Bons.
 
 - [ ] A) Um die Benutzeroberfläche einer Anwendung zu entwerfen.
 - [ ] B) Um den Ablauf von Programmen darzustellen.
-- [x] C) Um die Struktur von Klassen und ihre Beziehungen zueinander zu visualisieren.
+- [ ] C) Um die Struktur von Klassen und ihre Beziehungen zueinander zu visualisieren.
 - [ ] D) Um die Netzwerkarchitektur eines Systems zu illustrieren.
 
 ### Was bedeutet "Vererbung" in der objektorientierten Programmierung?
 
 - [ ] A) Das Übertragen von Daten von einer Datenbank auf eine andere.
 - [ ] B) Das Kopieren von Methoden innerhalb einer Klasse.
-- [x] C) Das Weitergeben von Eigenschaften und Methoden einer Klasse (Elternklasse) an eine andere Klasse (Kindklasse).
+- [ ] C) Das Weitergeben von Eigenschaften und Methoden einer Klasse (Elternklasse) an eine andere Klasse (Kindklasse).
 - [ ] D) Die Speicherung von Daten in einer Datei.
 
 ### Was kennzeichnet eine "for-each" Schleife im Vergleich zu einer herkömmlichen "for" Schleife?
 
 - [ ] A) Sie kann nur für numerische Arrays verwendet werden.
-- [x] B) Sie vereinfacht das Durchlaufen von Sammlungen, indem sie direkt auf die Elemente zugreift, ohne einen Index zu verwenden.
+- [ ] B) Sie vereinfacht das Durchlaufen von Sammlungen, indem sie direkt auf die Elemente zugreift, ohne einen Index zu verwenden.
 - [ ] C) Sie ist langsamer und weniger effizient als eine normale "for" Schleife.
 - [ ] D) Sie kann nur auf Listen und nicht auf Arrays angewendet werden.
 
@@ -518,20 +518,20 @@ Erstellen Sie die entsprechende JSON Darstellung des Bons.
 
 - [ ] A) Um eine neue Klasse zu erstellen.
 - [ ] B) Um eine Methode in einer Klasse zu definieren.
-- [x] C) Um eine Klasse zu kennzeichnen, die von einer anderen Klasse erbt.
+- [ ] C) Um eine Klasse zu kennzeichnen, die von einer anderen Klasse erbt.
 - [ ] D) Um eine Schnittstelle zu implementieren.
 
 ### In einem Klassendiagramm, was stellt eine Assoziation zwischen zwei Klassen dar?
 
 - [ ] A) Eine Vererbungsbeziehung.
 - [ ] B) Eine Abhängigkeit zwischen Methoden.
-- [x] C) Eine Beziehung, in der eine Klasse ein Attribut oder ein Verhalten der anderen Klasse verwendet.
+- [ ] C) Eine Beziehung, in der eine Klasse ein Attribut oder ein Verhalten der anderen Klasse verwendet.
 - [ ] D) Eine parallele Ausführung von Klassen.
 
 ### Was ist der Unterschied zwischen einem Array und einer ArrayList in Java?
 
 - [ ] A) Ein Array kann nur primitive Datentypen speichern, während eine ArrayList Objekte speichern kann.
-- [x] B) Ein Array hat eine feste Größe, während eine ArrayList dynamisch wachsen oder schrumpfen kann.
+- [ ] B) Ein Array hat eine feste Größe, während eine ArrayList dynamisch wachsen oder schrumpfen kann.
 - [ ] C) Ein Array ist schneller als eine ArrayList.
 - [ ] D) Eine ArrayList kann nur numerische Werte speichern.
 
@@ -539,5 +539,5 @@ Erstellen Sie die entsprechende JSON Darstellung des Bons.
 
 - [ ] A) Es unterstützt die Verschachtelung von Daten.
 - [ ] B) Es wird hauptsächlich für den Austausch von Daten zwischen verschiedenen Programmen verwendet.
-- [x] C) Es ist besonders geeignet für tabellarische Daten ohne komplexe Hierarchien.
+- [ ] C) Es ist besonders geeignet für tabellarische Daten ohne komplexe Hierarchien.
 - [ ] D) Es verwendet Tags zur Darstellung von Datenstrukturen.
