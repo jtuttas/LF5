@@ -4,6 +4,7 @@
  
  **Als Auszubildender wirken Sie bei dem Entwurf der Datenbank mit und erstellen erste exemplarische SQL Abfragen für diese Datenbank.**
 
+<!--ls5aufg1a-->
 ## Entitäten und deren Beziehungen
 
 ### Entitäten
@@ -24,7 +25,7 @@ Dabei wird jeder Datensatz über einen eindeutigen Schlüssel, den **Primärschl
 
 Im Entity Relation Diagramm (**ER Diagramm**) werden diese Daten wie folgt dargestellt.
 
-![Entität Schüler](images/ER_Schueler1.drawio.png)
+![Entität Schüler](images/ER_Schueler1.drawio.png){ width=350px }
 
 **Wichtig**: Man beachte das der Primärschlüssel **ID** unterstrichen dargestellt wird.
 
@@ -52,7 +53,7 @@ So befindet sich Max Mustermann, Emma Beispiel und Leon Bauer in der Klasse FIAE
 
 Im ER Diagramm wird diese Beziehung durch eine Raute dargestellt, die die beiden Entitäten Klasse und Schüler verbindet.
 
-![Relation Schüler Klasse](images/ER_Schueler2.drawio.png)
+![Relation Schüler Klasse](images/ER_Schueler2.drawio.png){ width=500px }
 
 #### Aufgabe 1a
 
@@ -67,19 +68,27 @@ Die Produkte der GoodFood GmbH besitzen unterschiedliche Kategorien, wie z.B.
 
 Entwerfen Sie eine Datenbank in Form eines ER Diagramms, für die Produkte und deren Kategorien für die GoodFood GmbH. Weisen Sie dem Produkt mindestens 3 Attribute zu.
 
+<!--ls5aufg1a-->
 #### Lösung Aufgabe 1a
+<!--ls5lsgaufg1a-->
 
-![ER Diagramm Produkt und Kategorie](images/ER_goodFood1.drawio.png)
+Möglich Lösung für die Beziehung *Produkt* und *Kategorie*.
 
+![ER Diagramm Produkt und Kategorie](images/ER_goodFood1.drawio.png){ width=500px }
+
+<!--ls5lsgaufg1a-->
 #### Aufgabe 1b
+<!--ls5aufg1b-->
 
 Für die Beziehung Produkt - Kategorie soll folgendes ER Diagramm verwendet werden:
 
-![ER Diagramm Produkt und Kategorie](images/ER_goodFood1.drawio.png)
+![ER Diagramm Produkt und Kategorie](images/ER_goodFood1.drawio.png){ width=500px }
 
 Erstellen Sie mit Hilfe eines Tabellenkalkulationsprogramms die zuvor entworfene Datenbank. Die Datenbank sollte dabei wenigstens 4 Produkte und 3 Kategorien beinhalten.
 
+<!--ls5aufg1b-->
 #### Lösung Aufgabe 1b
+<!--ls5lsgaufg1b-->
 
 ##### Produkte Tabelle
 
@@ -101,6 +110,9 @@ Erstellen Sie mit Hilfe eines Tabellenkalkulationsprogramms die zuvor entworfene
 | 3           | Getränke   |
 | 4           | Milchprodukt|
 
+<!--ls5lsgaufg1b-->
+<!--ls5aufg2a-->
+
 ### Beziehungen von Entitäten (N:M - Viele zu viele Beziehung)
 
 Neben der **1:N** Beziehung existiert oft auch eine **N:M** Beziehung auch als *Viele zu Viele Beziehung* bezeichnet. So existieren in unsere Schule viele Lehrer. Auch die Lehrer sind in der Schulverwaltung erfasst, z.B. in folgender Tabelle:
@@ -115,7 +127,7 @@ Neben der **1:N** Beziehung existiert oft auch eine **N:M** Beziehung auch als *
 
 Jeder Lehrer unterrichtet dabei mehrere Klassen, dabei wird jedoch auch eine Klasse von mehreren Lehrern unterrichtet. Die Entitäten *Lehrer* und *Klasse* stehen also in einer **N:M** Beziehung. Im ER Diagramm wird dieses wie folgt dargestellt.
 
-![ER Diagramm Lehrer / Klasse](images/ER_Lehrer_Klasse.drawio.png)
+![ER Diagramm Lehrer / Klasse](images/ER_Lehrer_Klasse.drawio.png){ width=500px }
 
 Um diesen Sachverhalt in einer Relationalen Datenbank abzubilden muss eine weitere Tabelle erzeugt werden, eine **Relationstabelle**. Diese **Relationstabelle** besteht zumindest aus den **Primärschlüsseln** der beiden zu verbindenden Entitäten (in diesem Beispiel *Lehrer* und *Klasse*).
 
@@ -142,20 +154,28 @@ In diesem Beispiel würde somit der Lehrer "Jörg Tuttas", die Klasse FIAE23J un
 #### Aufgabe 2a
 
 Die GoodFood GmbH erhält Produkte von diversen regionalen Zuliefern. Erstellen Sie ein ER Diagramm welches diesen Zusammenhang darstellt. Jede Entität der Beziehung sollte wenigstens über 3 Attribute verfügen.
+<!--ls5aufg2a-->
 
 ##### Lösung Aufgabe 2a
+<!--ls5lsgaufg2a-->
 
-![ER Diagramm Produkt und Lieferant](images/ER_goodFood2.drawio.png)
+Möglich Lösung für die Beziehung der Entitäten *Produkt* und *Lieferant*.
+
+![ER Diagramm Produkt und Lieferant](images/ER_goodFood2.drawio.png){ width=500px }
+<!--ls5lsgaufg2a-->
 
 #### Aufgabe 2b
+<!--ls5aufg2b-->
 
 Es gilt folgendes ER-Diagramm:
 
-![ER Diagramm Produkt und Lieferant](images/ER_goodFood2.drawio.png)
+![ER Diagramm Produkt und Lieferant](images/ER_goodFood2.drawio.png){ width=500px }
 
 Erstellen Sie mit Hilfe einer Tabellenkalkulation dir notwendigen Tabellen zur Abbildung dieser Beziehung. Dabei sollte die Tabelle wenigstens 5 Produkt und drei Lieferanten beinhalten.
+<!--ls5aufg2b-->
 
 #### Lösung Aufgabe 2b
+<!--ls5lsgaufg2b-->
 
 ##### Tabelle "Produkt"
 
@@ -188,6 +208,9 @@ Erstellen Sie mit Hilfe einer Tabellenkalkulation dir notwendigen Tabellen zur A
 | 3   | 4   |
 | 3   | 6   |
 
+<!--ls5lsgaufg2b-->
+
+<!--ls5uebung2-->
 ## Structured Query Language (SQL)
 
 Die Structured Query Language (**SQL**) ist eine Abfragesprache für relationale Datenbanken. Die Abfragen werden mittels der **SELECT** Anweisung durchgeführt. Nachdem mittels eine Client die Verbindung zur Datenbank aufgebaut wurde, können die SQL Befehle abgeschickt werden.
@@ -197,11 +220,11 @@ Die Structured Query Language (**SQL**) ist eine Abfragesprache für relationale
 
 Der Aufbau der **SELECT** Anweisung ist in der folgenden Grafik dargestellt. 
 
-![SQL SELECT Syntax](images/sql-select-syntax.JPG)
+![SQL SELECT Syntax](images/sql-select-syntax.JPG){ width=600px }
 
 Die Datenbank für das Kassensystem der GoodFood GmbH besteht aktuell aus vier Entitäten (Produkt, Verkäufer, Lieferant und Kategorie) und befindet sich im Ordner **shop** des Repositories. Die Datenbank hat dabei folgenden Struktur:
 
-![ER Diagramm Kassensystem](images/erdiagramm.drawio.png)
+![ER Diagramm Kassensystem](images/erdiagramm.drawio.png){ width=600px }
 
 ### Übung 1
 
@@ -213,9 +236,11 @@ SELECT * from Produkt;
 
 Im Anschluss daran müssten Sie alle alle Produkte des Geschäfts aufgelistet sehen. Ändern Sie ihre SQL Anweisung dahingegen, dass die Produkte alphabetische sortiert nach den Produktnamen gelistet werden.
 
+<!--ls5uebung2-->
 ### Aufgabe 3
+<!--ls5aufg3-->
 
-![ER Diagramm Kassensystem](images/erdiagramm.drawio.png)
+![ER Diagramm Kassensystem](images/erdiagramm.drawio.png){ width=600px }
 
 Erstellen Sie für die folgenden Anforderungen die geeigneten SELECT Anweisungen
 
@@ -230,65 +255,67 @@ Erstellen Sie für die folgenden Anforderungen die geeigneten SELECT Anweisungen
 9. Ermitteln Sie die Gesamtanzahl der Lieferungen für jedes Produkt aus der Tabelle liefert, nutzen Sie hierzu das **GROUP BY** Statement.
 10. Finden Sie heraus, welcher Verkäufer die meisten Produkte verkauft hat, basierend auf der Tabelle verkauft. Nutzen Sie hierzu die **sum** Funktion.
 
+<!--ls5aufg3-->
 ### Lösung Aufgabe 3
+<!--ls5lsgaufg3-->
 
-#### Aufgabe 1
+#### Lösung Aufgabe 1
 
 ```sql
 SELECT Vorname, Nachname FROM Verkäufer;
 
 ```
 
-#### Aufgabe 2
+#### Lösung Aufgabe 2
 
 ```sql
 SELECT AVG(Menge) AS DurchschnittlicheMenge FROM verkauft;
 
 ```
 
-#### Aufgabe 3
+#### Lösung Aufgabe 3
 
 ```sql
 SELECT * FROM Produkt WHERE Preis > 3.00;
 
 ```
 
-#### Aufgabe 4
+#### Lösung Aufgabe 4
 
 ```sql
 SELECT * FROM Lieferant WHERE Stadt = 'München';
 
 ```
 
-#### Aufgabe 5
+#### Lösung Aufgabe 5
 
 ```sql
 SELECT COUNT(*) AS AnzahlProdukte FROM Produkt;
 
 ```
 
-#### Aufgabe 6
+#### Lösung Aufgabe 6
 
 ```sql
 SELECT Bezeichnung FROM Kategorie;
 
 ```
 
-#### Aufgabe 7
+#### Lösung Aufgabe 7
 
 ```sql
 SELECT * FROM verkauft WHERE Datum_Uhrzeit BETWEEN '2024-01-01' AND '2024-01-31 23:59:59';
 
 ```
 
-#### Aufgabe 8
+#### Lösung Aufgabe 8
 
 ```sql
 SELECT * FROM Produkt WHERE Preis = (SELECT MAX(Preis) FROM Produkt);
 
 ```
 
-#### Aufgabe 9
+#### Lösung Aufgabe 9
 
 ```sql
 SELECT PID, COUNT(*) AS AnzahlLieferungen FROM liefert GROUP BY PID;
@@ -296,12 +323,13 @@ SELECT PID, COUNT(*) AS AnzahlLieferungen FROM liefert GROUP BY PID;
 
 ```
 
-#### Aufgabe 10
+#### Lösung Aufgabe 10
 
 ```sql
 SELECT VID, SUM(Menge) AS Gesamtmenge FROM verkauft GROUP BY VID ORDER BY Gesamtmenge DESC LIMIT 1;
 
 ```
+<!--ls5lsgaufg3-->
 
 ## Fragen zum Verständnis
 

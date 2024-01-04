@@ -1,6 +1,6 @@
 # FIAE - Lernfeld 5
 
-## LS 5.5: Datenbanken
+## LS 5.5: Datenbankentwurf und Datenbank abfragen
 
 | Lernfeld | Bildungsgang | Ausbildungsjahr |
 | :--- | :--- | :---: |
@@ -28,26 +28,30 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 | Curricularer Bezug | Titel der Lernsituation (Kurzfassung) | Geplanter Zeitrichtwert |
 | :--- | :--- | :---: |
-| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.1: Die Programmiersprache JAVA | 16 Unterrichtsstunden |
+| Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27 | LS 5.5: Datenbankentwurf und Datenbankabfragen| 16 Unterrichtsstunden |
 
 ### Handlungssituation
 
-> 
+> Die Umsätze der GoodFood GmbH sollen zur späteren Auswertung dauerhaft (persistent) in einer Datenbank gespeichert werden.
+>
+> Als Auszubildender wirken Sie bei dem Entwurf der Datenbank mit und erstellen erste exemplarische SQL Abfragen für diese Datenbank.
 
 ### Handlungsergebnis
+
+Entwurf der Datenbank in Form eines ER-Diagramms und Formulierung geeigneter Abfragen in SQL. 
 
 
 <div style="page-break-after: always;"></div>
 
 ### Vorausgesetzte Fähigkeiten und Kenntnisse
 
-| | Handlungskompetenz</br>(Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
+| | Handlungskompetenz (Fachkompetenz und Personale Kompetenz) | Inhalte | Sozialform/Methoden |
 | :--- | :--- | :--- | :--- |
-| Informieren bzw. Analysieren |  |  |
-| Planen / Entscheiden |  |  |  |
-| Durchführen |  |  |  |
-| Kontrollieren / Bewerten |  |  |  |
-| Reflektieren |  |  |  |
+| **Informieren bzw. Analysieren** | **Fachkompetenz:** Verstehen der Grundlagen relationaler Datenbanken und ER-Diagramme.<br>**Personale Kompetenz:** Analytische Fähigkeiten, kritisches Denken. | Grundlagen relationaler Datenbanken, Entitäten und Beziehungen, Primär- und Fremdschlüssel, ER-Diagramme. | Vortrag, Gruppendiskussion, Analyse von Beispiel-Datenbanken. |
+| **Planen / Entscheiden** | **Fachkompetenz:** Entwurf von Datenbankstrukturen und Beziehungen.<br>**Personale Kompetenz:** Problemlösung, Entscheidungsfindung. | Datenmodellierung, Entwerfen von ER-Diagrammen, Festlegung von Schlüsseln und Beziehungen. | Gruppenarbeit, Fallstudien, Brainstorming. |
+| **Durchführen** | **Fachkompetenz:** Anwendung von SQL zur Datenmanipulation.<br>**Personale Kompetenz:** Präzision, Detailorientierung. | SQL-Grundlagen, Erstellen von Abfragen (SELECT Anweisung), Anwendung von Funktionen (AVG, COUNT, etc.). | Praktische Übungen am Computer, SQL-Simulationstools, individuelle Projektaufgaben. |
+| **Kontrollieren / Bewerten** | **Fachkompetenz:** Überprüfung und Optimierung von Datenbankabfragen.<br>**Personale Kompetenz:** Selbstkritik, Qualitätsbewusstsein. | Überprüfung der Abfrageergebnisse, Performance-Optimierung, Fehleranalyse. | Peer-Review, Präsentation der Ergebnisse, Lehrerfeedback. |
+| **Reflektieren** | **Fachkompetenz:** Bewertung der Lernergebnisse und Methoden.<br>**Personale Kompetenz:** Selbstreflexion, Lernbereitschaft. | Reflexion über den Lernprozess, Diskussion über Herausforderungen und Lösungsstrategien. | Diskussionsrunden, Feedback-Bögen, Reflexions-Tagebuch. |
 
 ### Arbeitsmaterialien / Links
 
@@ -56,10 +60,15 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 ### Schulische Entscheidungen
 
+- Als Datenbankmanagementsystem wird SQLite verwendet.
 
 <div style="page-break-after: always;"></div>
 
 ### Leistungsnachweise
 
+- Kontinuierlich durch kurze Kapiteltests.
+- Klassenarbeit zum Thema Datenbankentwurf und Datenbankabfragen
 
 ### Mögliche Verknüpfungen zu anderen Lernfeldern / Fächern
+
+- LF4 (Datenschutz und Datensicherheit)

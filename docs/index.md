@@ -26,11 +26,11 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 > Lasten- u. Pflichtenheft, funktionale und nicht funktionale Anforderungen, Use Case Diagramm
 
-### [LS2: Programmiersprachen (JAVA) [20 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS2.md.pdf)
+### [LS2: Programmiersprachen (JAVA) [22 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS2.md.pdf)
 
 > Compiler- vs. Interpreter-Sprachen, Laufzeitumgebung und IDE installieren, Arbeiten mit einer Versionskontrolle, Variablen und Datentypen / Typumwandlung, Ein- / Ausgabe, Operatoren, EVA Prinzip,  Funktionen / Methoden, Komponenten Tests.
 
-### [LS3: Kontrollstrukturen [14 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS3.md.pdf)
+### [LS3: Kontrollstrukturen [16 Std.]](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS3.md.pdf)
 
 > Bedingungen / Schleifen, Nassi Sneidermann Diagramm, Blackbox & Whitebox Tests
 
@@ -38,10 +38,7 @@ Sie **evaluieren** den Prozess der Softwareentwicklung.
 
 > Klassen, Klassendiagramm, Array und Listen, Iterationsschleife, CSV und JSON
 
-### [LS5: Datenbanken [18 Std.] - LF8](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS5.md.pdf)
+### [LS5: Datenbanken [16 Std.] - LF8](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS5.md.pdf)
 
 > DBMS, ER Diagramm, Relations-Schema , Abfragen von Datenbanken mittels SQL
 
-### [LS6: Benutzeroberflächen [8 Std.] - LF10](https://raw.githubusercontent.com/jtuttas/LF5/master/pdfs/LS7.md.pdf)
-
-> GUI Element, Mock Up
