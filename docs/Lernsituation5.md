@@ -220,11 +220,11 @@ Die Structured Query Language (**SQL**) ist eine Abfragesprache für relationale
 
 Der Aufbau der **SELECT** Anweisung ist in der folgenden Grafik dargestellt. 
 
-![SQL SELECT Syntax](images/sql-select-syntax.JPG){ width=600px }
+![SQL SELECT Syntax](images/sql-select-syntax.JPG){ width=700px }
 
 Die Datenbank für das Kassensystem der GoodFood GmbH besteht aktuell aus vier Entitäten (Produkt, Verkäufer, Lieferant und Kategorie) und befindet sich im Ordner **shop** des Repositories. Die Datenbank hat dabei folgenden Struktur:
 
-![ER Diagramm Kassensystem](images/erdiagramm.drawio.png){ width=600px }
+![ER Diagramm Kassensystem](images/erdiagramm.drawio.png){ width=700px }
 
 ### Übung 1
 
@@ -240,9 +240,9 @@ Im Anschluss daran müssten Sie alle alle Produkte des Geschäfts aufgelistet se
 ### Aufgabe 3
 <!--ls5aufg3-->
 
-![ER Diagramm Kassensystem](images/erdiagramm.drawio.png){ width=600px }
+![ER Diagramm Kassensystem](images/erdiagramm.drawio.png){ width=700px }
 
-Erstellen Sie für die folgenden Anforderungen die geeigneten SELECT Anweisungen
+**Aufgabe**: Erstellen Sie für die folgenden Anforderungen die geeigneten SELECT Anweisungen
 
 1. Wählen Sie alle Namen der Verkäufer aus der Tabelle Verkäufer.
 2. Ermitteln Sie die durchschnittliche Menge der verkauften Produkte aus der Tabelle verkauft, nutzen Sie hierzu die **AVG** Funktion.
@@ -259,63 +259,63 @@ Erstellen Sie für die folgenden Anforderungen die geeigneten SELECT Anweisungen
 ### Lösung Aufgabe 3
 <!--ls5lsgaufg3-->
 
-#### Lösung Aufgabe 1
+**Lösung SQL 1**
 
 ```sql
 SELECT Vorname, Nachname FROM Verkäufer;
 
 ```
 
-#### Lösung Aufgabe 2
+**Lösung SQL 2**
 
 ```sql
 SELECT AVG(Menge) AS DurchschnittlicheMenge FROM verkauft;
 
 ```
 
-#### Lösung Aufgabe 3
+**Lösung SQL 3**
 
 ```sql
 SELECT * FROM Produkt WHERE Preis > 3.00;
 
 ```
 
-#### Lösung Aufgabe 4
+**Lösung SQL 4**
 
 ```sql
 SELECT * FROM Lieferant WHERE Stadt = 'München';
 
 ```
 
-#### Lösung Aufgabe 5
+**Lösung SQL 5**
 
 ```sql
 SELECT COUNT(*) AS AnzahlProdukte FROM Produkt;
 
 ```
 
-#### Lösung Aufgabe 6
+**Lösung SQL 6**
 
 ```sql
 SELECT Bezeichnung FROM Kategorie;
 
 ```
 
-#### Lösung Aufgabe 7
+**Lösung SQL 7**
 
 ```sql
 SELECT * FROM verkauft WHERE Datum_Uhrzeit BETWEEN '2024-01-01' AND '2024-01-31 23:59:59';
 
 ```
 
-#### Lösung Aufgabe 8
+**Lösung SQL 8**
 
 ```sql
 SELECT * FROM Produkt WHERE Preis = (SELECT MAX(Preis) FROM Produkt);
 
 ```
 
-#### Lösung Aufgabe 9
+**Lösung SQL 9**
 
 ```sql
 SELECT PID, COUNT(*) AS AnzahlLieferungen FROM liefert GROUP BY PID;
@@ -323,7 +323,7 @@ SELECT PID, COUNT(*) AS AnzahlLieferungen FROM liefert GROUP BY PID;
 
 ```
 
-#### Lösung Aufgabe 10
+**Lösung SQL 10**
 
 ```sql
 SELECT VID, SUM(Menge) AS Gesamtmenge FROM verkauft GROUP BY VID ORDER BY Gesamtmenge DESC LIMIT 1;
@@ -335,30 +335,30 @@ SELECT VID, SUM(Menge) AS Gesamtmenge FROM verkauft GROUP BY VID ORDER BY Gesamt
 
 1. Was ist der Zweck eines Primärschlüssels in einer relationalen Datenbank?
    - [ ] a) Um die Geschwindigkeit von Datenbankabfragen zu erhöhen.
-   - [x] b) Zur eindeutigen Identifizierung eines Datensatzes in einer Tabelle.
+   - [ ] b) Zur eindeutigen Identifizierung eines Datensatzes in einer Tabelle.
    - [ ] c) Um Beziehungen zwischen verschiedenen Tabellen herzustellen.
    - [ ] d) Um die Daten in der Datenbank zu verschlüsseln.
 
 2. Welches Schlüsselelement wird in einer relationalen Datenbanktabelle verwendet, um eine Verbindung zu einer anderen Tabelle herzustellen?
    - [ ] a) Primärschlüssel
-   - [x] b) Fremdschlüssel
+   - [ ] b) Fremdschlüssel
    - [ ] c) Eindeutiger Schlüssel
    - [ ] d) Index
 
 3. Welches SQL-Schlüsselwort wird genutzt, um eine sortierte Ausgabe der Ergebnisse einer SELECT-Anweisung zu erzielen?
    - [ ] a) GROUP BY
-   - [x] b) ORDER BY
+   - [ ] b) ORDER BY
    - [ ] c) SORT BY
    - [ ] d) ALIGN BY
 
 4. Welche Funktion wird in SQL verwendet, um die durchschnittliche Menge eines verkauften Produkts zu ermitteln?
    - [ ] a) SUM()
-   - [x] b) AVG()
+   - [ ] b) AVG()
    - [ ] c) COUNT()
    - [ ] d) MAX()
 
 5. Wie wird in SQL eine Abfrage formuliert, um alle Produkte zu finden, deren Preis über 3 Euro liegt?
    - [ ] a) SELECT * FROM Produkt WHERE Preis = 3;
    - [ ] b) SELECT * FROM Produkt HAVING Preis > 3;
-   - [x] c) SELECT * FROM Produkt WHERE Preis > 3.00;
+   - [ ] c) SELECT * FROM Produkt WHERE Preis > 3.00;
    - [ ] d) SELECT * FROM Produkt IF Preis > 3;
