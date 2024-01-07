@@ -190,7 +190,7 @@ public class PrimzahlenPruefung {
 <!--ls3lsguebung2b-->
 <!--ls3uebung3-->
 
-## Übung 3
+### Übung 3
 
 Einwickeln Sie einen Algorithmus in Form von **Pseudocode**, der dem Junge sagt wie alt er ist. Stellen Sie diesen Algorithmus ihren Mitschülern vor.
 

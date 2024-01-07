@@ -31,7 +31,7 @@ Im Entity Relation Diagramm (**ER Diagramm**) werden diese Daten wie folgt darge
 
 ### Beziehungen von Entitäten (1:N - Eins zu viele Beziehung)
 
-In ähnlicher Weise wir Objekte in einer Beziehung, stehen auch Entitäten in Beziehungen zueinander. So ist in der Schulverwaltung sicherlich eine Entität *Klassen* enthalten, mit z.B. folgenden Inhalten:
+In ähnlicher Weise wir Klassen in der objektorientierten Programmierung in einer Beziehung, stehen auch Entitäten einer Datenbank in Beziehungen zueinander. So ist in der Schulverwaltung sicherlich eine Entität *SchulKlasse* enthalten, mit z.B. folgenden Inhalten:
 
 | ID  | Bezeichnung | Ausbildungsberuf |
 | --- | ----------- | ---------------- |
