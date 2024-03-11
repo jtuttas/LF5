@@ -220,7 +220,7 @@ Die Structured Query Language (**SQL**) ist eine Abfragesprache für relationale
 
 Der Aufbau der **SELECT** Anweisung ist in der folgenden Grafik dargestellt. 
 
-![SQL SELECT Syntax](https://home.mengelke.de/html-php-mysql/sqlite-3_7_3-docs/images/syntax/select-core.gif)
+![SQL SELECT Syntax](https://docs.devart.com/dotconnect/salesforce/SelectMain.png)
 
 Die Datenbank für das Kassensystem der GoodFood GmbH besteht aktuell aus vier Entitäten (Produkt, Verkäufer, Lieferant und Kategorie) und befindet sich im Ordner **shop** des Repositories. Die Datenbank hat dabei folgenden Struktur:
 
