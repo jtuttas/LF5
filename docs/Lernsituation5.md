@@ -244,16 +244,16 @@ Im Anschluss daran müssten Sie alle alle Produkte des Geschäfts aufgelistet se
 
 **Aufgabe**: Erstellen Sie für die folgenden Anforderungen die geeigneten SELECT Anweisungen
 
-1. Wählen Sie alle Namen der Verkäufer aus der Tabelle Verkäufer.
-2. Ermitteln Sie die durchschnittliche Menge der verkauften Produkte aus der Tabelle verkauft, nutzen Sie hierzu die **AVG** Funktion.
+1. Erzeugen Sie ein Liste mit Vor- und Nachnamen der Verkäufer.
+2. Ermitteln Sie die durchschnittliche Menge der verkauften Produkte, nutzen Sie hierzu die **AVG** Funktion.
 3. Wählen Sie alle Produkte aus, die einen Preis von über 3 Euro haben.
 4. Listen Sie alle Lieferanten auf, die in der Stadt 'München' ansässig sind.
-5. Finden Sie die Anzahl der verschiedenen Produkte, die in der Tabelle Produkt gelistet sind, nutzen Sie hierzu dien **count(*)** Funktion.
-6. Wählen Sie die Namen aller Kategorien aus der Tabelle Kategorie.
+5. Ermitteln Sie die Anzahl der erhältlichen Produkte. Nutzen Sie hierzu die _count(*)_ Funktion.
+6. Erzeugen Sie eine Liste aller Kategorien mit ihrer Bezeichnung.
 7. Wählen Sie alle Einträge aus der Tabelle verkauft, die im Januar 2024 getätigt wurden.
 8. Wählen Sie den teuersten Artikel aus der Tabelle Produkt.
-9. Ermitteln Sie die Gesamtanzahl der Lieferungen für jedes Produkt aus der Tabelle liefert, nutzen Sie hierzu das **GROUP BY** Statement.
-10. Finden Sie heraus, welcher Verkäufer die meisten Produkte verkauft hat, basierend auf der Tabelle verkauft. Nutzen Sie hierzu die **sum** Funktion.
+9. Ermitteln Sie die Gesamtanzahl der Produkte aus, die ein Lieferant liefert. Nutzen Sie hierzu das **GROUP BY** Statement.
+10. Finden Sie heraus, welcher Verkäufer die meisten Produkte verkauft hat. Nutzen Sie hierzu die **sum** Funktion.
 
 <!--ls5aufg3-->
 ### Lösung Aufgabe 3
