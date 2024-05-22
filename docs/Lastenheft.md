@@ -16,4 +16,4 @@ Die Benutzeroberfläche des Kassensystems sollte intuitiv und verständlich sein
 
 Ein weiterer Aspekt ist die Stornierung von Verkaufsvorgängen. Verkäufe sollten rückgängig gemacht werden können, aber nur vom Filialleiter, um Missbrauch zu verhindern.
 
-Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken zu generieren, um den Erfolg der Filiale zu überwachen und gegebenenfalls Anpassungen vorzunehmen.
+Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken durch den Filialleiter zu generieren, um den Erfolg der Filiale zu überwachen und gegebenenfalls Anpassungen vorzunehmen.

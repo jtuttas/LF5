@@ -35,7 +35,7 @@ Die Benutzeroberfläche des Kassensystems sollte intuitiv und verständlich sein
 
 Ein weiterer Aspekt ist die Stornierung von Verkaufsvorgängen. Verkäufe sollten rückgängig gemacht werden können, aber nur vom Filialleiter, um Missbrauch zu verhindern.
 
-Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken zu generieren, um den Erfolg der Filiale zu überwachen und gegebenenfalls Anpassungen vorzunehmen.
+Abschließend sollte das Kassensystem die Möglichkeit bieten, Umsatzstatistiken durch den Filialleiter zu generieren, um den Erfolg der Filiale zu überwachen und gegebenenfalls Anpassungen vorzunehmen.
 
 <!--lastenheft-->
 
@@ -114,7 +114,7 @@ Was beschreibt das Pflichtenheft im Gegensatz zum Lastenheft genauer?
 - [ ] A) Die allgemeinen Erwartungen des Kunden.
 - [ ] B) Die technische Spezifikation und konkrete Umsetzungsanforderungen.
 - [ ] C) Den wirtschaftlichen Hintergrund des Projekts.
-- [ ] D) Die Nutzeranforderungen aus der Sicht des Endanwenders.
+- [ ] D) Die Auflistung der funktionalen und nichtfunktionalen Anforderungen.
 
 ---
 
@@ -141,7 +141,7 @@ Welche Aussage beschreibt die „include“-Beziehung in einem UML Use Case Diag
 - [ ] A) Sie repräsentiert eine optionale Beziehung, bei der ein Use Case unter bestimmten Bedingungen einen anderen Use Case aufruft.
 - [ ] B) Sie zeigt, dass ein Use Case immer einen anderen Use Case aufruft, um eine bestimmte Funktionalität sicherzustellen.
 - [ ] C) Sie drückt aus, dass ein Akteur in einem spezifischen Use Case verallgemeinert oder spezialisiert werden kann.
-- [ ] D) Sie stellt eine Beziehung dar, bei der zwei Use Cases gleichzeitig aktiviert werden müssen.
+- [ ] D) Die «include» Beziehung zeigt, dass ein Akteur mehrere Rollen im Use Case Diagramm übernehmen kann.
 
 ---
 
