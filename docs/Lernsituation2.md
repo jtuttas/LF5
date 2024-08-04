@@ -66,7 +66,7 @@ Sammeln Sie im Klassenverband zunächst Aspekte die eine Versionsverwaltungs-Sof
 
 ### Aufgabe 4
 
-Die Versionsverwaltung **git** ist eine Konsolen-Anwendung. Informieren Sie sich über die wichtigsten Kommandos des Programms **git**. Sie dazu auch [Git Cheat Sheet](images/github-git-cheat-sheet.pdf)
+Die Versionsverwaltung **git** ist eine Konsolen-Anwendung. Informieren Sie sich über die wichtigsten Kommandos des Programms **git**. Sie dazu auch [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 Führen Sie den folgenden Arbeitsprozess durch. Notieren Sie sich dabei die verwendeten **git-Befehle**.
 
