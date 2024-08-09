@@ -55,9 +55,8 @@ Ermitteln Sie die funktionalen und nicht funktionalen Anforderungen an die zu en
 |                  | - Erfassung von Stückwaren und gewichtsbasierten Waren (Preisberechnung in €/kg)|
 |                  | - Stornierung von Verkaufsvorgängen ausschließlich durch den Filialleiter  |
 |                  | - Import von neuen Produkten durch den Filialleiter  |
-|                  | - Datenschutz, Authentifizierung  |
 | **Nichtfunktional** | - Benutzerfreundlichkeit (intuitive Bedienung)                            |
-|                  | - Sicherheit (Schutz vor externen Angriffen)|
+|                  | - Sicherheit (Datenschutz, Authentifizierung, Schutz vor externen Angriffen)|
 |                  | - Performance (Echtzeit-Reaktion, hohe Leistungsfähigkeit)                  |
 
 <!--ls1lsg1-->
