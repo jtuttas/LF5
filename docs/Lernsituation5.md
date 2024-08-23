@@ -228,7 +228,7 @@ Die Datenbank für das Kassensystem der GoodFood GmbH besteht aktuell aus vier E
 
 ### Übung 1
 
-Laden Sie sich die Datenbank **shop.db** hier herunter <https://github.com/jtuttas/LF5/raw/main/shop/shop.db> .Verbinden Sie sich mit der Datenbank, indem Sie die Datei **shop.db** mit einem SQLite Client öffnen. Führen Sie im Anschluss daran folgenden SQL Befehl aus:
+Laden Sie sich die Datenbank **shop.db** hier herunter <https://github.com/jtuttas/LF5-schueler/raw/main/shop.db> .Verbinden Sie sich mit der Datenbank, indem Sie die Datei **shop.db** mit einem SQLite Client öffnen. Führen Sie im Anschluss daran folgenden SQL Befehl aus:
 
 ```sql
 SELECT * from Produkt;

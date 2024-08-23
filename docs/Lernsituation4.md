@@ -204,7 +204,7 @@ Im Laden der GoodFood GmbH an der Hauptstraße 32, 30167 Hannover wird durch den
 
 ![Klassendiagramm Bon](images/bon2.png){ width=500px }
 
-> **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5> im Ordner shop/src/main/java/de/obj bereits enthalten!
+> **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5-schueler> im Ordner shop/src/main/java/de/obj bereits enthalten!
 
 ```java
 public class Bon {
@@ -315,7 +315,7 @@ Dem in Aufgabe 4 erzeugten Bon sollen nun folgende Artikel hinzugefügt werden.
 
 Fügen Sie diese Objekte dem Warenkorb hinzu.
 
-> **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5> im Ordner shop/src/main/java/de/obj bereits enthalten!
+> **Hinweis**: Die entsprechenden Klassen sind im Repository <https://github.com/jtuttas/LF5-schueler> im Ordner shop/src/main/java/de/obj bereits enthalten!
 
 <!--ls4aufgabe6-->
 ### Lösung Aufgabe 6

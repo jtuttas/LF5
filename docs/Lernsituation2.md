@@ -78,7 +78,7 @@ Führen Sie den folgenden Arbeitsprozess durch. Notieren Sie sich dabei die verw
 6. Fügen Sie die Änderungen dem Repository hinzu.
 7. Wechseln Sie in den master Branch des Repositories und fügen Sie den "dev" Branch mit dem "master" Branch zusammen.
 8. Lassen Sie sich alle Commit Nachrichten anzeigen.
-9. Clonen Sie das Repository unter <https://github.com/jtuttas/LF5.git>!
+9. Clonen Sie das Repository unter <https://github.com/jtuttas/LF5-schueler.git>!
 
 <!--ls2aufgabe4-->
 <!--ls2aufgabe5-->
@@ -94,7 +94,7 @@ Die Entwicklungen im Team der ChangeIT GmbH erfolgen zumeist mit dem Editor VS C
 Ermitteln Sie, wie ihnen der Editor bei den folgenden Arbeitsprozesses hilft.
 
 - Führen Sie das Programm *Test.java* mit Hilfe von VS Code aus.
-- Setzen Sie einen Haltepunkt in der Zeile 4 des Programms und starten Sie das Programm im Debug Modus.
+- Setzen Sie einen Haltepunkt in der Zeile 5 des Programms und starten Sie das Programm im Debug Modus.
 - Wechseln Sie auf den "dev" Branch und erweitern Sie das Programm um eine weitere Ausgabe.
 - Committen Sie die Änderungen am Programm
 - Führen Sie den "dev" Branch mit dem "master" Branch zusammen.
@@ -131,7 +131,7 @@ Java zählt zu den **starktypisierten** und **objektorientierten** Programmiersp
 
 ![Comic_Typwandlung](images/comic_typwandlung.jpeg)
 
-> Im Jahr 2022 sorgte ein Fehler bei MS Exchange dafür, dass keine Emails mehr zugestellt werden konnten. Lesen Sie sich den folgenden [Artikel](images/Exchange_Bug.pdf) durch und diskutieren im Klassenverband, wie es zu diesem Fehler kommen konnte.
+> Im Jahr 2022 sorgte ein Fehler bei MS Exchange dafür, dass keine Emails mehr zugestellt werden konnten. Lesen Sie sich den folgenden [Artikel](https://jtuttas.github.io/LF5/docs/images/Exchange_Bug.pdf) durch und diskutieren im Klassenverband, wie es zu diesem Fehler kommen konnte.
 
 <!--ls2info1-->
 <!--ls2uebung2-->
@@ -282,7 +282,7 @@ Rufen Sie innerhalb der *main*-Methode ihre Funktion mit folgenden Werten aus un
 
 Informieren Sie sich über Komponenten-Test und wie diese in Java werden diese mittels des Paketes JUNIT realisiert werden.
 
-Erstellen Sie in der Klasse *AppTest.java* (in dem zuvor in Aufgabe 4 geklonten Repository <https://github.com/jtuttas/LF5.git>) einen geeigneten Komponenten Test für die von ihnen entwickelte Methode und führen Sie diesen aus.
+Erstellen Sie in der Klasse *AppTest.java* (in dem zuvor in Aufgabe 4 geklonten Repository <https://github.com/jtuttas/LF5-schueler.git>) einen geeigneten Komponenten Test für die von ihnen entwickelte Methode und führen Sie diesen aus.
 
 <!--ls2aufg8-->
 
