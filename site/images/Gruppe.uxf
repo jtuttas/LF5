@@ -1,0 +1,11 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>240</y><w>190</w><h>90</h></coordinates><panel_attributes>Gruppe
+--
++ bezeichnung: String
++ personen:ArrayList&lt;Person&gt;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>250</y><w>140</w><h>80</h></coordinates><panel_attributes>Person
+--
++ name: String
++ geschlecht: char
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>260</y><w>100</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0 .. n</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element></diagram>
