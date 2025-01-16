@@ -19,9 +19,9 @@
 <!--ls3aufgabe1-->
 Entwickeln Sie einen Algorithmus, der der Benutzer nach einen Betrag fragt und anschließend, ob auf diesen Betrag der ermäßigte Steuersatz von 7% angewandt werden soll. Anschließend gibt der Algorithmus den Bruttobetrag aus.
 
-Stellen Sie das Programm zunächst in Form eines Struktogramms dar.
+Stellen Sie das Programm zunächst in Form eines Aktivitätsdiagramms dar.
 
-**Hinweis:** Nutzen Sie zum Erstellen des Struktogramms das Programm **Structorizer** <https://structorizer.fisch.lu/>) oder den Webdienst **Structog** (<https://dditools.inf.tu-dresden.de/struktog/>).
+**Hinweis:** Nutzen Sie zum Erstellen des Struktogramms das Programm **draw.io** <https://app.diagrams.net/>) oder **UMLet** (<https://www.umletino.com/>).
 
 <!--ls3aufgabe1-->
 
