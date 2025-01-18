@@ -17,7 +17,7 @@
 ### Aufgabe 1
 
 <!--ls3aufgabe1-->
-Entwickeln Sie einen Algorithmus, der der Benutzer nach einen Betrag fragt und anschließend, ob auf diesen Betrag der ermäßigte Steuersatz von 7% angewandt werden soll. Anschließend gibt der Algorithmus den Bruttobetrag aus.
+Entwickeln Sie einen Algorithmus, bei dem der Kassierer einen Netto Betrag eingibt und anschließend gefragt wird, ob auf diesen Betrag der ermäßigte Steuersatz von 7% angewandt werden soll. Anschließend gibt der Algorithmus den Bruttobetrag aus.
 
 Stellen Sie das Programm zunächst in Form eines Aktivitätsdiagramms dar.
 
@@ -29,7 +29,9 @@ Stellen Sie das Programm zunächst in Form eines Aktivitätsdiagramms dar.
 
 <!--ls3lsg1-->
 
-![Brutto Nettor](images/brutton.png)
+![Brutto Aktivitätsdiagramm](images/butto_Aktivitaet.png)
+
+![Brutto Struktogramm](images/brutton.png)
 
 ```java
 public class BruttoNetto {
