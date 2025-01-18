@@ -29,9 +29,15 @@ Stellen Sie das Programm zunächst in Form eines Aktivitätsdiagramms dar.
 
 <!--ls3lsg1-->
 
+#### Aktivitätsdiagramm
+
 ![Brutto Aktivitätsdiagramm](images/butto_Aktivitaet.png)
 
+#### Struktogramm
+
 ![Brutto Struktogramm](images/brutton.png)
+
+#### Implementierung in Java
 
 ```java
 public class BruttoNetto {
@@ -269,15 +275,23 @@ Für das Kassensystem soll nun ein Algorithmus entwickelt werden, der die Beträ
 >
 > Wenn die ganze Ware verbucht wurde nenne ich den Kunden den zu zahlenden Preis und händige im einen Kassenbon aus.
 
-Entwerfen Sie zunächst einen geeigneten Algorithmus in Form eines Struktogramms und implementieren Sie diesen anschließend in JAVA.
+Entwerfen Sie zunächst einen geeigneten Algorithmus in Form eines Aktivitätsdiagramms und implementieren Sie diesen anschließend in JAVA. Achten Sie darauf, dass sowohl die korrekte Summe gebildet wird, als auch ein **Bon** in Form einer Zeichenkette ausgegeben wird.
 
 <!--ls3aufgabe2-->
-
 
 ### Lösung Aufgabe 2
 
 <!--ls3lsgaufgabe2-->
-![Summenbildung](images/Summebildung.png)
+
+#### Aktivitätsdiagramm
+
+![Summenbildung Aktivitätsdiagramm](images/Summenbildung-aktivitaet.png)
+
+#### Struktogramm
+
+![Summenbildung Struktogramm](images/Summebildung.png)
+
+#### Implementierung in Java
 
 ```java
 import java.util.Scanner;
