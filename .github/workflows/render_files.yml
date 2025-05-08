@@ -9,7 +9,7 @@ jobs:
     name: Render umlet files
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: list files
       run: 'ls -laR'
     - name: update
@@ -19,7 +19,7 @@ jobs:
     - name: render files
       run: 'sh ./config/render_umlet.sh'
     - name: Cache files 
-      uses: actions/cache@v2
+      uses: actions/cache@v4
       env:
         cache-name: cache-files
       with:
@@ -36,9 +36,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Cache files 
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: cache-files
         with:
@@ -69,9 +69,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Cache files 
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: cache-files
         with:
