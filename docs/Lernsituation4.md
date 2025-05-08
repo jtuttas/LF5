@@ -306,7 +306,7 @@ Jede Position besteht aus einem Produkt bzw. Artikel und der gekauften Menge. Ei
 ### Aufgabe 6
 <!--ls4aufgabe6-->
 
-Dem in Aufgabe 4 erzeugten Bon sollen nun folgende Positionen hinzugefügt werden.
+Den in Aufgabe 4 erzeugten Bon sollen nun folgende Positionen hinzugefügt werden.
 
 - 3 kg Kartoffeln a 1.20€/kg (*)
 - Ein Glas Wiesenhonig a 5.99€/Glas
