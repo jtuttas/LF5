@@ -390,7 +390,7 @@ Dabei nimmt die Variable *name* alle Werte in dem Array an. Es entfällt die Ind
 
 ### Aufgabe 7
 
-Erweitern Sie ihr Programm aus der vorherigen Aufgabe und geben Sie alle Positionen auf dem erzeugten Bon auf der Konsole aus !
+Erweitern Sie ihr Programm aus der vorherigen Aufgabe und geben Sie alle Positionen auf dem erzeugten Bon auf der Konsole aus!
 
 <!--ls4aufgabe7-->
 ### Lösung Aufgabe 7
