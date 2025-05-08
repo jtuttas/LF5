@@ -5,7 +5,7 @@ on: [push]
 jobs:
       
   render_umlet:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     name: Render umlet files
     steps:
     - name: Checkout
@@ -33,7 +33,7 @@ jobs:
   converttopdf:
     name: Build PDF with Pandoc
     needs: render_umlet
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -66,7 +66,7 @@ jobs:
   render-mk-docs:
     name: mkdocs
     needs: converttopdf 
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
