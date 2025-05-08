@@ -97,7 +97,7 @@ Erstellen Sie einer Klassendiagramm der Schulklasse, wobei möglichst viele "Din
 ### Aufgabe 2
 <!--ls4aufgabe2-->
 
-Untersuchen Sie die Daten auf einem Einkaufzettel und stellen Sie diese Daten in Form eins Klassendiagramms dar. Fassen Sie dabei möglichst viele Daten zu Klassen (Dinge) zusammen. Vernachlässigen Sie dabei die gekauften Positionen. 
+Untersuchen Sie die Daten auf einem Kassenbeleg (Bon) und stellen Sie diese Daten in Form eins Klassendiagramms dar. Fassen Sie dabei möglichst viele Daten zu Klassen (Dinge) zusammen. Vernachlässigen Sie dabei die gekauften Positionen. 
 
 Stellen Sie im Anschluss daran ihre Lösung der Klasse vor und diskutieren Sie im Klassenverband Vor- und Nachteile der einzelnen Lösungen.
 
@@ -294,7 +294,7 @@ Auf dem zuvor entworfenen Klassendiagramm für den Kassenbon sollen nun auch die
 
 ![Klassendiagramm Bon](images/bon2.png){ width=500px }
 
-Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesamtpreis (netto) sowie dem Gesamtpreis (brutto). Erweitern Sie das Klassendiagramm in geeigneter Weise.
+Jede Position besteht aus einem Produkt bzw. Artikel und der gekauften Menge. Ein Produkt (Artikel) besitzt einen Namen, einen Preis und einen Mehrwertsteuersatz. Erweitern Sie das Klassendiagramm in geeigneter Weise.
 
 <!--ls4aufgabe5-->
 ### Lösung Aufgabe 5
@@ -306,7 +306,7 @@ Jede Position besteht aus einem Artikel, der Menge, den Einzelpreis und den Gesa
 ### Aufgabe 6
 <!--ls4aufgabe6-->
 
-Dem in Aufgabe 4 erzeugten Bon sollen nun folgende Artikel hinzugefügt werden.
+Dem in Aufgabe 4 erzeugten Bon sollen nun folgende Positionen hinzugefügt werden.
 
 - 3 kg Kartoffeln a 1.20€/kg (*)
 - Ein Glas Wiesenhonig a 5.99€/Glas
