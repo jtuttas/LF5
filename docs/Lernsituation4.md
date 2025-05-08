@@ -294,7 +294,7 @@ Auf dem zuvor entworfenen Klassendiagramm für den Kassenbon sollen nun auch die
 
 ![Klassendiagramm Bon](images/bon2.png){ width=500px }
 
-Jede Position besteht aus einem Produkt bzw. Artikel und der gekauften Menge. Ein Produkt (Artikel) besitzt einen Namen, einen Preis und einen Mehrwertsteuersatz. Erweitern Sie das Klassendiagramm in geeigneter Weise.
+Jede Position auf dem Bon besteht aus einem Artikel bzw. Produkt, der Menge, dem Einzelpreis und dem Gesamtpreis (netto) sowie dem Gesamtpreis (brutto). Erweitern Sie das Klassendiagramm in geeigneter Weise.Beachten Sie nur nicht redundanten Informationen zu speichern!
 
 <!--ls4aufgabe5-->
 ### Lösung Aufgabe 5
