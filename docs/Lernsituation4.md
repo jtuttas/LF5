@@ -430,14 +430,16 @@ Der Gruppe mit der Bezeichnung "Sportverein" sollen folgende Personen angehören
 ```xml
 <Gruppe>
     <Bezeichnung>Sportverein</Bezeichnung>
-    <Person>
-        <name>Max Mustermann</name>
-        <geschlecht>m</geschlecht>
-    </Person>
-    <Person>
-        <name>Simone Musterfrau</name>
-        <geschlecht>w</geschlecht>
-    </Person>
+    <personen>
+        <Person>
+            <name>Max Mustermann</name>
+            <geschlecht>m</geschlecht>
+        </Person>
+        <Person>
+            <name>Simone Musterfrau</name>
+            <geschlecht>w</geschlecht>
+        </Person>
+    </personen>
 </Gruppe>
 ```
 
