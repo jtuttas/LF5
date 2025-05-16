@@ -149,7 +149,7 @@ Um diesen Sachverhalt in einer Relationalen Datenbank abzubilden muss eine weite
 | 4   | 1   |
 | 2   | 3   |
 
-In diesem Beispiel würde somit der Lehrer "Jörg Tuttas", die Klasse FIAE23J und die Klasse FIAE23K unterrichten. Und die Klasse FIAE23K hätte Unterricht bei "Jörg Tuttas", "Bernd Schmitz" und "Daniel Fuchs".
+In diesem Beispiel würde somit der Lehrer "Jörg Tuttas", die Klasse FIAE23J und die Klasse FIAE23K unterrichten. Und die Klasse FIAE23J hätte Unterricht bei "Jörg Tuttas", "Bernd Schmitz" und "Daniel Fuchs".
 
 #### Aufgabe 2a
 
