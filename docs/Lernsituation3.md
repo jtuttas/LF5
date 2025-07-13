@@ -264,6 +264,23 @@ ausgabe "die gewandelte Zahl lautet"+ausgabe
 
 <!--ls3lsguebung4-->
 
+### Informationen zum UML Aktivitätsdiagramm
+
+![UML Aktivitätsdiagramm](images/aktivitätsdiagramm_info.png)
+
+- **A**: Aktivitätsbereichen oder Swimlanes
+- **B**: Startpunkt
+- **C**: Gabelung oder Fork
+- **D**: Nachrichtenempfang
+- **E**: Aktivität
+- **F**: Nachrichten senden
+- **G**: Objekt
+- **H**: Zusammenführung oder join
+- **I**: Unterbrechungsbereich
+- **J**: Entscheidung
+- **K**: Signalflussende
+- **L**: Endpunkt
+
 ### Aufgabe 2
 
 <!--ls3aufgabe2-->
@@ -275,7 +292,7 @@ Für das Kassensystem soll nun ein Algorithmus entwickelt werden, der die Beträ
 >
 > Wenn die ganze Ware verbucht wurde nenne ich den Kunden den zu zahlenden Preis und händige im einen Kassenbon aus.
 
-Entwerfen Sie zunächst einen geeigneten Algorithmus in Form eines Aktivitätsdiagramms und implementieren Sie diesen anschließend in JAVA. Achten Sie darauf, dass sowohl die korrekte Summe gebildet wird, als auch ein **Bon** in Form einer Zeichenkette ausgegeben wird.
+Informieren Sie sich zunächst über die Notation eines *UML Aktivitätsdiagramms*.Entwerfen Sie dann einen geeigneten Algorithmus in Form eines *Aktivitätsdiagramms* und implementieren Sie diesen anschließend in JAVA. Achten Sie darauf, dass sowohl die korrekte Summe gebildet wird, als auch ein **Bon** in Form einer Zeichenkette ausgegeben wird.
 
 <!--ls3aufgabe2-->
 
