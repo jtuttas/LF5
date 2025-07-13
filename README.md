@@ -4,5 +4,5 @@ Idee eine Handlungssituation für das LF5.Entwickelt werden soll ein Kassensyste
 
 ## Die Lernsituationen
 
-Die Lernsituationen zu diesem Kurs können [hier](https://jtuttas.github.io/LF5/site/) geladen werden.
+Die Lernsituationen zu diesem Kurs können [hier](https://jtuttas.github.io/LF5/site/) geladen werden!
 
