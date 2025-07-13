@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.31-04" preCase="case" preRepeat="until" postFor="to" preReturn="return" postForIn="in" preWhile="while" output="OUTPUT" input="INPUT" preAlt="if" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="step" namespace="" author="jtutt" created="2023-12-17" changedby="jtutt" changed="2023-12-17" origin="Structorizer 3.31-04" text="&#34;Summebildung&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;bon:=&#34;&#34;Ihr Einkauf bei GoodFood GmbH\r\n\r\n-----------------\r\n&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;summe:=0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<repeat text="&#34;until(preis==&#34;&#34;x&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+			<qRepeat>
+				<instruction text="&#34;Input &#34;&#34;Artikelpreis (oder x für ende):&#34;&#34;,preis&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+				<alternative text="&#34;(preis!=&#34;&#34;x&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+					<qTrue>
+						<instruction text="&#34;input &#34;&#34;Menge (kg / stk)&#34;&#34;,menge&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;bon:=bon+preis+&#34;&#34; Eur  * &#34;&#34;+menge&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;preis:=preis*menge&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;input &#34;&#34;(e)rmäßigte MwSt?&#34;&#34;,erm&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<alternative text="&#34;(erm==&#34;&#34;e&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+							<qTrue>
+								<instruction text="&#34;bon:=bon+&#34;&#34; zzgl. 7% MwSt&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;preis:=round(preis*107)*0.01&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;bon:=bon+&#34;&#34; zzgl. 19% MwSt&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;preis:=rount(preis*119)*0.01&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qFalse>
+						</alternative>
+						<instruction text="&#34;bon:=bon+&#34;&#34; = &#34;&#34;+preis+&#34;&#34; Eur\r\n&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;summe:=summe+preis&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qTrue>
+					<qFalse color="ffffff">
+					</qFalse>
+				</alternative>
+			</qRepeat>
+		</repeat>
+		<instruction text="&#34;bon:=bon+&#34;&#34;-----------------\r\n Endbetrag:&#34;&#34;+summe+&#34;&#34; Eur&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;output bon&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+	</children>
+</root>

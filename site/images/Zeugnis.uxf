@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>160</y><w>240</w><h>100</h></coordinates><panel_attributes>Zeugnis
+--
++ person:Person
++ beruf:Beruf
++ noten:ArrayList&lt;Note&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>70</y><w>100</w><h>60</h></coordinates><panel_attributes>Person
+--
++ name: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>70</y><w>130</w><h>60</h></coordinates><panel_attributes>Beruf
+--
++ bezeichnung: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>210</y><w>150</w><h>70</h></coordinates><panel_attributes>Note
+--
++ fach: String
++ schulnote: Schulnote
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>300</y><w>150</w><h>90</h></coordinates><panel_attributes>Schulnote
+--
++ wert: byte
++ bezeichnung: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>270</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>210</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0 .. n</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>120</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>120</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element></diagram>
