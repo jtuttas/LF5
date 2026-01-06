@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>LS5.md</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<h1 id="fiae---lernfeld-5">FIAE - Lernfeld 5</h1>
+<h2 id="ls-5.5-datenbankentwurf-und-datenbank-abfragen">LS 5.5: Datenbankentwurf und Datenbank abfragen</h2>
+<table>
+<colgroup>
+<col style="width: 30%"></col>
+<col style="width: 30%"></col>
+<col style="width: 38%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Lernfeld</th>
+<th style="text-align: left;">Bildungsgang</th>
+<th style="text-align: center;">Ausbildungsjahr</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">LF 5:</br><img style="vertical-align:middle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAASUVORK5CYII=" alt="\newline" title="\newline" />Software zur Verwaltung von Daten anpassen</td>
+<td style="text-align: left;">Fachinformatiker für Anwendungsentwicklung (FIAE)</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="kompetenzformulierung">Kompetenzformulierung</h3>
+<p>“<strong>Die Schülerinnen und Schüler verfügen über die Kompetenz, Informationen mittels Daten abzubilden, diese Daten zu verwalten und dazu Software anzupassen</strong>”.</p>
+<p>Die Schülerinnen und Schüler informieren sich innerhalb eines Projektes über die Abbildung von Informationen mittels Daten. Dabei <strong>analysieren</strong> sie Daten hinsichtlich Herkunft, Art, Verfügbarkeit, Datenschutz, Datensicherheit und Speicheranforderung und berücksichtigen Datenformate und Speicherlösungen.</p>
+<p>Sie <strong>planen</strong> die Anpassung einer Anwendung zur Verwaltung der Datenbestände und entwickeln Testfälle. Dabei <strong>entscheiden</strong> sie sich für ein Vorgehen.</p>
+<p>Die Schülerinnen und Schüler <strong>implementieren</strong> die Anpassung der Anwendung, auch im Team und erstellen eine Softwaredokumentation.</p>
+<p>Sie testen die Funktion der Anwendung und <strong>beurteilen</strong> deren Eignung zur Bewältigung der gestellten Anforderungen.</p>
+<p>Sie <strong>evaluieren</strong> den Prozess der Softwareentwicklung.</p>
+<table>
+<colgroup>
+<col style="width: 30%"></col>
+<col style="width: 30%"></col>
+<col style="width: 38%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Curricularer Bezug</th>
+<th style="text-align: left;">Titel der Lernsituation (Kurzfassung)</th>
+<th style="text-align: center;">Geplanter Zeitrichtwert</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Rahmenlehrplan für Fachinformatiker für Daten- und Prozessanalyse in der Fassung vom 13.12.2019, S. 27</td>
+<td style="text-align: left;">LS 5.5: Datenbankentwurf und Datenbankabfragen</td>
+<td style="text-align: center;">16 Unterrichtsstunden</td>
+</tr>
+</tbody>
+</table>
+<h3 id="handlungssituation">Handlungssituation</h3>
+<blockquote>
+<p>Die Umsätze der GoodFood GmbH sollen zur späteren Auswertung dauerhaft (persistent) in einer Datenbank gespeichert werden.</p>
+<p>Als Auszubildender wirken Sie bei dem Entwurf der Datenbank mit und erstellen erste exemplarische SQL Abfragen für diese Datenbank.</p>
+</blockquote>
+<h3 id="handlungsergebnis">Handlungsergebnis</h3>
+<p>Entwurf der Datenbank in Form eines ER-Diagramms und Formulierung geeigneter Abfragen in SQL.</p>
+<div style="page-break-after: always;">
+
+</div>
+<h3 id="vorausgesetzte-fähigkeiten-und-kenntnisse">Vorausgesetzte Fähigkeiten und Kenntnisse</h3>
+<table>
+<colgroup>
+<col style="width: 25%"></col>
+<col style="width: 25%"></col>
+<col style="width: 25%"></col>
+<col style="width: 25%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Handlungskompetenz (Fachkompetenz und Personale Kompetenz)</th>
+<th style="text-align: left;">Inhalte</th>
+<th style="text-align: left;">Sozialform/Methoden</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Informieren bzw. Analysieren</strong></td>
+<td style="text-align: left;"><strong>Fachkompetenz:</strong> Verstehen der Grundlagen relationaler Datenbanken und ER-Diagramme.<br><strong>Personale Kompetenz:</strong> Analytische Fähigkeiten, kritisches Denken.</td>
+<td style="text-align: left;">Grundlagen relationaler Datenbanken, Entitäten und Beziehungen, Primär- und Fremdschlüssel, ER-Diagramme.</td>
+<td style="text-align: left;">Vortrag, Gruppendiskussion, Analyse von Beispiel-Datenbanken.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Planen / Entscheiden</strong></td>
+<td style="text-align: left;"><strong>Fachkompetenz:</strong> Entwurf von Datenbankstrukturen und Beziehungen.<br><strong>Personale Kompetenz:</strong> Problemlösung, Entscheidungsfindung.</td>
+<td style="text-align: left;">Datenmodellierung, Entwerfen von ER-Diagrammen, Festlegung von Schlüsseln und Beziehungen.</td>
+<td style="text-align: left;">Gruppenarbeit, Fallstudien, Brainstorming.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Durchführen</strong></td>
+<td style="text-align: left;"><strong>Fachkompetenz:</strong> Anwendung von SQL zur Datenmanipulation.<br><strong>Personale Kompetenz:</strong> Präzision, Detailorientierung.</td>
+<td style="text-align: left;">SQL-Grundlagen, Erstellen von Abfragen (SELECT Anweisung), Anwendung von Funktionen (AVG, COUNT, etc.).</td>
+<td style="text-align: left;">Praktische Übungen am Computer, SQL-Simulationstools, individuelle Projektaufgaben.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Kontrollieren / Bewerten</strong></td>
+<td style="text-align: left;"><strong>Fachkompetenz:</strong> Überprüfung und Optimierung von Datenbankabfragen.<br><strong>Personale Kompetenz:</strong> Selbstkritik, Qualitätsbewusstsein.</td>
+<td style="text-align: left;">Überprüfung der Abfrageergebnisse, Performance-Optimierung, Fehleranalyse.</td>
+<td style="text-align: left;">Peer-Review, Präsentation der Ergebnisse, Lehrerfeedback.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Reflektieren</strong></td>
+<td style="text-align: left;"><strong>Fachkompetenz:</strong> Bewertung der Lernergebnisse und Methoden.<br><strong>Personale Kompetenz:</strong> Selbstreflexion, Lernbereitschaft.</td>
+<td style="text-align: left;">Reflexion über den Lernprozess, Diskussion über Herausforderungen und Lösungsstrategien.</td>
+<td style="text-align: left;">Diskussionsrunden, Feedback-Bögen, Reflexions-Tagebuch.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="arbeitsmaterialien-links">Arbeitsmaterialien / Links</h3>
+<ul>
+<li>Moodle-Kurs: <a href="https://moodle.mm-bbs.de/moodle/course/view.php?id=3258">LF5: Software zur Verwaltung von Daten anpassen</a></li>
+<li><a href="https://github.com/jtuttas/lf5">GitHub Repository</a></li>
+</ul>
+<h3 id="schulische-entscheidungen">Schulische Entscheidungen</h3>
+<ul>
+<li>Als Datenbankmanagementsystem wird SQLite verwendet.</li>
+</ul>
+<div style="page-break-after: always;">
+
+</div>
+<h3 id="leistungsnachweise">Leistungsnachweise</h3>
+<ul>
+<li>Kontinuierlich durch kurze Kapiteltests.</li>
+<li>Klassenarbeit zum Thema Datenbankentwurf und Datenbankabfragen</li>
+</ul>
+<h3 id="mögliche-verknüpfungen-zu-anderen-lernfeldern-fächern">Mögliche Verknüpfungen zu anderen Lernfeldern / Fächern</h3>
+<ul>
+<li>LF4 (Datenschutz und Datensicherheit)</li>
+</ul>
+</body>
+</html>
